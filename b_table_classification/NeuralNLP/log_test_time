@@ -1,0 +1,1147 @@
+2023-07-08 09:10:48 : WARNING  Load doc_token embedding from ../embedding.txt
+2023-07-08 09:10:50 : WARNING  Total dict size of doc_token is 623
+2023-07-08 09:10:50 : WARNING  Size of pretrained doc_token embedding is 620
+2023-07-08 09:10:50 : WARNING  Size of randomly initialize doc_token embedding is 3
+2023-07-08 09:43:55 : WARNING  Load doc_token embedding from ../embedding.txt
+2023-07-08 09:43:57 : WARNING  Total dict size of doc_token is 623
+2023-07-08 09:43:57 : WARNING  Size of pretrained doc_token embedding is 620
+2023-07-08 09:43:57 : WARNING  Size of randomly initialize doc_token embedding is 3
+2023-07-08 09:48:21 : WARNING  Load doc_token embedding from ../embedding.txt
+2023-07-08 09:48:24 : WARNING  Total dict size of doc_token is 623
+2023-07-08 09:48:24 : WARNING  Size of pretrained doc_token embedding is 620
+2023-07-08 09:48:24 : WARNING  Size of randomly initialize doc_token embedding is 3
+2023-07-08 10:27:10 : WARNING  Load doc_token embedding from ../embedding.txt
+2023-07-08 10:27:14 : WARNING  Total dict size of doc_token is 623
+2023-07-08 10:27:14 : WARNING  Size of pretrained doc_token embedding is 620
+2023-07-08 10:27:14 : WARNING  Size of randomly initialize doc_token embedding is 3
+2023-07-08 10:28:03 : WARNING  Load doc_token embedding from ../embedding.txt
+2023-07-08 10:28:07 : WARNING  Total dict size of doc_token is 623
+2023-07-08 10:28:07 : WARNING  Size of pretrained doc_token embedding is 620
+2023-07-08 10:28:07 : WARNING  Size of randomly initialize doc_token embedding is 3
+2023-07-08 10:28:55 : WARNING  Train performance at epoch 0 is precision: 0.975955, recall: 0.971026, fscore: 0.973484, macro-fscore: 0.964225, right: 3653, predict: 3743, standard: 3762.
+Loss is: 0.101175.
+2023-07-08 10:29:13 : WARNING  Validate performance at epoch 0 is precision: 0.952096, recall: 0.965587, fscore: 0.958794, macro-fscore: 0.955646, right: 954, predict: 1002, standard: 988.
+Loss is: 0.104951.
+2023-07-08 10:29:26 : WARNING  test performance at epoch 0 is precision: 0.952096, recall: 0.965587, fscore: 0.958794, macro-fscore: 0.955646, right: 954, predict: 1002, standard: 988.
+Loss is: 0.104951.
+2023-07-08 10:30:14 : WARNING  Train performance at epoch 1 is precision: 0.984157, recall: 0.974216, fscore: 0.979161, macro-fscore: 0.976711, right: 3665, predict: 3724, standard: 3762.
+Loss is: 0.057906.
+2023-07-08 10:30:30 : WARNING  Validate performance at epoch 1 is precision: 0.989733, recall: 0.975709, fscore: 0.982671, macro-fscore: 0.980229, right: 964, predict: 974, standard: 988.
+Loss is: 0.044187.
+2023-07-08 10:30:46 : WARNING  test performance at epoch 1 is precision: 0.989733, recall: 0.975709, fscore: 0.982671, macro-fscore: 0.980229, right: 964, predict: 974, standard: 988.
+Loss is: 0.044187.
+2023-07-08 10:31:27 : WARNING  Train performance at epoch 2 is precision: 0.990821, recall: 0.975545, fscore: 0.983123, macro-fscore: 0.980475, right: 3670, predict: 3704, standard: 3762.
+Loss is: 0.056589.
+2023-07-08 10:31:42 : WARNING  Validate performance at epoch 2 is precision: 1.000000, recall: 0.974696, fscore: 0.987186, macro-fscore: 0.984894, right: 963, predict: 963, standard: 988.
+Loss is: 0.052677.
+2023-07-08 10:31:59 : WARNING  test performance at epoch 2 is precision: 1.000000, recall: 0.974696, fscore: 0.987186, macro-fscore: 0.984894, right: 963, predict: 963, standard: 988.
+Loss is: 0.052677.
+2023-07-08 10:32:39 : WARNING  Train performance at epoch 3 is precision: 0.993792, recall: 0.978735, fscore: 0.986206, macro-fscore: 0.984303, right: 3682, predict: 3705, standard: 3762.
+Loss is: 0.041848.
+2023-07-08 10:32:56 : WARNING  Validate performance at epoch 3 is precision: 0.998976, recall: 0.987854, fscore: 0.993384, macro-fscore: 0.990657, right: 976, predict: 977, standard: 988.
+Loss is: 0.035616.
+2023-07-08 10:33:11 : WARNING  test performance at epoch 3 is precision: 0.998976, recall: 0.987854, fscore: 0.993384, macro-fscore: 0.990657, right: 976, predict: 977, standard: 988.
+Loss is: 0.035616.
+2023-07-08 10:33:55 : WARNING  Train performance at epoch 4 is precision: 0.994635, recall: 0.985646, fscore: 0.990120, macro-fscore: 0.983837, right: 3708, predict: 3728, standard: 3762.
+Loss is: 0.035677.
+2023-07-08 10:34:09 : WARNING  Validate performance at epoch 4 is precision: 0.976697, recall: 0.975709, fscore: 0.976203, macro-fscore: 0.973856, right: 964, predict: 987, standard: 988.
+Loss is: 0.053132.
+2023-07-08 10:34:25 : WARNING  test performance at epoch 4 is precision: 0.976697, recall: 0.975709, fscore: 0.976203, macro-fscore: 0.973856, right: 964, predict: 987, standard: 988.
+Loss is: 0.053132.
+2023-07-08 10:35:07 : WARNING  Train performance at epoch 5 is precision: 0.999464, recall: 0.990431, fscore: 0.994927, macro-fscore: 0.991961, right: 3726, predict: 3728, standard: 3762.
+Loss is: 0.021961.
+2023-07-08 10:35:21 : WARNING  Validate performance at epoch 5 is precision: 0.997951, recall: 0.985830, fscore: 0.991853, macro-fscore: 0.990728, right: 974, predict: 976, standard: 988.
+Loss is: 0.026641.
+2023-07-08 10:35:37 : WARNING  test performance at epoch 5 is precision: 0.997951, recall: 0.985830, fscore: 0.991853, macro-fscore: 0.990728, right: 974, predict: 976, standard: 988.
+Loss is: 0.026641.
+2023-07-08 10:36:15 : WARNING  Train performance at epoch 6 is precision: 0.998394, recall: 0.991494, fscore: 0.994932, macro-fscore: 0.991502, right: 3730, predict: 3736, standard: 3762.
+Loss is: 0.021880.
+2023-07-08 10:36:30 : WARNING  Validate performance at epoch 6 is precision: 0.991862, recall: 0.986842, fscore: 0.989346, macro-fscore: 0.986033, right: 975, predict: 983, standard: 988.
+Loss is: 0.033334.
+2023-07-08 10:36:44 : WARNING  test performance at epoch 6 is precision: 0.991862, recall: 0.986842, fscore: 0.989346, macro-fscore: 0.986033, right: 975, predict: 983, standard: 988.
+Loss is: 0.033334.
+2023-07-08 10:37:25 : WARNING  Train performance at epoch 7 is precision: 0.999732, recall: 0.992291, fscore: 0.995998, macro-fscore: 0.994907, right: 3733, predict: 3734, standard: 3762.
+Loss is: 0.014533.
+2023-07-08 10:37:40 : WARNING  Validate performance at epoch 7 is precision: 0.997951, recall: 0.985830, fscore: 0.991853, macro-fscore: 0.990728, right: 974, predict: 976, standard: 988.
+Loss is: 0.022396.
+2023-07-08 10:37:54 : WARNING  test performance at epoch 7 is precision: 0.997951, recall: 0.985830, fscore: 0.991853, macro-fscore: 0.990728, right: 974, predict: 976, standard: 988.
+Loss is: 0.022396.
+2023-07-08 10:38:33 : WARNING  Train performance at epoch 8 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.993132, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.012238.
+2023-07-08 10:38:48 : WARNING  Validate performance at epoch 8 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.992000, right: 976, predict: 976, standard: 988.
+Loss is: 0.019060.
+2023-07-08 10:39:02 : WARNING  test performance at epoch 8 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.992000, right: 976, predict: 976, standard: 988.
+Loss is: 0.019060.
+2023-07-08 10:39:42 : WARNING  Train performance at epoch 9 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992374, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.010489.
+2023-07-08 10:39:56 : WARNING  Validate performance at epoch 9 is precision: 0.997955, recall: 0.987854, fscore: 0.992879, macro-fscore: 0.989631, right: 976, predict: 978, standard: 988.
+Loss is: 0.019311.
+2023-07-08 10:40:12 : WARNING  test performance at epoch 9 is precision: 0.997955, recall: 0.987854, fscore: 0.992879, macro-fscore: 0.989631, right: 976, predict: 978, standard: 988.
+Loss is: 0.019311.
+2023-07-08 10:40:52 : WARNING  Train performance at epoch 10 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992626, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.008874.
+2023-07-08 10:41:07 : WARNING  Validate performance at epoch 10 is precision: 0.997953, recall: 0.986842, fscore: 0.992366, macro-fscore: 0.990254, right: 975, predict: 977, standard: 988.
+Loss is: 0.019603.
+2023-07-08 10:41:22 : WARNING  test performance at epoch 10 is precision: 0.997953, recall: 0.986842, fscore: 0.992366, macro-fscore: 0.990254, right: 975, predict: 977, standard: 988.
+Loss is: 0.019603.
+2023-07-08 10:42:02 : WARNING  Train performance at epoch 11 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.993384, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.008451.
+2023-07-08 10:42:16 : WARNING  Validate performance at epoch 11 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.991193, right: 976, predict: 976, standard: 988.
+Loss is: 0.020431.
+2023-07-08 10:42:31 : WARNING  test performance at epoch 11 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.991193, right: 976, predict: 976, standard: 988.
+Loss is: 0.020431.
+2023-07-08 10:43:12 : WARNING  Train performance at epoch 12 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992121, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.007287.
+2023-07-08 10:43:25 : WARNING  Validate performance at epoch 12 is precision: 0.998975, recall: 0.986842, fscore: 0.992872, macro-fscore: 0.990556, right: 975, predict: 976, standard: 988.
+Loss is: 0.016946.
+2023-07-08 10:43:41 : WARNING  test performance at epoch 12 is precision: 0.998975, recall: 0.986842, fscore: 0.992872, macro-fscore: 0.990556, right: 975, predict: 976, standard: 988.
+Loss is: 0.016946.
+2023-07-08 10:44:21 : WARNING  Train performance at epoch 13 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992879, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.006735.
+2023-07-08 10:44:35 : WARNING  Validate performance at epoch 13 is precision: 0.998975, recall: 0.986842, fscore: 0.992872, macro-fscore: 0.990556, right: 975, predict: 976, standard: 988.
+Loss is: 0.017039.
+2023-07-08 10:44:50 : WARNING  test performance at epoch 13 is precision: 0.998975, recall: 0.986842, fscore: 0.992872, macro-fscore: 0.990556, right: 975, predict: 976, standard: 988.
+Loss is: 0.017039.
+2023-07-08 10:45:43 : WARNING  Train performance at epoch 14 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992626, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.006379.
+2023-07-08 10:45:59 : WARNING  Validate performance at epoch 14 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.991193, right: 976, predict: 976, standard: 988.
+Loss is: 0.016520.
+2023-07-08 10:46:19 : WARNING  test performance at epoch 14 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.991193, right: 976, predict: 976, standard: 988.
+Loss is: 0.016520.
+2023-07-08 10:47:04 : WARNING  Train performance at epoch 15 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992374, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.006010.
+2023-07-08 10:47:26 : WARNING  Validate performance at epoch 15 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.991193, right: 976, predict: 976, standard: 988.
+Loss is: 0.015665.
+2023-07-08 10:47:45 : WARNING  test performance at epoch 15 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.991193, right: 976, predict: 976, standard: 988.
+Loss is: 0.015665.
+2023-07-08 10:48:30 : WARNING  Train performance at epoch 16 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992121, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.005563.
+2023-07-08 10:48:46 : WARNING  Validate performance at epoch 16 is precision: 0.998975, recall: 0.986842, fscore: 0.992872, macro-fscore: 0.990152, right: 975, predict: 976, standard: 988.
+Loss is: 0.014730.
+2023-07-08 10:49:00 : WARNING  test performance at epoch 16 is precision: 0.998975, recall: 0.986842, fscore: 0.992872, macro-fscore: 0.990152, right: 975, predict: 976, standard: 988.
+Loss is: 0.014730.
+2023-07-08 10:49:43 : WARNING  Train performance at epoch 17 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992374, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.005280.
+2023-07-08 10:49:58 : WARNING  Validate performance at epoch 17 is precision: 0.998975, recall: 0.986842, fscore: 0.992872, macro-fscore: 0.990152, right: 975, predict: 976, standard: 988.
+Loss is: 0.014462.
+2023-07-08 10:50:12 : WARNING  test performance at epoch 17 is precision: 0.998975, recall: 0.986842, fscore: 0.992872, macro-fscore: 0.990152, right: 975, predict: 976, standard: 988.
+Loss is: 0.014462.
+2023-07-08 10:50:51 : WARNING  Train performance at epoch 18 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992374, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.005082.
+2023-07-08 10:51:06 : WARNING  Validate performance at epoch 18 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.991193, right: 976, predict: 976, standard: 988.
+Loss is: 0.014412.
+2023-07-08 10:51:22 : WARNING  test performance at epoch 18 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.991193, right: 976, predict: 976, standard: 988.
+Loss is: 0.014412.
+2023-07-08 10:51:50 : WARNING  Train performance at epoch 19 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992121, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.004843.
+2023-07-08 10:52:03 : WARNING  Validate performance at epoch 19 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990385, right: 976, predict: 976, standard: 988.
+Loss is: 0.012864.
+2023-07-08 10:52:14 : WARNING  test performance at epoch 19 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990385, right: 976, predict: 976, standard: 988.
+Loss is: 0.012864.
+2023-07-08 10:52:42 : WARNING  Train performance at epoch 20 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992374, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.004635.
+2023-07-08 10:52:53 : WARNING  Validate performance at epoch 20 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990789, right: 976, predict: 976, standard: 988.
+Loss is: 0.013322.
+2023-07-08 10:53:03 : WARNING  test performance at epoch 20 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990789, right: 976, predict: 976, standard: 988.
+Loss is: 0.013322.
+2023-07-08 10:53:31 : WARNING  Train performance at epoch 21 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992374, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.004424.
+2023-07-08 10:53:41 : WARNING  Validate performance at epoch 21 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990789, right: 976, predict: 976, standard: 988.
+Loss is: 0.012998.
+2023-07-08 10:53:52 : WARNING  test performance at epoch 21 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990789, right: 976, predict: 976, standard: 988.
+Loss is: 0.012998.
+2023-07-08 10:54:19 : WARNING  Train performance at epoch 22 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992374, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.004243.
+2023-07-08 10:54:30 : WARNING  Validate performance at epoch 22 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990385, right: 976, predict: 976, standard: 988.
+Loss is: 0.012617.
+2023-07-08 10:54:41 : WARNING  test performance at epoch 22 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990385, right: 976, predict: 976, standard: 988.
+Loss is: 0.012617.
+2023-07-08 10:55:08 : WARNING  Train performance at epoch 23 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992374, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.004086.
+2023-07-08 10:55:18 : WARNING  Validate performance at epoch 23 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990385, right: 976, predict: 976, standard: 988.
+Loss is: 0.012258.
+2023-07-08 10:55:29 : WARNING  test performance at epoch 23 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990385, right: 976, predict: 976, standard: 988.
+Loss is: 0.012258.
+2023-07-08 10:55:57 : WARNING  Train performance at epoch 24 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992374, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.003917.
+2023-07-08 10:56:07 : WARNING  Validate performance at epoch 24 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990385, right: 976, predict: 976, standard: 988.
+Loss is: 0.011844.
+2023-07-08 10:56:18 : WARNING  test performance at epoch 24 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990385, right: 976, predict: 976, standard: 988.
+Loss is: 0.011844.
+2023-07-08 10:56:45 : WARNING  Train performance at epoch 25 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992374, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.003848.
+2023-07-08 10:56:55 : WARNING  Validate performance at epoch 25 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990385, right: 976, predict: 976, standard: 988.
+Loss is: 0.011763.
+2023-07-08 10:57:06 : WARNING  test performance at epoch 25 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990385, right: 976, predict: 976, standard: 988.
+Loss is: 0.011763.
+2023-07-08 10:57:34 : WARNING  Train performance at epoch 26 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992374, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.003709.
+2023-07-08 10:57:44 : WARNING  Validate performance at epoch 26 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990385, right: 976, predict: 976, standard: 988.
+Loss is: 0.011605.
+2023-07-08 10:57:55 : WARNING  test performance at epoch 26 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990385, right: 976, predict: 976, standard: 988.
+Loss is: 0.011605.
+2023-07-08 10:58:22 : WARNING  Train performance at epoch 27 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992121, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.003554.
+2023-07-08 10:58:32 : WARNING  Validate performance at epoch 27 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990385, right: 976, predict: 976, standard: 988.
+Loss is: 0.011199.
+2023-07-08 10:58:43 : WARNING  test performance at epoch 27 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990385, right: 976, predict: 976, standard: 988.
+Loss is: 0.011199.
+2023-07-08 10:59:10 : WARNING  Train performance at epoch 28 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992374, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.003438.
+2023-07-08 10:59:21 : WARNING  Validate performance at epoch 28 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990385, right: 976, predict: 976, standard: 988.
+Loss is: 0.011222.
+2023-07-08 10:59:31 : WARNING  test performance at epoch 28 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990385, right: 976, predict: 976, standard: 988.
+Loss is: 0.011222.
+2023-07-08 11:00:00 : WARNING  Train performance at epoch 29 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992374, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.003348.
+2023-07-08 11:00:11 : WARNING  Validate performance at epoch 29 is precision: 0.998976, recall: 0.987854, fscore: 0.993384, macro-fscore: 0.989757, right: 976, predict: 977, standard: 988.
+Loss is: 0.011502.
+2023-07-08 11:00:21 : WARNING  test performance at epoch 29 is precision: 0.998976, recall: 0.987854, fscore: 0.993384, macro-fscore: 0.989757, right: 976, predict: 977, standard: 988.
+Loss is: 0.011502.
+2023-07-08 11:00:49 : WARNING  Train performance at epoch 30 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992374, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.003301.
+2023-07-08 11:00:59 : WARNING  Validate performance at epoch 30 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990789, right: 976, predict: 976, standard: 988.
+Loss is: 0.011053.
+2023-07-08 11:01:10 : WARNING  test performance at epoch 30 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990789, right: 976, predict: 976, standard: 988.
+Loss is: 0.011053.
+2023-07-08 11:01:38 : WARNING  Train performance at epoch 31 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992374, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.003197.
+2023-07-08 11:01:48 : WARNING  Validate performance at epoch 31 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990789, right: 976, predict: 976, standard: 988.
+Loss is: 0.011019.
+2023-07-08 11:01:59 : WARNING  test performance at epoch 31 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990789, right: 976, predict: 976, standard: 988.
+Loss is: 0.011019.
+2023-07-08 11:02:26 : WARNING  Train performance at epoch 32 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992374, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.003163.
+2023-07-08 11:02:37 : WARNING  Validate performance at epoch 32 is precision: 0.998976, recall: 0.987854, fscore: 0.993384, macro-fscore: 0.989757, right: 976, predict: 977, standard: 988.
+Loss is: 0.010977.
+2023-07-08 11:02:47 : WARNING  test performance at epoch 32 is precision: 0.998976, recall: 0.987854, fscore: 0.993384, macro-fscore: 0.989757, right: 976, predict: 977, standard: 988.
+Loss is: 0.010977.
+2023-07-08 11:03:14 : WARNING  Train performance at epoch 33 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992374, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.003098.
+2023-07-08 11:03:25 : WARNING  Validate performance at epoch 33 is precision: 0.998976, recall: 0.987854, fscore: 0.993384, macro-fscore: 0.989757, right: 976, predict: 977, standard: 988.
+Loss is: 0.010715.
+2023-07-08 11:03:35 : WARNING  test performance at epoch 33 is precision: 0.998976, recall: 0.987854, fscore: 0.993384, macro-fscore: 0.989757, right: 976, predict: 977, standard: 988.
+Loss is: 0.010715.
+2023-07-08 11:04:03 : WARNING  Train performance at epoch 34 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992374, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.002940.
+2023-07-08 11:04:13 : WARNING  Validate performance at epoch 34 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990385, right: 976, predict: 976, standard: 988.
+Loss is: 0.010227.
+2023-07-08 11:04:24 : WARNING  test performance at epoch 34 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990385, right: 976, predict: 976, standard: 988.
+Loss is: 0.010227.
+2023-07-08 11:04:51 : WARNING  Train performance at epoch 35 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992121, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.002868.
+2023-07-08 11:05:01 : WARNING  Validate performance at epoch 35 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990385, right: 976, predict: 976, standard: 988.
+Loss is: 0.009737.
+2023-07-08 11:05:12 : WARNING  test performance at epoch 35 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990385, right: 976, predict: 976, standard: 988.
+Loss is: 0.009737.
+2023-07-08 11:05:42 : WARNING  Train performance at epoch 36 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992374, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.002852.
+2023-07-08 11:05:53 : WARNING  Validate performance at epoch 36 is precision: 0.998976, recall: 0.987854, fscore: 0.993384, macro-fscore: 0.989757, right: 976, predict: 977, standard: 988.
+Loss is: 0.010713.
+2023-07-08 11:06:03 : WARNING  test performance at epoch 36 is precision: 0.998976, recall: 0.987854, fscore: 0.993384, macro-fscore: 0.989757, right: 976, predict: 977, standard: 988.
+Loss is: 0.010713.
+2023-07-08 11:06:30 : WARNING  Train performance at epoch 37 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992374, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.002760.
+2023-07-08 11:06:40 : WARNING  Validate performance at epoch 37 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990385, right: 976, predict: 976, standard: 988.
+Loss is: 0.010327.
+2023-07-08 11:06:51 : WARNING  test performance at epoch 37 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.990385, right: 976, predict: 976, standard: 988.
+Loss is: 0.010327.
+2023-07-08 11:07:18 : WARNING  Train performance at epoch 38 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992374, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.002682.
+2023-07-08 11:07:29 : WARNING  Validate performance at epoch 38 is precision: 0.998976, recall: 0.987854, fscore: 0.993384, macro-fscore: 0.989757, right: 976, predict: 977, standard: 988.
+Loss is: 0.010328.
+2023-07-08 11:07:39 : WARNING  test performance at epoch 38 is precision: 0.998976, recall: 0.987854, fscore: 0.993384, macro-fscore: 0.989757, right: 976, predict: 977, standard: 988.
+Loss is: 0.010328.
+2023-07-08 11:08:06 : WARNING  Train performance at epoch 39 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992626, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.002635.
+2023-07-08 11:08:17 : WARNING  Validate performance at epoch 39 is precision: 0.998976, recall: 0.987854, fscore: 0.993384, macro-fscore: 0.989757, right: 976, predict: 977, standard: 988.
+Loss is: 0.010504.
+2023-07-08 11:08:27 : WARNING  test performance at epoch 39 is precision: 0.998976, recall: 0.987854, fscore: 0.993384, macro-fscore: 0.989757, right: 976, predict: 977, standard: 988.
+Loss is: 0.010504.
+2023-07-08 11:08:54 : WARNING  Train performance at epoch 40 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992626, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.002594.
+2023-07-08 11:09:04 : WARNING  Validate performance at epoch 40 is precision: 0.998976, recall: 0.987854, fscore: 0.993384, macro-fscore: 0.989757, right: 976, predict: 977, standard: 988.
+Loss is: 0.010636.
+2023-07-08 11:09:15 : WARNING  test performance at epoch 40 is precision: 0.998976, recall: 0.987854, fscore: 0.993384, macro-fscore: 0.989757, right: 976, predict: 977, standard: 988.
+Loss is: 0.010636.
+2023-07-08 11:09:42 : WARNING  Train performance at epoch 41 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992626, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.002572.
+2023-07-08 11:09:52 : WARNING  Validate performance at epoch 41 is precision: 0.998976, recall: 0.987854, fscore: 0.993384, macro-fscore: 0.989757, right: 976, predict: 977, standard: 988.
+Loss is: 0.010165.
+2023-07-08 11:10:02 : WARNING  test performance at epoch 41 is precision: 0.998976, recall: 0.987854, fscore: 0.993384, macro-fscore: 0.989757, right: 976, predict: 977, standard: 988.
+Loss is: 0.010165.
+2023-07-08 11:10:29 : WARNING  Train performance at epoch 42 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992374, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.002458.
+2023-07-08 11:10:40 : WARNING  Validate performance at epoch 42 is precision: 0.998976, recall: 0.987854, fscore: 0.993384, macro-fscore: 0.989757, right: 976, predict: 977, standard: 988.
+Loss is: 0.009904.
+2023-07-08 11:10:50 : WARNING  test performance at epoch 42 is precision: 0.998976, recall: 0.987854, fscore: 0.993384, macro-fscore: 0.989757, right: 976, predict: 977, standard: 988.
+Loss is: 0.009904.
+2023-07-08 11:11:17 : WARNING  Train performance at epoch 43 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992374, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.002411.
+2023-07-08 11:11:28 : WARNING  Validate performance at epoch 43 is precision: 0.998976, recall: 0.987854, fscore: 0.993384, macro-fscore: 0.989757, right: 976, predict: 977, standard: 988.
+Loss is: 0.009629.
+2023-07-08 11:11:38 : WARNING  test performance at epoch 43 is precision: 0.998976, recall: 0.987854, fscore: 0.993384, macro-fscore: 0.989757, right: 976, predict: 977, standard: 988.
+Loss is: 0.009629.
+2023-07-08 11:12:05 : WARNING  Train performance at epoch 44 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992626, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.002380.
+2023-07-08 11:12:16 : WARNING  Validate performance at epoch 44 is precision: 0.997955, recall: 0.987854, fscore: 0.992879, macro-fscore: 0.989452, right: 976, predict: 978, standard: 988.
+Loss is: 0.010064.
+2023-07-08 11:12:26 : WARNING  test performance at epoch 44 is precision: 0.997955, recall: 0.987854, fscore: 0.992879, macro-fscore: 0.989452, right: 976, predict: 978, standard: 988.
+Loss is: 0.010064.
+2023-07-08 11:12:53 : WARNING  Train performance at epoch 45 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992626, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.002327.
+2023-07-08 11:13:04 : WARNING  Validate performance at epoch 45 is precision: 0.997953, recall: 0.986842, fscore: 0.992366, macro-fscore: 0.989119, right: 975, predict: 977, standard: 988.
+Loss is: 0.009977.
+2023-07-08 11:13:14 : WARNING  test performance at epoch 45 is precision: 0.997953, recall: 0.986842, fscore: 0.992366, macro-fscore: 0.989119, right: 975, predict: 977, standard: 988.
+Loss is: 0.009977.
+2023-07-08 11:13:41 : WARNING  Train performance at epoch 46 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992626, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.002273.
+2023-07-08 11:13:51 : WARNING  Validate performance at epoch 46 is precision: 0.997953, recall: 0.986842, fscore: 0.992366, macro-fscore: 0.989119, right: 975, predict: 977, standard: 988.
+Loss is: 0.010112.
+2023-07-08 11:14:02 : WARNING  test performance at epoch 46 is precision: 0.997953, recall: 0.986842, fscore: 0.992366, macro-fscore: 0.989119, right: 975, predict: 977, standard: 988.
+Loss is: 0.010112.
+2023-07-08 11:14:29 : WARNING  Train performance at epoch 47 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992879, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.002237.
+2023-07-08 11:14:39 : WARNING  Validate performance at epoch 47 is precision: 0.996933, recall: 0.986842, fscore: 0.991862, macro-fscore: 0.988818, right: 975, predict: 978, standard: 988.
+Loss is: 0.010390.
+2023-07-08 11:14:50 : WARNING  test performance at epoch 47 is precision: 0.996933, recall: 0.986842, fscore: 0.991862, macro-fscore: 0.988818, right: 975, predict: 978, standard: 988.
+Loss is: 0.010390.
+2023-07-08 11:15:17 : WARNING  Train performance at epoch 48 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992879, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.002203.
+2023-07-08 11:15:28 : WARNING  Validate performance at epoch 48 is precision: 0.996933, recall: 0.986842, fscore: 0.991862, macro-fscore: 0.988818, right: 975, predict: 978, standard: 988.
+Loss is: 0.010239.
+2023-07-08 11:15:38 : WARNING  test performance at epoch 48 is precision: 0.996933, recall: 0.986842, fscore: 0.991862, macro-fscore: 0.988818, right: 975, predict: 978, standard: 988.
+Loss is: 0.010239.
+2023-07-08 11:16:06 : WARNING  Train performance at epoch 49 is precision: 1.000000, recall: 0.992557, fscore: 0.996265, macro-fscore: 0.992626, right: 3734, predict: 3734, standard: 3762.
+Loss is: 0.002228.
+2023-07-08 11:16:16 : WARNING  Validate performance at epoch 49 is precision: 0.996929, recall: 0.985830, fscore: 0.991349, macro-fscore: 0.988485, right: 974, predict: 977, standard: 988.
+Loss is: 0.010128.
+2023-07-08 11:16:27 : WARNING  test performance at epoch 49 is precision: 0.996929, recall: 0.985830, fscore: 0.991349, macro-fscore: 0.988485, right: 974, predict: 977, standard: 988.
+Loss is: 0.010128.
+2023-07-08 11:16:38 : WARNING  Best test performance at epoch 8 is precision: 1.000000, recall: 0.987854, fscore: 0.993890, macro-fscore: 0.992000, right: 976, predict: 976, standard: 988.
+Loss is: 0.019060.
+2023-07-08 12:01:10 : WARNING  Performance is precision: 1.000000, recall: 0.987854, fscore: 0.993890, right: 976, predict: 976, standard: 988.
+2023-07-08 12:19:18 : WARNING  Load doc_token embedding from ../embedding.txt
+2023-07-08 12:19:20 : WARNING  Total dict size of doc_token is 623
+2023-07-08 12:19:20 : WARNING  Size of pretrained doc_token embedding is 620
+2023-07-08 12:19:20 : WARNING  Size of randomly initialize doc_token embedding is 3
+2023-07-08 13:00:07 : WARNING  Performance is precision: 1.000000, recall: 0.987854, fscore: 0.993890, right: 976, predict: 976, standard: 988.
+2023-08-13 13:32:10 : WARNING  Load doc_token embedding from ../embedding.txt
+2023-08-13 13:32:12 : WARNING  Total dict size of doc_token is 621
+2023-08-13 13:32:12 : WARNING  Size of pretrained doc_token embedding is 618
+2023-08-13 13:32:12 : WARNING  Size of randomly initialize doc_token embedding is 3
+2023-08-13 13:32:32 : WARNING  Load doc_token embedding from ../embedding.txt
+2023-08-13 13:32:34 : WARNING  Total dict size of doc_token is 621
+2023-08-13 13:32:34 : WARNING  Size of pretrained doc_token embedding is 618
+2023-08-13 13:32:34 : WARNING  Size of randomly initialize doc_token embedding is 3
+2023-08-13 13:43:04 : WARNING  Load doc_token embedding from ../embedding.txt
+2023-08-13 13:43:07 : WARNING  Total dict size of doc_token is 621
+2023-08-13 13:43:07 : WARNING  Size of pretrained doc_token embedding is 618
+2023-08-13 13:43:07 : WARNING  Size of randomly initialize doc_token embedding is 3
+2023-08-13 13:47:18 : WARNING  Load doc_token embedding from ../embedding.txt
+2023-08-13 13:47:21 : WARNING  Total dict size of doc_token is 621
+2023-08-13 13:47:21 : WARNING  Size of pretrained doc_token embedding is 618
+2023-08-13 13:47:21 : WARNING  Size of randomly initialize doc_token embedding is 3
+2023-08-13 13:51:07 : WARNING  Load doc_token embedding from ../embedding.txt
+2023-08-13 13:51:09 : WARNING  Total dict size of doc_token is 621
+2023-08-13 13:51:09 : WARNING  Size of pretrained doc_token embedding is 618
+2023-08-13 13:51:09 : WARNING  Size of randomly initialize doc_token embedding is 3
+2023-08-14 09:04:22 : WARNING  Load doc_token embedding from ../embedding.txt
+2023-08-14 09:04:24 : WARNING  Total dict size of doc_token is 621
+2023-08-14 09:04:24 : WARNING  Size of pretrained doc_token embedding is 618
+2023-08-14 09:04:24 : WARNING  Size of randomly initialize doc_token embedding is 3
+2023-08-14 09:05:31 : WARNING  Load doc_token embedding from ../embedding.txt
+2023-08-14 09:05:32 : WARNING  Total dict size of doc_token is 621
+2023-08-14 09:05:32 : WARNING  Size of pretrained doc_token embedding is 618
+2023-08-14 09:05:32 : WARNING  Size of randomly initialize doc_token embedding is 3
+2023-08-14 09:10:46 : WARNING  Load doc_token embedding from ../embedding.txt
+2023-08-14 09:10:47 : WARNING  Total dict size of doc_token is 621
+2023-08-14 09:10:47 : WARNING  Size of pretrained doc_token embedding is 618
+2023-08-14 09:10:47 : WARNING  Size of randomly initialize doc_token embedding is 3
+2023-08-14 09:12:58 : WARNING  Load doc_token embedding from ../embedding.txt
+2023-08-14 09:13:00 : WARNING  Total dict size of doc_token is 621
+2023-08-14 09:13:00 : WARNING  Size of pretrained doc_token embedding is 618
+2023-08-14 09:13:00 : WARNING  Size of randomly initialize doc_token embedding is 3
+2023-08-14 09:26:49 : WARNING  Load doc_token embedding from ../embedding.txt
+2023-08-14 09:26:51 : WARNING  Total dict size of doc_token is 621
+2023-08-14 09:26:51 : WARNING  Size of pretrained doc_token embedding is 618
+2023-08-14 09:26:51 : WARNING  Size of randomly initialize doc_token embedding is 3
+2023-08-14 09:30:51 : WARNING  Load doc_token embedding from ../embedding.txt
+2023-08-14 09:30:52 : WARNING  Total dict size of doc_token is 621
+2023-08-14 09:30:52 : WARNING  Size of pretrained doc_token embedding is 618
+2023-08-14 09:30:52 : WARNING  Size of randomly initialize doc_token embedding is 3
+2023-08-14 09:31:44 : WARNING  Train performance at epoch 0 is precision: 0.980285, recall: 0.951116, fscore: 0.965480, macro-fscore: 0.960747, right: 3580, predict: 3652, standard: 3764.
+Loss is: 0.128791.
+2023-08-14 09:31:52 : WARNING  Validate performance at epoch 0 is precision: 0.996862, recall: 0.964575, fscore: 0.980453, macro-fscore: 0.975927, right: 953, predict: 956, standard: 988.
+Loss is: 0.116832.
+2023-08-14 09:32:00 : WARNING  test performance at epoch 0 is precision: 0.996862, recall: 0.964575, fscore: 0.980453, macro-fscore: 0.975927, right: 953, predict: 956, standard: 988.
+Loss is: 0.116832.
+2023-08-14 09:32:19 : WARNING  Train performance at epoch 1 is precision: 0.983841, recall: 0.970510, fscore: 0.977130, macro-fscore: 0.968623, right: 3653, predict: 3713, standard: 3764.
+Loss is: 0.078143.
+2023-08-14 09:32:26 : WARNING  Validate performance at epoch 1 is precision: 0.985522, recall: 0.964575, fscore: 0.974936, macro-fscore: 0.975740, right: 953, predict: 967, standard: 988.
+Loss is: 0.082057.
+2023-08-14 09:32:34 : WARNING  test performance at epoch 1 is precision: 0.985522, recall: 0.964575, fscore: 0.974936, macro-fscore: 0.975740, right: 953, predict: 967, standard: 988.
+Loss is: 0.082057.
+2023-08-14 09:32:53 : WARNING  Train performance at epoch 2 is precision: 0.991590, recall: 0.971041, fscore: 0.981208, macro-fscore: 0.977483, right: 3655, predict: 3686, standard: 3764.
+Loss is: 0.070708.
+2023-08-14 09:33:00 : WARNING  Validate performance at epoch 2 is precision: 0.993757, recall: 0.966599, fscore: 0.979990, macro-fscore: 0.975309, right: 955, predict: 961, standard: 988.
+Loss is: 0.069422.
+2023-08-14 09:33:08 : WARNING  test performance at epoch 2 is precision: 0.993757, recall: 0.966599, fscore: 0.979990, macro-fscore: 0.975309, right: 955, predict: 961, standard: 988.
+Loss is: 0.069422.
+2023-08-14 09:33:27 : WARNING  Train performance at epoch 3 is precision: 0.995144, recall: 0.980074, fscore: 0.987552, macro-fscore: 0.984684, right: 3689, predict: 3707, standard: 3764.
+Loss is: 0.045248.
+2023-08-14 09:33:35 : WARNING  Validate performance at epoch 3 is precision: 0.997923, recall: 0.972672, fscore: 0.985136, macro-fscore: 0.980016, right: 961, predict: 963, standard: 988.
+Loss is: 0.057257.
+2023-08-14 09:33:43 : WARNING  test performance at epoch 3 is precision: 0.997923, recall: 0.972672, fscore: 0.985136, macro-fscore: 0.980016, right: 961, predict: 963, standard: 988.
+Loss is: 0.057257.
+2023-08-14 09:34:01 : WARNING  Train performance at epoch 4 is precision: 0.994909, recall: 0.986451, fscore: 0.990662, macro-fscore: 0.987577, right: 3713, predict: 3732, standard: 3764.
+Loss is: 0.041150.
+2023-08-14 09:34:10 : WARNING  Validate performance at epoch 4 is precision: 0.997949, recall: 0.984818, fscore: 0.991340, macro-fscore: 0.988569, right: 973, predict: 975, standard: 988.
+Loss is: 0.052080.
+2023-08-14 09:34:18 : WARNING  test performance at epoch 4 is precision: 0.997949, recall: 0.984818, fscore: 0.991340, macro-fscore: 0.988569, right: 973, predict: 975, standard: 988.
+Loss is: 0.052080.
+2023-08-14 09:34:40 : WARNING  Train performance at epoch 5 is precision: 0.998388, recall: 0.987248, fscore: 0.992787, macro-fscore: 0.987336, right: 3716, predict: 3722, standard: 3764.
+Loss is: 0.025336.
+2023-08-14 09:34:48 : WARNING  Validate performance at epoch 5 is precision: 1.000000, recall: 0.970648, fscore: 0.985105, macro-fscore: 0.976202, right: 959, predict: 959, standard: 988.
+Loss is: 0.037988.
+2023-08-14 09:34:56 : WARNING  test performance at epoch 5 is precision: 1.000000, recall: 0.970648, fscore: 0.985105, macro-fscore: 0.976202, right: 959, predict: 959, standard: 988.
+Loss is: 0.037988.
+2023-08-14 09:35:14 : WARNING  Train performance at epoch 6 is precision: 0.998122, recall: 0.988576, fscore: 0.993326, macro-fscore: 0.989927, right: 3721, predict: 3728, standard: 3764.
+Loss is: 0.022540.
+2023-08-14 09:35:22 : WARNING  Validate performance at epoch 6 is precision: 1.000000, recall: 0.974696, fscore: 0.987186, macro-fscore: 0.979884, right: 963, predict: 963, standard: 988.
+Loss is: 0.035211.
+2023-08-14 09:35:29 : WARNING  test performance at epoch 6 is precision: 1.000000, recall: 0.974696, fscore: 0.987186, macro-fscore: 0.979884, right: 963, predict: 963, standard: 988.
+Loss is: 0.035211.
+2023-08-14 09:35:48 : WARNING  Train performance at epoch 7 is precision: 0.998389, recall: 0.987779, fscore: 0.993056, macro-fscore: 0.989580, right: 3718, predict: 3724, standard: 3764.
+Loss is: 0.019087.
+2023-08-14 09:35:55 : WARNING  Validate performance at epoch 7 is precision: 1.000000, recall: 0.971660, fscore: 0.985626, macro-fscore: 0.978070, right: 960, predict: 960, standard: 988.
+Loss is: 0.032662.
+2023-08-14 09:36:03 : WARNING  test performance at epoch 7 is precision: 1.000000, recall: 0.971660, fscore: 0.985626, macro-fscore: 0.978070, right: 960, predict: 960, standard: 988.
+Loss is: 0.032662.
+2023-08-14 09:36:20 : WARNING  Train performance at epoch 8 is precision: 0.997858, recall: 0.989904, fscore: 0.993865, macro-fscore: 0.989164, right: 3726, predict: 3734, standard: 3764.
+Loss is: 0.017959.
+2023-08-14 09:36:28 : WARNING  Validate performance at epoch 8 is precision: 0.997942, recall: 0.981781, fscore: 0.989796, macro-fscore: 0.983242, right: 970, predict: 972, standard: 988.
+Loss is: 0.028858.
+2023-08-14 09:36:36 : WARNING  test performance at epoch 8 is precision: 0.997942, recall: 0.981781, fscore: 0.989796, macro-fscore: 0.983242, right: 970, predict: 972, standard: 988.
+Loss is: 0.028858.
+2023-08-14 09:36:55 : WARNING  Train performance at epoch 9 is precision: 0.999463, recall: 0.989639, fscore: 0.994527, macro-fscore: 0.991200, right: 3725, predict: 3727, standard: 3764.
+Loss is: 0.014683.
+2023-08-14 09:37:02 : WARNING  Validate performance at epoch 9 is precision: 0.998967, recall: 0.978745, fscore: 0.988753, macro-fscore: 0.981851, right: 967, predict: 968, standard: 988.
+Loss is: 0.027161.
+2023-08-14 09:37:10 : WARNING  test performance at epoch 9 is precision: 0.998967, recall: 0.978745, fscore: 0.988753, macro-fscore: 0.981851, right: 967, predict: 968, standard: 988.
+Loss is: 0.027161.
+2023-08-14 09:37:30 : WARNING  Train performance at epoch 10 is precision: 0.999464, recall: 0.990170, fscore: 0.994795, macro-fscore: 0.990499, right: 3727, predict: 3729, standard: 3764.
+Loss is: 0.014002.
+2023-08-14 09:37:37 : WARNING  Validate performance at epoch 10 is precision: 0.996904, recall: 0.977733, fscore: 0.987225, macro-fscore: 0.979996, right: 966, predict: 969, standard: 988.
+Loss is: 0.027822.
+2023-08-14 09:37:45 : WARNING  test performance at epoch 10 is precision: 0.996904, recall: 0.977733, fscore: 0.987225, macro-fscore: 0.979996, right: 966, predict: 969, standard: 988.
+Loss is: 0.027822.
+2023-08-14 09:38:04 : WARNING  Train performance at epoch 11 is precision: 0.999464, recall: 0.990170, fscore: 0.994795, macro-fscore: 0.990499, right: 3727, predict: 3729, standard: 3764.
+Loss is: 0.011726.
+2023-08-14 09:38:11 : WARNING  Validate performance at epoch 11 is precision: 1.000000, recall: 0.981781, fscore: 0.990807, macro-fscore: 0.983871, right: 970, predict: 970, standard: 988.
+Loss is: 0.023700.
+2023-08-14 09:38:19 : WARNING  test performance at epoch 11 is precision: 1.000000, recall: 0.981781, fscore: 0.990807, macro-fscore: 0.983871, right: 970, predict: 970, standard: 988.
+Loss is: 0.023700.
+2023-08-14 09:38:39 : WARNING  Train performance at epoch 12 is precision: 1.000000, recall: 0.990436, fscore: 0.995195, macro-fscore: 0.992024, right: 3728, predict: 3728, standard: 3764.
+Loss is: 0.011539.
+2023-08-14 09:38:47 : WARNING  Validate performance at epoch 12 is precision: 0.993834, recall: 0.978745, fscore: 0.986232, macro-fscore: 0.979429, right: 967, predict: 973, standard: 988.
+Loss is: 0.031690.
+2023-08-14 09:38:55 : WARNING  test performance at epoch 12 is precision: 0.993834, recall: 0.978745, fscore: 0.986232, macro-fscore: 0.979429, right: 967, predict: 973, standard: 988.
+Loss is: 0.031690.
+2023-08-14 09:39:16 : WARNING  Train performance at epoch 13 is precision: 0.999196, recall: 0.990436, fscore: 0.994797, macro-fscore: 0.991387, right: 3728, predict: 3731, standard: 3764.
+Loss is: 0.011850.
+2023-08-14 09:39:23 : WARNING  Validate performance at epoch 13 is precision: 0.987730, recall: 0.977733, fscore: 0.982706, macro-fscore: 0.973895, right: 966, predict: 978, standard: 988.
+Loss is: 0.033032.
+2023-08-14 09:39:31 : WARNING  test performance at epoch 13 is precision: 0.987730, recall: 0.977733, fscore: 0.982706, macro-fscore: 0.973895, right: 966, predict: 978, standard: 988.
+Loss is: 0.033032.
+2023-08-14 09:39:53 : WARNING  Train performance at epoch 14 is precision: 1.000000, recall: 0.990436, fscore: 0.995195, macro-fscore: 0.990756, right: 3728, predict: 3728, standard: 3764.
+Loss is: 0.010368.
+2023-08-14 09:40:01 : WARNING  Validate performance at epoch 14 is precision: 0.994835, recall: 0.974696, fscore: 0.984663, macro-fscore: 0.977481, right: 963, predict: 968, standard: 988.
+Loss is: 0.027464.
+2023-08-14 09:40:09 : WARNING  test performance at epoch 14 is precision: 0.994835, recall: 0.974696, fscore: 0.984663, macro-fscore: 0.977481, right: 963, predict: 968, standard: 988.
+Loss is: 0.027464.
+2023-08-14 09:40:27 : WARNING  Train performance at epoch 15 is precision: 1.000000, recall: 0.990436, fscore: 0.995195, macro-fscore: 0.991770, right: 3728, predict: 3728, standard: 3764.
+Loss is: 0.008660.
+2023-08-14 09:40:35 : WARNING  Validate performance at epoch 15 is precision: 0.994861, recall: 0.979757, fscore: 0.987251, macro-fscore: 0.981181, right: 968, predict: 973, standard: 988.
+Loss is: 0.025295.
+2023-08-14 09:40:43 : WARNING  test performance at epoch 15 is precision: 0.994861, recall: 0.979757, fscore: 0.987251, macro-fscore: 0.981181, right: 968, predict: 973, standard: 988.
+Loss is: 0.025295.
+2023-08-14 09:41:02 : WARNING  Train performance at epoch 16 is precision: 1.000000, recall: 0.990436, fscore: 0.995195, macro-fscore: 0.991770, right: 3728, predict: 3728, standard: 3764.
+Loss is: 0.007811.
+2023-08-14 09:41:10 : WARNING  Validate performance at epoch 16 is precision: 0.995881, recall: 0.978745, fscore: 0.987238, macro-fscore: 0.981395, right: 967, predict: 971, standard: 988.
+Loss is: 0.023662.
+2023-08-14 09:41:18 : WARNING  test performance at epoch 16 is precision: 0.995881, recall: 0.978745, fscore: 0.987238, macro-fscore: 0.981395, right: 967, predict: 971, standard: 988.
+Loss is: 0.023662.
+2023-08-14 09:41:36 : WARNING  Train performance at epoch 17 is precision: 1.000000, recall: 0.990436, fscore: 0.995195, macro-fscore: 0.991264, right: 3728, predict: 3728, standard: 3764.
+Loss is: 0.007277.
+2023-08-14 09:41:43 : WARNING  Validate performance at epoch 17 is precision: 0.997934, recall: 0.977733, fscore: 0.987730, macro-fscore: 0.981876, right: 966, predict: 968, standard: 988.
+Loss is: 0.022486.
+2023-08-14 09:41:51 : WARNING  test performance at epoch 17 is precision: 0.997934, recall: 0.977733, fscore: 0.987730, macro-fscore: 0.981876, right: 966, predict: 968, standard: 988.
+Loss is: 0.022486.
+2023-08-14 09:42:09 : WARNING  Train performance at epoch 18 is precision: 1.000000, recall: 0.990436, fscore: 0.995195, macro-fscore: 0.991517, right: 3728, predict: 3728, standard: 3764.
+Loss is: 0.006990.
+2023-08-14 09:42:17 : WARNING  Validate performance at epoch 18 is precision: 0.997936, recall: 0.978745, fscore: 0.988247, macro-fscore: 0.982443, right: 967, predict: 969, standard: 988.
+Loss is: 0.023080.
+2023-08-14 09:42:24 : WARNING  test performance at epoch 18 is precision: 0.997936, recall: 0.978745, fscore: 0.988247, macro-fscore: 0.982443, right: 967, predict: 969, standard: 988.
+Loss is: 0.023080.
+2023-08-14 09:42:44 : WARNING  Train performance at epoch 19 is precision: 1.000000, recall: 0.991498, fscore: 0.995731, macro-fscore: 0.991637, right: 3732, predict: 3732, standard: 3764.
+Loss is: 0.006675.
+2023-08-14 09:42:51 : WARNING  Validate performance at epoch 19 is precision: 0.993827, recall: 0.977733, fscore: 0.985714, macro-fscore: 0.978456, right: 966, predict: 972, standard: 988.
+Loss is: 0.022107.
+2023-08-14 09:42:59 : WARNING  test performance at epoch 19 is precision: 0.993827, recall: 0.977733, fscore: 0.985714, macro-fscore: 0.978456, right: 966, predict: 972, standard: 988.
+Loss is: 0.022107.
+2023-08-14 09:43:18 : WARNING  Train performance at epoch 20 is precision: 1.000000, recall: 0.991498, fscore: 0.995731, macro-fscore: 0.991637, right: 3732, predict: 3732, standard: 3764.
+Loss is: 0.006453.
+2023-08-14 09:43:25 : WARNING  Validate performance at epoch 20 is precision: 0.994851, recall: 0.977733, fscore: 0.986217, macro-fscore: 0.979186, right: 966, predict: 971, standard: 988.
+Loss is: 0.022323.
+2023-08-14 09:43:33 : WARNING  test performance at epoch 20 is precision: 0.994851, recall: 0.977733, fscore: 0.986217, macro-fscore: 0.979186, right: 966, predict: 971, standard: 988.
+Loss is: 0.022323.
+2023-08-14 09:43:52 : WARNING  Train performance at epoch 21 is precision: 1.000000, recall: 0.991498, fscore: 0.995731, macro-fscore: 0.991637, right: 3732, predict: 3732, standard: 3764.
+Loss is: 0.006160.
+2023-08-14 09:44:00 : WARNING  Validate performance at epoch 21 is precision: 0.995876, recall: 0.977733, fscore: 0.986721, macro-fscore: 0.979930, right: 966, predict: 970, standard: 988.
+Loss is: 0.021629.
+2023-08-14 09:44:07 : WARNING  test performance at epoch 21 is precision: 0.995876, recall: 0.977733, fscore: 0.986721, macro-fscore: 0.979930, right: 966, predict: 970, standard: 988.
+Loss is: 0.021629.
+2023-08-14 09:44:26 : WARNING  Train performance at epoch 22 is precision: 1.000000, recall: 0.992030, fscore: 0.995999, macro-fscore: 0.992132, right: 3734, predict: 3734, standard: 3764.
+Loss is: 0.006019.
+2023-08-14 09:45:13 : WARNING  Validate performance at epoch 22 is precision: 0.992791, recall: 0.975709, fscore: 0.984176, macro-fscore: 0.976869, right: 964, predict: 971, standard: 988.
+Loss is: 0.021852.
+2023-08-14 09:45:20 : WARNING  test performance at epoch 22 is precision: 0.992791, recall: 0.975709, fscore: 0.984176, macro-fscore: 0.976869, right: 964, predict: 971, standard: 988.
+Loss is: 0.021852.
+2023-08-14 10:06:06 : WARNING  Performance is precision: 0.997949, recall: 0.984818, fscore: 0.991340, right: 973, predict: 975, standard: 988.
+2023-08-15 14:29:21 : WARNING  Load doc_token embedding from ../embedding.txt
+2023-08-15 14:29:23 : WARNING  Total dict size of doc_token is 621
+2023-08-15 14:29:23 : WARNING  Size of pretrained doc_token embedding is 618
+2023-08-15 14:29:23 : WARNING  Size of randomly initialize doc_token embedding is 3
+2023-08-15 14:29:45 : WARNING  Train performance at epoch 0 is precision: 0.961444, recall: 0.938759, fscore: 0.949966, macro-fscore: 0.799498, right: 3541, predict: 3683, standard: 3772.
+Loss is: 0.134306.
+2023-08-15 14:29:52 : WARNING  Validate performance at epoch 0 is precision: 0.954214, recall: 0.926263, fscore: 0.940031, macro-fscore: 0.796106, right: 917, predict: 961, standard: 990.
+Loss is: 0.136372.
+2023-08-15 14:30:00 : WARNING  test performance at epoch 0 is precision: 0.954214, recall: 0.926263, fscore: 0.940031, macro-fscore: 0.796106, right: 917, predict: 961, standard: 990.
+Loss is: 0.136372.
+2023-08-15 14:30:20 : WARNING  Train performance at epoch 1 is precision: 0.983957, recall: 0.975610, fscore: 0.979766, macro-fscore: 0.851924, right: 3680, predict: 3740, standard: 3772.
+Loss is: 0.058638.
+2023-08-15 14:30:28 : WARNING  Validate performance at epoch 1 is precision: 0.991812, recall: 0.978788, fscore: 0.985257, macro-fscore: 0.858384, right: 969, predict: 977, standard: 990.
+Loss is: 0.055347.
+2023-08-15 14:30:36 : WARNING  test performance at epoch 1 is precision: 0.991812, recall: 0.978788, fscore: 0.985257, macro-fscore: 0.858384, right: 969, predict: 977, standard: 990.
+Loss is: 0.055347.
+2023-08-15 14:30:58 : WARNING  Train performance at epoch 2 is precision: 0.992726, recall: 0.976935, fscore: 0.984768, macro-fscore: 0.858233, right: 3685, predict: 3712, standard: 3772.
+Loss is: 0.067441.
+2023-08-15 14:31:07 : WARNING  Validate performance at epoch 2 is precision: 0.992701, recall: 0.961616, fscore: 0.976911, macro-fscore: 0.852158, right: 952, predict: 959, standard: 990.
+Loss is: 0.076353.
+2023-08-15 14:31:15 : WARNING  test performance at epoch 2 is precision: 0.992701, recall: 0.961616, fscore: 0.976911, macro-fscore: 0.852158, right: 952, predict: 959, standard: 990.
+Loss is: 0.076353.
+2023-08-15 14:31:36 : WARNING  Train performance at epoch 3 is precision: 0.994362, recall: 0.981972, fscore: 0.988129, macro-fscore: 0.928903, right: 3704, predict: 3725, standard: 3772.
+Loss is: 0.051770.
+2023-08-15 14:31:44 : WARNING  Validate performance at epoch 3 is precision: 0.992828, recall: 0.978788, fscore: 0.985758, macro-fscore: 0.861201, right: 969, predict: 976, standard: 990.
+Loss is: 0.056446.
+2023-08-15 14:31:52 : WARNING  test performance at epoch 3 is precision: 0.992828, recall: 0.978788, fscore: 0.985758, macro-fscore: 0.861201, right: 969, predict: 976, standard: 990.
+Loss is: 0.056446.
+2023-08-15 14:32:12 : WARNING  Train performance at epoch 4 is precision: 0.994132, recall: 0.988070, fscore: 0.991092, macro-fscore: 0.971362, right: 3727, predict: 3749, standard: 3772.
+Loss is: 0.043085.
+2023-08-15 14:32:20 : WARNING  Validate performance at epoch 4 is precision: 0.986762, recall: 0.978788, fscore: 0.982759, macro-fscore: 0.858296, right: 969, predict: 982, standard: 990.
+Loss is: 0.054796.
+2023-08-15 14:32:27 : WARNING  test performance at epoch 4 is precision: 0.986762, recall: 0.978788, fscore: 0.982759, macro-fscore: 0.858296, right: 969, predict: 982, standard: 990.
+Loss is: 0.054796.
+2023-08-15 14:32:47 : WARNING  Train performance at epoch 5 is precision: 0.998394, recall: 0.988600, fscore: 0.993473, macro-fscore: 0.984089, right: 3729, predict: 3735, standard: 3772.
+Loss is: 0.027596.
+2023-08-15 14:32:55 : WARNING  Validate performance at epoch 5 is precision: 0.986748, recall: 0.977778, fscore: 0.982243, macro-fscore: 0.859595, right: 968, predict: 981, standard: 990.
+Loss is: 0.040835.
+2023-08-15 14:33:03 : WARNING  test performance at epoch 5 is precision: 0.986748, recall: 0.977778, fscore: 0.982243, macro-fscore: 0.859595, right: 968, predict: 981, standard: 990.
+Loss is: 0.040835.
+2023-08-15 14:33:23 : WARNING  Train performance at epoch 6 is precision: 0.997860, recall: 0.989130, fscore: 0.993476, macro-fscore: 0.991491, right: 3731, predict: 3739, standard: 3772.
+Loss is: 0.024247.
+2023-08-15 14:33:30 : WARNING  Validate performance at epoch 6 is precision: 0.987629, recall: 0.967677, fscore: 0.977551, macro-fscore: 0.853432, right: 958, predict: 970, standard: 990.
+Loss is: 0.047289.
+2023-08-15 14:33:38 : WARNING  test performance at epoch 6 is precision: 0.987629, recall: 0.967677, fscore: 0.977551, macro-fscore: 0.853432, right: 958, predict: 970, standard: 990.
+Loss is: 0.047289.
+2023-08-15 14:33:58 : WARNING  Train performance at epoch 7 is precision: 0.999733, recall: 0.991516, fscore: 0.995608, macro-fscore: 0.993993, right: 3740, predict: 3741, standard: 3772.
+Loss is: 0.017943.
+2023-08-15 14:34:06 : WARNING  Validate performance at epoch 7 is precision: 0.988660, recall: 0.968687, fscore: 0.978571, macro-fscore: 0.852097, right: 959, predict: 970, standard: 990.
+Loss is: 0.041195.
+2023-08-15 14:34:13 : WARNING  test performance at epoch 7 is precision: 0.988660, recall: 0.968687, fscore: 0.978571, macro-fscore: 0.852097, right: 959, predict: 970, standard: 990.
+Loss is: 0.041195.
+2023-08-15 14:34:33 : WARNING  Train performance at epoch 8 is precision: 0.999466, recall: 0.991782, fscore: 0.995609, macro-fscore: 0.993571, right: 3741, predict: 3743, standard: 3772.
+Loss is: 0.015682.
+2023-08-15 14:34:42 : WARNING  Validate performance at epoch 8 is precision: 0.982255, recall: 0.950505, fscore: 0.966119, macro-fscore: 0.839687, right: 941, predict: 958, standard: 990.
+Loss is: 0.043132.
+2023-08-15 14:34:50 : WARNING  test performance at epoch 8 is precision: 0.982255, recall: 0.950505, fscore: 0.966119, macro-fscore: 0.839687, right: 941, predict: 958, standard: 990.
+Loss is: 0.043132.
+2023-08-15 14:35:14 : WARNING  Train performance at epoch 9 is precision: 0.999466, recall: 0.992047, fscore: 0.995742, macro-fscore: 0.992595, right: 3742, predict: 3744, standard: 3772.
+Loss is: 0.011297.
+2023-08-15 14:35:22 : WARNING  Validate performance at epoch 9 is precision: 0.988776, recall: 0.978788, fscore: 0.983756, macro-fscore: 0.857795, right: 969, predict: 980, standard: 990.
+Loss is: 0.030696.
+2023-08-15 14:35:29 : WARNING  test performance at epoch 9 is precision: 0.988776, recall: 0.978788, fscore: 0.983756, macro-fscore: 0.857795, right: 969, predict: 980, standard: 990.
+Loss is: 0.030696.
+2023-08-15 14:35:49 : WARNING  Train performance at epoch 10 is precision: 1.000000, recall: 0.992577, fscore: 0.996275, macro-fscore: 0.994437, right: 3744, predict: 3744, standard: 3772.
+Loss is: 0.010983.
+2023-08-15 14:35:57 : WARNING  Validate performance at epoch 10 is precision: 0.989744, recall: 0.974747, fscore: 0.982188, macro-fscore: 0.857409, right: 965, predict: 975, standard: 990.
+Loss is: 0.031759.
+2023-08-15 14:36:05 : WARNING  test performance at epoch 10 is precision: 0.989744, recall: 0.974747, fscore: 0.982188, macro-fscore: 0.857409, right: 965, predict: 975, standard: 990.
+Loss is: 0.031759.
+2023-08-15 14:36:26 : WARNING  Train performance at epoch 11 is precision: 0.999733, recall: 0.992577, fscore: 0.996142, macro-fscore: 0.993846, right: 3744, predict: 3745, standard: 3772.
+Loss is: 0.009343.
+2023-08-15 14:36:34 : WARNING  Validate performance at epoch 11 is precision: 0.983607, recall: 0.969697, fscore: 0.976602, macro-fscore: 0.851808, right: 960, predict: 976, standard: 990.
+Loss is: 0.031752.
+2023-08-15 14:36:42 : WARNING  test performance at epoch 11 is precision: 0.983607, recall: 0.969697, fscore: 0.976602, macro-fscore: 0.851808, right: 960, predict: 976, standard: 990.
+Loss is: 0.031752.
+2023-08-15 14:37:03 : WARNING  Train performance at epoch 12 is precision: 0.999466, recall: 0.992577, fscore: 0.996010, macro-fscore: 0.993505, right: 3744, predict: 3746, standard: 3772.
+Loss is: 0.008400.
+2023-08-15 14:37:11 : WARNING  Validate performance at epoch 12 is precision: 0.982653, recall: 0.972727, fscore: 0.977665, macro-fscore: 0.853415, right: 963, predict: 980, standard: 990.
+Loss is: 0.030306.
+2023-08-15 14:37:19 : WARNING  test performance at epoch 12 is precision: 0.982653, recall: 0.972727, fscore: 0.977665, macro-fscore: 0.853415, right: 963, predict: 980, standard: 990.
+Loss is: 0.030306.
+2023-08-15 14:37:40 : WARNING  Train performance at epoch 13 is precision: 0.999733, recall: 0.992577, fscore: 0.996142, macro-fscore: 0.993209, right: 3744, predict: 3745, standard: 3772.
+Loss is: 0.007805.
+2023-08-15 14:37:47 : WARNING  Validate performance at epoch 13 is precision: 0.987705, recall: 0.973737, fscore: 0.980671, macro-fscore: 0.855408, right: 964, predict: 976, standard: 990.
+Loss is: 0.028677.
+2023-08-15 14:37:55 : WARNING  test performance at epoch 13 is precision: 0.987705, recall: 0.973737, fscore: 0.980671, macro-fscore: 0.855408, right: 964, predict: 976, standard: 990.
+Loss is: 0.028677.
+2023-08-15 14:38:16 : WARNING  Train performance at epoch 14 is precision: 1.000000, recall: 0.991516, fscore: 0.995740, macro-fscore: 0.990917, right: 3740, predict: 3740, standard: 3772.
+Loss is: 0.007733.
+2023-08-15 14:38:24 : WARNING  Validate performance at epoch 14 is precision: 0.987552, recall: 0.961616, fscore: 0.974411, macro-fscore: 0.845484, right: 952, predict: 964, standard: 990.
+Loss is: 0.029224.
+2023-08-15 14:38:32 : WARNING  test performance at epoch 14 is precision: 0.987552, recall: 0.961616, fscore: 0.974411, macro-fscore: 0.845484, right: 952, predict: 964, standard: 990.
+Loss is: 0.029224.
+2023-08-15 14:38:53 : WARNING  Train performance at epoch 15 is precision: 0.999733, recall: 0.992577, fscore: 0.996142, macro-fscore: 0.994986, right: 3744, predict: 3745, standard: 3772.
+Loss is: 0.007125.
+2023-08-15 14:39:01 : WARNING  Validate performance at epoch 15 is precision: 0.984741, recall: 0.977778, fscore: 0.981247, macro-fscore: 0.858184, right: 968, predict: 983, standard: 990.
+Loss is: 0.026883.
+2023-08-15 14:39:09 : WARNING  test performance at epoch 15 is precision: 0.984741, recall: 0.977778, fscore: 0.981247, macro-fscore: 0.858184, right: 968, predict: 983, standard: 990.
+Loss is: 0.026883.
+2023-08-15 14:39:30 : WARNING  Train performance at epoch 16 is precision: 1.000000, recall: 0.992312, fscore: 0.996141, macro-fscore: 0.994772, right: 3743, predict: 3743, standard: 3772.
+Loss is: 0.006118.
+2023-08-15 14:39:38 : WARNING  Validate performance at epoch 16 is precision: 0.982618, recall: 0.970707, fscore: 0.976626, macro-fscore: 0.853463, right: 961, predict: 978, standard: 990.
+Loss is: 0.026624.
+2023-08-15 14:39:46 : WARNING  test performance at epoch 16 is precision: 0.982618, recall: 0.970707, fscore: 0.976626, macro-fscore: 0.853463, right: 961, predict: 978, standard: 990.
+Loss is: 0.026624.
+2023-08-15 14:40:07 : WARNING  Train performance at epoch 17 is precision: 0.999733, recall: 0.992577, fscore: 0.996142, macro-fscore: 0.994543, right: 3744, predict: 3745, standard: 3772.
+Loss is: 0.005810.
+2023-08-15 14:40:15 : WARNING  Validate performance at epoch 17 is precision: 0.981670, recall: 0.973737, fscore: 0.977688, macro-fscore: 0.854954, right: 964, predict: 982, standard: 990.
+Loss is: 0.026254.
+2023-08-15 14:40:22 : WARNING  test performance at epoch 17 is precision: 0.981670, recall: 0.973737, fscore: 0.977688, macro-fscore: 0.854954, right: 964, predict: 982, standard: 990.
+Loss is: 0.026254.
+2023-08-15 14:40:42 : WARNING  Train performance at epoch 18 is precision: 1.000000, recall: 0.992577, fscore: 0.996275, macro-fscore: 0.993996, right: 3744, predict: 3744, standard: 3772.
+Loss is: 0.005568.
+2023-08-15 14:40:49 : WARNING  Validate performance at epoch 18 is precision: 0.982600, recall: 0.969697, fscore: 0.976106, macro-fscore: 0.852720, right: 960, predict: 977, standard: 990.
+Loss is: 0.026443.
+2023-08-15 14:40:57 : WARNING  test performance at epoch 18 is precision: 0.982600, recall: 0.969697, fscore: 0.976106, macro-fscore: 0.852720, right: 960, predict: 977, standard: 990.
+Loss is: 0.026443.
+2023-08-15 14:41:16 : WARNING  Train performance at epoch 19 is precision: 1.000000, recall: 0.992577, fscore: 0.996275, macro-fscore: 0.993996, right: 3744, predict: 3744, standard: 3772.
+Loss is: 0.005305.
+2023-08-15 14:41:23 : WARNING  Validate performance at epoch 19 is precision: 0.982600, recall: 0.969697, fscore: 0.976106, macro-fscore: 0.852720, right: 960, predict: 977, standard: 990.
+Loss is: 0.026793.
+2023-08-15 14:41:31 : WARNING  test performance at epoch 19 is precision: 0.982600, recall: 0.969697, fscore: 0.976106, macro-fscore: 0.852720, right: 960, predict: 977, standard: 990.
+Loss is: 0.026793.
+2023-08-15 14:41:38 : WARNING  Best test performance at epoch 3 is precision: 0.992828, recall: 0.978788, fscore: 0.985758, macro-fscore: 0.861201, right: 969, predict: 976, standard: 990.
+Loss is: 0.056446.
+2023-08-15 15:09:26 : WARNING  Load doc_token embedding from ../embedding.txt
+2023-08-15 15:09:28 : WARNING  Total dict size of doc_token is 620
+2023-08-15 15:09:28 : WARNING  Size of pretrained doc_token embedding is 617
+2023-08-15 15:09:28 : WARNING  Size of randomly initialize doc_token embedding is 3
+2023-08-15 15:09:45 : WARNING  Train performance at epoch 0 is precision: 0.983731, recall: 0.961824, fscore: 0.972654, macro-fscore: 0.846023, right: 3628, predict: 3688, standard: 3772.
+Loss is: 0.096424.
+2023-08-15 15:09:51 : WARNING  Validate performance at epoch 0 is precision: 1.000000, recall: 0.970707, fscore: 0.985136, macro-fscore: 0.854932, right: 961, predict: 961, standard: 990.
+Loss is: 0.079512.
+2023-08-15 15:09:57 : WARNING  test performance at epoch 0 is precision: 1.000000, recall: 0.970707, fscore: 0.985136, macro-fscore: 0.854932, right: 961, predict: 961, standard: 990.
+Loss is: 0.079512.
+2023-08-15 15:10:15 : WARNING  Train performance at epoch 1 is precision: 0.975577, recall: 0.974284, fscore: 0.974930, macro-fscore: 0.849388, right: 3675, predict: 3767, standard: 3772.
+Loss is: 0.072213.
+2023-08-15 15:10:21 : WARNING  Validate performance at epoch 1 is precision: 0.988844, recall: 0.984848, fscore: 0.986842, macro-fscore: 0.859421, right: 975, predict: 986, standard: 990.
+Loss is: 0.060655.
+2023-08-15 15:10:26 : WARNING  test performance at epoch 1 is precision: 0.988844, recall: 0.984848, fscore: 0.986842, macro-fscore: 0.859421, right: 975, predict: 986, standard: 990.
+Loss is: 0.060655.
+2023-08-15 15:10:44 : WARNING  Train performance at epoch 2 is precision: 0.987701, recall: 0.979321, fscore: 0.983493, macro-fscore: 0.856935, right: 3694, predict: 3740, standard: 3772.
+Loss is: 0.062594.
+2023-08-15 15:10:49 : WARNING  Validate performance at epoch 2 is precision: 0.995897, recall: 0.980808, fscore: 0.988295, macro-fscore: 0.861870, right: 971, predict: 975, standard: 990.
+Loss is: 0.067200.
+2023-08-15 15:10:54 : WARNING  test performance at epoch 2 is precision: 0.995897, recall: 0.980808, fscore: 0.988295, macro-fscore: 0.861870, right: 971, predict: 975, standard: 990.
+Loss is: 0.067200.
+2023-08-15 15:11:10 : WARNING  Train performance at epoch 3 is precision: 0.992511, recall: 0.983828, fscore: 0.988151, macro-fscore: 0.976250, right: 3711, predict: 3739, standard: 3772.
+Loss is: 0.043529.
+2023-08-15 15:11:16 : WARNING  Validate performance at epoch 3 is precision: 0.994893, recall: 0.983838, fscore: 0.989335, macro-fscore: 0.862845, right: 974, predict: 979, standard: 990.
+Loss is: 0.047992.
+2023-08-15 15:11:21 : WARNING  test performance at epoch 3 is precision: 0.994893, recall: 0.983838, fscore: 0.989335, macro-fscore: 0.862845, right: 974, predict: 979, standard: 990.
+Loss is: 0.047992.
+2023-08-15 15:11:37 : WARNING  Train performance at epoch 4 is precision: 0.996526, recall: 0.988600, fscore: 0.992547, macro-fscore: 0.983145, right: 3729, predict: 3742, standard: 3772.
+Loss is: 0.029161.
+2023-08-15 15:11:44 : WARNING  Validate performance at epoch 4 is precision: 0.981781, recall: 0.979798, fscore: 0.980789, macro-fscore: 0.857882, right: 970, predict: 988, standard: 990.
+Loss is: 0.043102.
+2023-08-15 15:11:50 : WARNING  test performance at epoch 4 is precision: 0.981781, recall: 0.979798, fscore: 0.980789, macro-fscore: 0.857882, right: 970, predict: 988, standard: 990.
+Loss is: 0.043102.
+2023-08-15 15:12:08 : WARNING  Train performance at epoch 5 is precision: 0.997333, recall: 0.991251, fscore: 0.994283, macro-fscore: 0.985204, right: 3739, predict: 3749, standard: 3772.
+Loss is: 0.025740.
+2023-08-15 15:12:14 : WARNING  Validate performance at epoch 5 is precision: 0.972700, recall: 0.971717, fscore: 0.972208, macro-fscore: 0.850655, right: 962, predict: 989, standard: 990.
+Loss is: 0.047204.
+2023-08-15 15:12:20 : WARNING  test performance at epoch 5 is precision: 0.972700, recall: 0.971717, fscore: 0.972208, macro-fscore: 0.850655, right: 962, predict: 989, standard: 990.
+Loss is: 0.047204.
+2023-08-15 15:12:36 : WARNING  Train performance at epoch 6 is precision: 0.999465, recall: 0.989661, fscore: 0.994538, macro-fscore: 0.988227, right: 3733, predict: 3735, standard: 3772.
+Loss is: 0.019673.
+2023-08-15 15:12:42 : WARNING  Validate performance at epoch 6 is precision: 0.986626, recall: 0.968687, fscore: 0.977574, macro-fscore: 0.852841, right: 959, predict: 972, standard: 990.
+Loss is: 0.041567.
+2023-08-15 15:12:48 : WARNING  test performance at epoch 6 is precision: 0.986626, recall: 0.968687, fscore: 0.977574, macro-fscore: 0.852841, right: 959, predict: 972, standard: 990.
+Loss is: 0.041567.
+2023-08-15 15:13:07 : WARNING  Train performance at epoch 7 is precision: 1.000000, recall: 0.989396, fscore: 0.994670, macro-fscore: 0.988905, right: 3732, predict: 3732, standard: 3772.
+Loss is: 0.017632.
+2023-08-15 15:13:14 : WARNING  Validate performance at epoch 7 is precision: 0.981250, recall: 0.951515, fscore: 0.966154, macro-fscore: 0.840443, right: 942, predict: 960, standard: 990.
+Loss is: 0.053369.
+2023-08-15 15:13:20 : WARNING  test performance at epoch 7 is precision: 0.981250, recall: 0.951515, fscore: 0.966154, macro-fscore: 0.840443, right: 942, predict: 960, standard: 990.
+Loss is: 0.053369.
+2023-08-15 15:13:37 : WARNING  Train performance at epoch 8 is precision: 0.999733, recall: 0.991516, fscore: 0.995608, macro-fscore: 0.991755, right: 3740, predict: 3741, standard: 3772.
+Loss is: 0.015514.
+2023-08-15 15:13:42 : WARNING  Validate performance at epoch 8 is precision: 0.979296, recall: 0.955556, fscore: 0.967280, macro-fscore: 0.842640, right: 946, predict: 966, standard: 990.
+Loss is: 0.053653.
+2023-08-15 15:13:48 : WARNING  test performance at epoch 8 is precision: 0.979296, recall: 0.955556, fscore: 0.967280, macro-fscore: 0.842640, right: 946, predict: 966, standard: 990.
+Loss is: 0.053653.
+2023-08-15 15:14:05 : WARNING  Train performance at epoch 9 is precision: 1.000000, recall: 0.990191, fscore: 0.995071, macro-fscore: 0.990451, right: 3735, predict: 3735, standard: 3772.
+Loss is: 0.012618.
+2023-08-15 15:14:11 : WARNING  Validate performance at epoch 9 is precision: 0.985612, recall: 0.968687, fscore: 0.977076, macro-fscore: 0.852967, right: 959, predict: 973, standard: 990.
+Loss is: 0.037546.
+2023-08-15 15:14:17 : WARNING  test performance at epoch 9 is precision: 0.985612, recall: 0.968687, fscore: 0.977076, macro-fscore: 0.852967, right: 959, predict: 973, standard: 990.
+Loss is: 0.037546.
+2023-08-15 15:14:34 : WARNING  Train performance at epoch 10 is precision: 0.999733, recall: 0.992047, fscore: 0.995875, macro-fscore: 0.992911, right: 3742, predict: 3743, standard: 3772.
+Loss is: 0.010629.
+2023-08-15 15:14:40 : WARNING  Validate performance at epoch 10 is precision: 0.990826, recall: 0.981818, fscore: 0.986301, macro-fscore: 0.861829, right: 972, predict: 981, standard: 990.
+Loss is: 0.028029.
+2023-08-15 15:14:45 : WARNING  test performance at epoch 10 is precision: 0.990826, recall: 0.981818, fscore: 0.986301, macro-fscore: 0.861829, right: 972, predict: 981, standard: 990.
+Loss is: 0.028029.
+2023-08-15 15:15:01 : WARNING  Train performance at epoch 11 is precision: 1.000000, recall: 0.992577, fscore: 0.996275, macro-fscore: 0.993112, right: 3744, predict: 3744, standard: 3772.
+Loss is: 0.009337.
+2023-08-15 15:15:06 : WARNING  Validate performance at epoch 11 is precision: 0.989796, recall: 0.979798, fscore: 0.984772, macro-fscore: 0.859929, right: 970, predict: 980, standard: 990.
+Loss is: 0.030217.
+2023-08-15 15:15:11 : WARNING  test performance at epoch 11 is precision: 0.989796, recall: 0.979798, fscore: 0.984772, macro-fscore: 0.859929, right: 970, predict: 980, standard: 990.
+Loss is: 0.030217.
+2023-08-15 15:15:27 : WARNING  Train performance at epoch 12 is precision: 1.000000, recall: 0.992577, fscore: 0.996275, macro-fscore: 0.993554, right: 3744, predict: 3744, standard: 3772.
+Loss is: 0.008684.
+2023-08-15 15:15:32 : WARNING  Validate performance at epoch 12 is precision: 0.990712, recall: 0.969697, fscore: 0.980092, macro-fscore: 0.855538, right: 960, predict: 969, standard: 990.
+Loss is: 0.034026.
+2023-08-15 15:15:37 : WARNING  test performance at epoch 12 is precision: 0.990712, recall: 0.969697, fscore: 0.980092, macro-fscore: 0.855538, right: 960, predict: 969, standard: 990.
+Loss is: 0.034026.
+2023-08-15 15:15:53 : WARNING  Train performance at epoch 13 is precision: 1.000000, recall: 0.992577, fscore: 0.996275, macro-fscore: 0.992891, right: 3744, predict: 3744, standard: 3772.
+Loss is: 0.008160.
+2023-08-15 15:15:59 : WARNING  Validate performance at epoch 13 is precision: 0.989765, recall: 0.976768, fscore: 0.983223, macro-fscore: 0.858855, right: 967, predict: 977, standard: 990.
+Loss is: 0.028708.
+2023-08-15 15:16:04 : WARNING  test performance at epoch 13 is precision: 0.989765, recall: 0.976768, fscore: 0.983223, macro-fscore: 0.858855, right: 967, predict: 977, standard: 990.
+Loss is: 0.028708.
+2023-08-15 15:16:20 : WARNING  Train performance at epoch 14 is precision: 1.000000, recall: 0.992577, fscore: 0.996275, macro-fscore: 0.992670, right: 3744, predict: 3744, standard: 3772.
+Loss is: 0.007197.
+2023-08-15 15:16:25 : WARNING  Validate performance at epoch 14 is precision: 0.989796, recall: 0.979798, fscore: 0.984772, macro-fscore: 0.860443, right: 970, predict: 980, standard: 990.
+Loss is: 0.027708.
+2023-08-15 15:16:30 : WARNING  test performance at epoch 14 is precision: 0.989796, recall: 0.979798, fscore: 0.984772, macro-fscore: 0.860443, right: 970, predict: 980, standard: 990.
+Loss is: 0.027708.
+2023-08-15 15:16:46 : WARNING  Train performance at epoch 15 is precision: 0.999733, recall: 0.992577, fscore: 0.996142, macro-fscore: 0.994543, right: 3744, predict: 3745, standard: 3772.
+Loss is: 0.007424.
+2023-08-15 15:16:51 : WARNING  Validate performance at epoch 15 is precision: 0.986789, recall: 0.980808, fscore: 0.983789, macro-fscore: 0.858930, right: 971, predict: 984, standard: 990.
+Loss is: 0.028011.
+2023-08-15 15:16:57 : WARNING  test performance at epoch 15 is precision: 0.986789, recall: 0.980808, fscore: 0.983789, macro-fscore: 0.858930, right: 971, predict: 984, standard: 990.
+Loss is: 0.028011.
+2023-08-15 15:17:12 : WARNING  Train performance at epoch 16 is precision: 1.000000, recall: 0.992577, fscore: 0.996275, macro-fscore: 0.992670, right: 3744, predict: 3744, standard: 3772.
+Loss is: 0.006323.
+2023-08-15 15:17:18 : WARNING  Validate performance at epoch 16 is precision: 0.989775, recall: 0.977778, fscore: 0.983740, macro-fscore: 0.859070, right: 968, predict: 978, standard: 990.
+Loss is: 0.027816.
+2023-08-15 15:17:23 : WARNING  test performance at epoch 16 is precision: 0.989775, recall: 0.977778, fscore: 0.983740, macro-fscore: 0.859070, right: 968, predict: 978, standard: 990.
+Loss is: 0.027816.
+2023-08-15 15:17:38 : WARNING  Train performance at epoch 17 is precision: 1.000000, recall: 0.992577, fscore: 0.996275, macro-fscore: 0.992449, right: 3744, predict: 3744, standard: 3772.
+Loss is: 0.005913.
+2023-08-15 15:17:44 : WARNING  Validate performance at epoch 17 is precision: 0.989796, recall: 0.979798, fscore: 0.984772, macro-fscore: 0.860049, right: 970, predict: 980, standard: 990.
+Loss is: 0.025303.
+2023-08-15 15:17:49 : WARNING  test performance at epoch 17 is precision: 0.989796, recall: 0.979798, fscore: 0.984772, macro-fscore: 0.860049, right: 970, predict: 980, standard: 990.
+Loss is: 0.025303.
+2023-08-15 15:18:05 : WARNING  Train performance at epoch 18 is precision: 1.000000, recall: 0.992577, fscore: 0.996275, macro-fscore: 0.994877, right: 3744, predict: 3744, standard: 3772.
+Loss is: 0.007126.
+2023-08-15 15:18:11 : WARNING  Validate performance at epoch 18 is precision: 0.984787, recall: 0.980808, fscore: 0.982794, macro-fscore: 0.858904, right: 971, predict: 986, standard: 990.
+Loss is: 0.028384.
+2023-08-15 15:18:16 : WARNING  test performance at epoch 18 is precision: 0.984787, recall: 0.980808, fscore: 0.982794, macro-fscore: 0.858904, right: 971, predict: 986, standard: 990.
+Loss is: 0.028384.
+2023-08-15 15:18:31 : WARNING  Train performance at epoch 19 is precision: 1.000000, recall: 0.992577, fscore: 0.996275, macro-fscore: 0.992227, right: 3744, predict: 3744, standard: 3772.
+Loss is: 0.006702.
+2023-08-15 15:18:37 : WARNING  Validate performance at epoch 19 is precision: 0.988776, recall: 0.978788, fscore: 0.983756, macro-fscore: 0.858001, right: 969, predict: 980, standard: 990.
+Loss is: 0.025863.
+2023-08-15 15:18:42 : WARNING  test performance at epoch 19 is precision: 0.988776, recall: 0.978788, fscore: 0.983756, macro-fscore: 0.858001, right: 969, predict: 980, standard: 990.
+Loss is: 0.025863.
+2023-08-15 15:18:48 : WARNING  Best test performance at epoch 3 is precision: 0.994893, recall: 0.983838, fscore: 0.989335, macro-fscore: 0.862845, right: 974, predict: 979, standard: 990.
+Loss is: 0.047992.
+2023-08-15 15:19:33 : WARNING  Performance is precision: 0.994893, recall: 0.983838, fscore: 0.989335, right: 974, predict: 979, standard: 990.
+2023-08-17 08:24:46 : WARNING  Load doc_token embedding from ../embedding.txt
+2023-08-22 15:29:39 : WARNING  Load doc_token embedding from ../embedding.txt
+2023-08-22 15:29:41 : WARNING  Total dict size of doc_token is 623
+2023-08-22 15:29:41 : WARNING  Size of pretrained doc_token embedding is 620
+2023-08-22 15:29:41 : WARNING  Size of randomly initialize doc_token embedding is 3
+2023-08-22 15:29:54 : WARNING  Train performance at epoch 0 is precision: 0.969641, recall: 0.937500, fscore: 0.953300, macro-fscore: 0.796574, right: 3705, predict: 3821, standard: 3952.
+Loss is: 0.142095.
+2023-08-22 15:29:58 : WARNING  Validate performance at epoch 0 is precision: 0.965026, recall: 0.912990, fscore: 0.938287, macro-fscore: 0.793262, right: 745, predict: 772, standard: 816.
+Loss is: 0.152866.
+2023-08-22 15:30:02 : WARNING  test performance at epoch 0 is precision: 0.965026, recall: 0.912990, fscore: 0.938287, macro-fscore: 0.793262, right: 745, predict: 772, standard: 816.
+Loss is: 0.152866.
+2023-08-22 15:30:15 : WARNING  Train performance at epoch 1 is precision: 0.984343, recall: 0.970395, fscore: 0.977319, macro-fscore: 0.847968, right: 3835, predict: 3896, standard: 3952.
+Loss is: 0.060991.
+2023-08-22 15:30:19 : WARNING  Validate performance at epoch 1 is precision: 0.988861, recall: 0.979167, fscore: 0.983990, macro-fscore: 0.858780, right: 799, predict: 808, standard: 816.
+Loss is: 0.068202.
+2023-08-22 15:30:23 : WARNING  test performance at epoch 1 is precision: 0.988861, recall: 0.979167, fscore: 0.983990, macro-fscore: 0.858780, right: 799, predict: 808, standard: 816.
+Loss is: 0.068202.
+2023-08-22 15:30:36 : WARNING  Train performance at epoch 2 is precision: 0.993841, recall: 0.980010, fscore: 0.986877, macro-fscore: 0.942457, right: 3873, predict: 3897, standard: 3952.
+Loss is: 0.053492.
+2023-08-22 15:30:40 : WARNING  Validate performance at epoch 2 is precision: 0.986250, recall: 0.966912, fscore: 0.976485, macro-fscore: 0.848809, right: 789, predict: 800, standard: 816.
+Loss is: 0.074880.
+2023-08-22 15:30:44 : WARNING  test performance at epoch 2 is precision: 0.986250, recall: 0.966912, fscore: 0.976485, macro-fscore: 0.848809, right: 789, predict: 800, standard: 816.
+Loss is: 0.074880.
+2023-08-22 15:30:57 : WARNING  Train performance at epoch 3 is precision: 0.996910, recall: 0.979504, fscore: 0.988130, macro-fscore: 0.938336, right: 3871, predict: 3883, standard: 3952.
+Loss is: 0.043736.
+2023-08-22 15:31:01 : WARNING  Validate performance at epoch 3 is precision: 0.988820, recall: 0.975490, fscore: 0.982110, macro-fscore: 0.856917, right: 796, predict: 805, standard: 816.
+Loss is: 0.066798.
+2023-08-22 15:31:05 : WARNING  test performance at epoch 3 is precision: 0.988820, recall: 0.975490, fscore: 0.982110, macro-fscore: 0.856917, right: 796, predict: 805, standard: 816.
+Loss is: 0.066798.
+2023-08-22 15:31:17 : WARNING  Train performance at epoch 4 is precision: 0.997440, recall: 0.986083, fscore: 0.991729, macro-fscore: 0.972951, right: 3897, predict: 3907, standard: 3952.
+Loss is: 0.030621.
+2023-08-22 15:31:22 : WARNING  Validate performance at epoch 4 is precision: 0.987654, recall: 0.980392, fscore: 0.984010, macro-fscore: 0.859685, right: 800, predict: 810, standard: 816.
+Loss is: 0.048678.
+2023-08-22 15:31:26 : WARNING  test performance at epoch 4 is precision: 0.987654, recall: 0.980392, fscore: 0.984010, macro-fscore: 0.859685, right: 800, predict: 810, standard: 816.
+Loss is: 0.048678.
+2023-08-22 15:31:38 : WARNING  Train performance at epoch 5 is precision: 0.998210, recall: 0.987854, fscore: 0.993005, macro-fscore: 0.988417, right: 3904, predict: 3911, standard: 3952.
+Loss is: 0.028763.
+2023-08-22 15:31:42 : WARNING  Validate performance at epoch 5 is precision: 0.992500, recall: 0.973039, fscore: 0.982673, macro-fscore: 0.853544, right: 794, predict: 800, standard: 816.
+Loss is: 0.052120.
+2023-08-22 15:31:47 : WARNING  test performance at epoch 5 is precision: 0.992500, recall: 0.973039, fscore: 0.982673, macro-fscore: 0.853544, right: 794, predict: 800, standard: 816.
+Loss is: 0.052120.
+2023-08-22 15:31:59 : WARNING  Train performance at epoch 6 is precision: 0.998978, recall: 0.988866, fscore: 0.993896, macro-fscore: 0.988195, right: 3908, predict: 3912, standard: 3952.
+Loss is: 0.020935.
+2023-08-22 15:32:03 : WARNING  Validate performance at epoch 6 is precision: 0.990074, recall: 0.977941, fscore: 0.983970, macro-fscore: 0.857342, right: 798, predict: 806, standard: 816.
+Loss is: 0.044054.
+2023-08-22 15:32:07 : WARNING  test performance at epoch 6 is precision: 0.990074, recall: 0.977941, fscore: 0.983970, macro-fscore: 0.857342, right: 798, predict: 806, standard: 816.
+Loss is: 0.044054.
+2023-08-22 15:32:20 : WARNING  Train performance at epoch 7 is precision: 0.998213, recall: 0.989372, fscore: 0.993773, macro-fscore: 0.986458, right: 3910, predict: 3917, standard: 3952.
+Loss is: 0.016777.
+2023-08-22 15:32:24 : WARNING  Validate performance at epoch 7 is precision: 0.990074, recall: 0.977941, fscore: 0.983970, macro-fscore: 0.857342, right: 798, predict: 806, standard: 816.
+Loss is: 0.039952.
+2023-08-22 15:32:28 : WARNING  test performance at epoch 7 is precision: 0.990074, recall: 0.977941, fscore: 0.983970, macro-fscore: 0.857342, right: 798, predict: 806, standard: 816.
+Loss is: 0.039952.
+2023-08-22 15:32:41 : WARNING  Train performance at epoch 8 is precision: 0.999233, recall: 0.988866, fscore: 0.994023, macro-fscore: 0.987542, right: 3908, predict: 3911, standard: 3952.
+Loss is: 0.018547.
+2023-08-22 15:32:45 : WARNING  Validate performance at epoch 8 is precision: 0.997478, recall: 0.969363, fscore: 0.983219, macro-fscore: 0.853623, right: 791, predict: 793, standard: 816.
+Loss is: 0.042083.
+2023-08-22 15:32:50 : WARNING  test performance at epoch 8 is precision: 0.997478, recall: 0.969363, fscore: 0.983219, macro-fscore: 0.853623, right: 791, predict: 793, standard: 816.
+Loss is: 0.042083.
+2023-08-22 15:33:03 : WARNING  Train performance at epoch 9 is precision: 0.999489, recall: 0.989119, fscore: 0.994277, macro-fscore: 0.988405, right: 3909, predict: 3911, standard: 3952.
+Loss is: 0.013925.
+2023-08-22 15:33:07 : WARNING  Validate performance at epoch 9 is precision: 0.990025, recall: 0.973039, fscore: 0.981459, macro-fscore: 0.852620, right: 794, predict: 802, standard: 816.
+Loss is: 0.041901.
+2023-08-22 15:33:12 : WARNING  test performance at epoch 9 is precision: 0.990025, recall: 0.973039, fscore: 0.981459, macro-fscore: 0.852620, right: 794, predict: 802, standard: 816.
+Loss is: 0.041901.
+2023-08-22 15:33:26 : WARNING  Train performance at epoch 10 is precision: 0.999489, recall: 0.989372, fscore: 0.994405, macro-fscore: 0.988314, right: 3910, predict: 3912, standard: 3952.
+Loss is: 0.011739.
+2023-08-22 15:33:31 : WARNING  Validate performance at epoch 10 is precision: 0.988750, recall: 0.969363, fscore: 0.978960, macro-fscore: 0.848330, right: 791, predict: 800, standard: 816.
+Loss is: 0.040929.
+2023-08-22 15:33:35 : WARNING  test performance at epoch 10 is precision: 0.988750, recall: 0.969363, fscore: 0.978960, macro-fscore: 0.848330, right: 791, predict: 800, standard: 816.
+Loss is: 0.040929.
+2023-08-22 15:33:48 : WARNING  Train performance at epoch 11 is precision: 1.000000, recall: 0.989372, fscore: 0.994658, macro-fscore: 0.990418, right: 3910, predict: 3910, standard: 3952.
+Loss is: 0.011715.
+2023-08-22 15:33:52 : WARNING  Validate performance at epoch 11 is precision: 0.988792, recall: 0.973039, fscore: 0.980852, macro-fscore: 0.851968, right: 794, predict: 803, standard: 816.
+Loss is: 0.042807.
+2023-08-22 15:33:56 : WARNING  test performance at epoch 11 is precision: 0.988792, recall: 0.973039, fscore: 0.980852, macro-fscore: 0.851968, right: 794, predict: 803, standard: 816.
+Loss is: 0.042807.
+2023-08-22 15:34:08 : WARNING  Train performance at epoch 12 is precision: 1.000000, recall: 0.989626, fscore: 0.994786, macro-fscore: 0.989306, right: 3911, predict: 3911, standard: 3952.
+Loss is: 0.009956.
+2023-08-22 15:34:12 : WARNING  Validate performance at epoch 12 is precision: 0.987531, recall: 0.970588, fscore: 0.978986, macro-fscore: 0.849082, right: 792, predict: 802, standard: 816.
+Loss is: 0.041203.
+2023-08-22 15:34:16 : WARNING  test performance at epoch 12 is precision: 0.987531, recall: 0.970588, fscore: 0.978986, macro-fscore: 0.849082, right: 792, predict: 802, standard: 816.
+Loss is: 0.041203.
+2023-08-22 15:34:29 : WARNING  Train performance at epoch 13 is precision: 0.999744, recall: 0.989372, fscore: 0.994531, macro-fscore: 0.989424, right: 3910, predict: 3911, standard: 3952.
+Loss is: 0.008832.
+2023-08-22 15:34:33 : WARNING  Validate performance at epoch 13 is precision: 0.987593, recall: 0.975490, fscore: 0.981504, macro-fscore: 0.853241, right: 796, predict: 806, standard: 816.
+Loss is: 0.040226.
+2023-08-22 15:34:37 : WARNING  test performance at epoch 13 is precision: 0.987593, recall: 0.975490, fscore: 0.981504, macro-fscore: 0.853241, right: 796, predict: 806, standard: 816.
+Loss is: 0.040226.
+2023-08-22 15:34:50 : WARNING  Train performance at epoch 14 is precision: 0.999744, recall: 0.989372, fscore: 0.994531, macro-fscore: 0.988836, right: 3910, predict: 3911, standard: 3952.
+Loss is: 0.008105.
+2023-08-22 15:34:54 : WARNING  Validate performance at epoch 14 is precision: 0.986284, recall: 0.969363, fscore: 0.977750, macro-fscore: 0.847171, right: 791, predict: 802, standard: 816.
+Loss is: 0.041716.
+2023-08-22 15:34:58 : WARNING  test performance at epoch 14 is precision: 0.986284, recall: 0.969363, fscore: 0.977750, macro-fscore: 0.847171, right: 791, predict: 802, standard: 816.
+Loss is: 0.041716.
+2023-08-22 15:35:10 : WARNING  Train performance at epoch 15 is precision: 0.999744, recall: 0.989119, fscore: 0.994403, macro-fscore: 0.988338, right: 3909, predict: 3910, standard: 3952.
+Loss is: 0.007662.
+2023-08-22 15:35:14 : WARNING  Validate performance at epoch 15 is precision: 0.988764, recall: 0.970588, fscore: 0.979592, macro-fscore: 0.849702, right: 792, predict: 801, standard: 816.
+Loss is: 0.038823.
+2023-08-22 15:35:18 : WARNING  test performance at epoch 15 is precision: 0.988764, recall: 0.970588, fscore: 0.979592, macro-fscore: 0.849702, right: 792, predict: 801, standard: 816.
+Loss is: 0.038823.
+2023-08-22 15:35:31 : WARNING  Train performance at epoch 16 is precision: 0.999744, recall: 0.989879, fscore: 0.994787, macro-fscore: 0.990477, right: 3912, predict: 3913, standard: 3952.
+Loss is: 0.007725.
+2023-08-22 15:35:35 : WARNING  Validate performance at epoch 16 is precision: 0.987593, recall: 0.975490, fscore: 0.981504, macro-fscore: 0.853241, right: 796, predict: 806, standard: 816.
+Loss is: 0.040937.
+2023-08-22 15:35:39 : WARNING  test performance at epoch 16 is precision: 0.987593, recall: 0.975490, fscore: 0.981504, macro-fscore: 0.853241, right: 796, predict: 806, standard: 816.
+Loss is: 0.040937.
+2023-08-22 15:35:51 : WARNING  Train performance at epoch 17 is precision: 0.999744, recall: 0.989879, fscore: 0.994787, macro-fscore: 0.989499, right: 3912, predict: 3913, standard: 3952.
+Loss is: 0.007268.
+2023-08-22 15:35:56 : WARNING  Validate performance at epoch 17 is precision: 0.985037, recall: 0.968137, fscore: 0.976514, macro-fscore: 0.846483, right: 790, predict: 802, standard: 816.
+Loss is: 0.043383.
+2023-08-22 15:36:00 : WARNING  test performance at epoch 17 is precision: 0.985037, recall: 0.968137, fscore: 0.976514, macro-fscore: 0.846483, right: 790, predict: 802, standard: 816.
+Loss is: 0.043383.
+2023-08-22 15:36:12 : WARNING  Train performance at epoch 18 is precision: 0.999744, recall: 0.989879, fscore: 0.994787, macro-fscore: 0.989694, right: 3912, predict: 3913, standard: 3952.
+Loss is: 0.006647.
+2023-08-22 15:36:16 : WARNING  Validate performance at epoch 18 is precision: 0.987547, recall: 0.971814, fscore: 0.979617, macro-fscore: 0.849624, right: 793, predict: 803, standard: 816.
+Loss is: 0.041119.
+2023-08-22 15:36:20 : WARNING  test performance at epoch 18 is precision: 0.987547, recall: 0.971814, fscore: 0.979617, macro-fscore: 0.849624, right: 793, predict: 803, standard: 816.
+Loss is: 0.041119.
+2023-08-22 15:36:33 : WARNING  Train performance at epoch 19 is precision: 1.000000, recall: 0.989879, fscore: 0.994914, macro-fscore: 0.989245, right: 3912, predict: 3912, standard: 3952.
+Loss is: 0.007374.
+2023-08-22 15:36:37 : WARNING  Validate performance at epoch 19 is precision: 0.986267, recall: 0.968137, fscore: 0.977118, macro-fscore: 0.846554, right: 790, predict: 801, standard: 816.
+Loss is: 0.042423.
+2023-08-22 15:36:41 : WARNING  test performance at epoch 19 is precision: 0.986267, recall: 0.968137, fscore: 0.977118, macro-fscore: 0.846554, right: 790, predict: 801, standard: 816.
+Loss is: 0.042423.
+2023-08-22 15:36:45 : WARNING  Best test performance at epoch 4 is precision: 0.987654, recall: 0.980392, fscore: 0.984010, macro-fscore: 0.859685, right: 800, predict: 810, standard: 816.
+Loss is: 0.048678.
+2023-08-22 15:50:30 : WARNING  Performance is precision: 0.987654, recall: 0.980392, fscore: 0.984010, right: 800, predict: 810, standard: 816.
+2024-03-07 15:57:41 : WARNING  Performance is precision: 0.998217, recall: 0.991150, fscore: 0.994671, right: 1120, predict: 1122, standard: 1130.
+2024-03-07 15:58:45 : WARNING  Performance is precision: 1.000000, recall: 0.990121, fscore: 0.995036, right: 3608, predict: 3608, standard: 3644.
+2024-03-08 08:13:44 : WARNING  Performance is precision: 0.998224, recall: 0.994690, fscore: 0.996454, right: 1124, predict: 1126, standard: 1130.
+2024-03-29 09:56:02 : WARNING  Load doc_token embedding from ../embedding.txt
+2024-03-29 09:56:04 : WARNING  Total dict size of doc_token is 617
+2024-03-29 09:56:04 : WARNING  Size of pretrained doc_token embedding is 614
+2024-03-29 09:56:04 : WARNING  Size of randomly initialize doc_token embedding is 3
+2024-03-29 09:56:26 : WARNING  Train performance at epoch 0 is precision: 0.771495, recall: 0.691663, fscore: 0.729401, macro-fscore: 0.484473, right: 1651, predict: 2140, standard: 2387.
+Loss is: 0.390002.
+2024-03-29 09:56:36 : WARNING  Validate performance at epoch 0 is precision: 0.750916, recall: 0.687055, fscore: 0.717567, macro-fscore: 0.474931, right: 1640, predict: 2184, standard: 2387.
+Loss is: 0.385090.
+2024-03-29 09:56:46 : WARNING  test performance at epoch 0 is precision: 0.750916, recall: 0.687055, fscore: 0.717567, macro-fscore: 0.474931, right: 1640, predict: 2184, standard: 2387.
+Loss is: 0.385090.
+2024-03-29 09:57:09 : WARNING  Train performance at epoch 1 is precision: 0.982672, recall: 0.902807, fscore: 0.941048, macro-fscore: 0.785411, right: 2155, predict: 2193, standard: 2387.
+Loss is: 0.121961.
+2024-03-29 09:57:17 : WARNING  Validate performance at epoch 1 is precision: 0.977697, recall: 0.899874, fscore: 0.937173, macro-fscore: 0.782366, right: 2148, predict: 2197, standard: 2387.
+Loss is: 0.124519.
+2024-03-29 09:57:28 : WARNING  test performance at epoch 1 is precision: 0.977697, recall: 0.899874, fscore: 0.937173, macro-fscore: 0.782366, right: 2148, predict: 2197, standard: 2387.
+Loss is: 0.124519.
+2024-03-29 09:57:51 : WARNING  Train performance at epoch 2 is precision: 0.990271, recall: 0.980729, fscore: 0.985477, macro-fscore: 0.855775, right: 2341, predict: 2364, standard: 2387.
+Loss is: 0.065655.
+2024-03-29 09:58:03 : WARNING  Validate performance at epoch 2 is precision: 0.988860, recall: 0.966904, fscore: 0.977759, macro-fscore: 0.850493, right: 2308, predict: 2334, standard: 2387.
+Loss is: 0.073970.
+2024-03-29 09:58:13 : WARNING  test performance at epoch 2 is precision: 0.988860, recall: 0.966904, fscore: 0.977759, macro-fscore: 0.850493, right: 2308, predict: 2334, standard: 2387.
+Loss is: 0.073970.
+2024-03-29 09:58:33 : WARNING  Train performance at epoch 3 is precision: 0.992047, recall: 0.992878, fscore: 0.992462, macro-fscore: 0.869036, right: 2370, predict: 2389, standard: 2387.
+Loss is: 0.045570.
+2024-03-29 09:58:44 : WARNING  Validate performance at epoch 3 is precision: 0.986088, recall: 0.979891, fscore: 0.982980, macro-fscore: 0.860703, right: 2339, predict: 2372, standard: 2387.
+Loss is: 0.056436.
+2024-03-29 09:58:57 : WARNING  test performance at epoch 3 is precision: 0.986088, recall: 0.979891, fscore: 0.982980, macro-fscore: 0.860703, right: 2339, predict: 2372, standard: 2387.
+Loss is: 0.056436.
+2024-03-29 09:59:24 : WARNING  Train performance at epoch 4 is precision: 0.991243, recall: 0.995811, fscore: 0.993521, macro-fscore: 0.941957, right: 2377, predict: 2398, standard: 2387.
+Loss is: 0.042999.
+2024-03-29 09:59:36 : WARNING  Validate performance at epoch 4 is precision: 0.984545, recall: 0.987432, fscore: 0.985986, macro-fscore: 0.863044, right: 2357, predict: 2394, standard: 2387.
+Loss is: 0.057322.
+2024-03-29 09:59:48 : WARNING  test performance at epoch 4 is precision: 0.984545, recall: 0.987432, fscore: 0.985986, macro-fscore: 0.863044, right: 2357, predict: 2394, standard: 2387.
+Loss is: 0.057322.
+2024-03-29 10:00:14 : WARNING  Train performance at epoch 5 is precision: 0.996231, recall: 0.996649, fscore: 0.996440, macro-fscore: 0.872128, right: 2379, predict: 2388, standard: 2387.
+Loss is: 0.035985.
+2024-03-29 10:00:24 : WARNING  Validate performance at epoch 5 is precision: 0.988215, recall: 0.983661, fscore: 0.985933, macro-fscore: 0.862805, right: 2348, predict: 2376, standard: 2387.
+Loss is: 0.052270.
+2024-03-29 10:00:35 : WARNING  test performance at epoch 5 is precision: 0.988215, recall: 0.983661, fscore: 0.985933, macro-fscore: 0.862805, right: 2348, predict: 2376, standard: 2387.
+Loss is: 0.052270.
+2024-03-29 10:01:04 : WARNING  Train performance at epoch 6 is precision: 0.997069, recall: 0.997486, fscore: 0.997277, macro-fscore: 0.945120, right: 2381, predict: 2388, standard: 2387.
+Loss is: 0.030552.
+2024-03-29 10:01:16 : WARNING  Validate performance at epoch 6 is precision: 0.988612, recall: 0.981986, fscore: 0.985288, macro-fscore: 0.863131, right: 2344, predict: 2371, standard: 2387.
+Loss is: 0.045600.
+2024-03-29 10:01:28 : WARNING  test performance at epoch 6 is precision: 0.988612, recall: 0.981986, fscore: 0.985288, macro-fscore: 0.863131, right: 2344, predict: 2371, standard: 2387.
+Loss is: 0.045600.
+2024-03-29 10:01:53 : WARNING  Train performance at epoch 7 is precision: 0.999161, recall: 0.997486, fscore: 0.998323, macro-fscore: 0.959522, right: 2381, predict: 2383, standard: 2387.
+Loss is: 0.024282.
+2024-03-29 10:02:04 : WARNING  Validate performance at epoch 7 is precision: 0.990254, recall: 0.979053, fscore: 0.984622, macro-fscore: 0.933893, right: 2337, predict: 2360, standard: 2387.
+Loss is: 0.041467.
+2024-03-29 10:02:14 : WARNING  test performance at epoch 7 is precision: 0.990254, recall: 0.979053, fscore: 0.984622, macro-fscore: 0.933893, right: 2337, predict: 2360, standard: 2387.
+Loss is: 0.041467.
+2024-03-29 10:02:40 : WARNING  Train performance at epoch 8 is precision: 0.999161, recall: 0.998324, fscore: 0.998743, macro-fscore: 0.959940, right: 2383, predict: 2385, standard: 2387.
+Loss is: 0.020527.
+2024-03-29 10:02:50 : WARNING  Validate performance at epoch 8 is precision: 0.989483, recall: 0.985337, fscore: 0.987406, macro-fscore: 0.936447, right: 2352, predict: 2377, standard: 2387.
+Loss is: 0.035559.
+2024-03-29 10:03:01 : WARNING  test performance at epoch 8 is precision: 0.989483, recall: 0.985337, fscore: 0.987406, macro-fscore: 0.936447, right: 2352, predict: 2377, standard: 2387.
+Loss is: 0.035559.
+2024-03-29 10:03:31 : WARNING  Train performance at epoch 9 is precision: 0.999162, recall: 0.998743, fscore: 0.998952, macro-fscore: 0.973256, right: 2384, predict: 2386, standard: 2387.
+Loss is: 0.018156.
+2024-03-29 10:03:43 : WARNING  Validate performance at epoch 9 is precision: 0.989882, recall: 0.983661, fscore: 0.986762, macro-fscore: 0.948901, right: 2348, predict: 2372, standard: 2387.
+Loss is: 0.039397.
+2024-03-29 10:03:55 : WARNING  test performance at epoch 9 is precision: 0.989882, recall: 0.983661, fscore: 0.986762, macro-fscore: 0.948901, right: 2348, predict: 2372, standard: 2387.
+Loss is: 0.039397.
+2024-03-29 10:04:28 : WARNING  Train performance at epoch 10 is precision: 0.999581, recall: 0.999162, fscore: 0.999371, macro-fscore: 0.998888, right: 2385, predict: 2386, standard: 2387.
+Loss is: 0.015340.
+2024-03-29 10:04:39 : WARNING  Validate performance at epoch 10 is precision: 0.989443, recall: 0.981567, fscore: 0.985489, macro-fscore: 0.947920, right: 2343, predict: 2368, standard: 2387.
+Loss is: 0.036689.
+2024-03-29 10:04:50 : WARNING  test performance at epoch 10 is precision: 0.989443, recall: 0.981567, fscore: 0.985489, macro-fscore: 0.947920, right: 2343, predict: 2368, standard: 2387.
+Loss is: 0.036689.
+2024-03-29 10:05:18 : WARNING  Train performance at epoch 11 is precision: 0.999162, recall: 0.999581, fscore: 0.999372, macro-fscore: 0.998889, right: 2386, predict: 2388, standard: 2387.
+Loss is: 0.013296.
+2024-03-29 10:05:30 : WARNING  Validate performance at epoch 11 is precision: 0.989886, recall: 0.984080, fscore: 0.986975, macro-fscore: 0.935922, right: 2349, predict: 2373, standard: 2387.
+Loss is: 0.033546.
+2024-03-29 10:05:40 : WARNING  test performance at epoch 11 is precision: 0.989886, recall: 0.984080, fscore: 0.986975, macro-fscore: 0.935922, right: 2349, predict: 2373, standard: 2387.
+Loss is: 0.033546.
+2024-03-29 10:06:05 : WARNING  Train performance at epoch 12 is precision: 0.999163, recall: 1.000000, fscore: 0.999581, macro-fscore: 0.999362, right: 2387, predict: 2389, standard: 2387.
+Loss is: 0.012386.
+2024-03-29 10:06:13 : WARNING  Validate performance at epoch 12 is precision: 0.989447, recall: 0.981986, fscore: 0.985702, macro-fscore: 0.947406, right: 2344, predict: 2369, standard: 2387.
+Loss is: 0.032034.
+2024-03-29 10:06:20 : WARNING  test performance at epoch 12 is precision: 0.989447, recall: 0.981986, fscore: 0.985702, macro-fscore: 0.947406, right: 2344, predict: 2369, standard: 2387.
+Loss is: 0.032034.
+2024-03-29 10:06:40 : WARNING  Train performance at epoch 13 is precision: 0.999581, recall: 0.999581, fscore: 0.999581, macro-fscore: 0.999359, right: 2386, predict: 2387, standard: 2387.
+Loss is: 0.011977.
+2024-03-29 10:06:47 : WARNING  Validate performance at epoch 13 is precision: 0.991128, recall: 0.982824, fscore: 0.986958, macro-fscore: 0.949183, right: 2346, predict: 2367, standard: 2387.
+Loss is: 0.030840.
+2024-03-29 10:06:55 : WARNING  test performance at epoch 13 is precision: 0.991128, recall: 0.982824, fscore: 0.986958, macro-fscore: 0.949183, right: 2346, predict: 2367, standard: 2387.
+Loss is: 0.030840.
+2024-03-29 10:07:16 : WARNING  Train performance at epoch 14 is precision: 0.999581, recall: 0.999581, fscore: 0.999581, macro-fscore: 0.999359, right: 2386, predict: 2387, standard: 2387.
+Loss is: 0.010740.
+2024-03-29 10:07:24 : WARNING  Validate performance at epoch 14 is precision: 0.990725, recall: 0.984499, fscore: 0.987602, macro-fscore: 0.949723, right: 2350, predict: 2372, standard: 2387.
+Loss is: 0.029346.
+2024-03-29 10:07:32 : WARNING  test performance at epoch 14 is precision: 0.990725, recall: 0.984499, fscore: 0.987602, macro-fscore: 0.949723, right: 2350, predict: 2372, standard: 2387.
+Loss is: 0.029346.
+2024-03-29 10:07:51 : WARNING  Train performance at epoch 15 is precision: 1.000000, recall: 1.000000, fscore: 1.000000, macro-fscore: 1.000000, right: 2387, predict: 2387, standard: 2387.
+Loss is: 0.010481.
+2024-03-29 10:07:58 : WARNING  Validate performance at epoch 15 is precision: 0.990737, recall: 0.985756, fscore: 0.988240, macro-fscore: 0.963383, right: 2353, predict: 2375, standard: 2387.
+Loss is: 0.030748.
+2024-03-29 10:08:05 : WARNING  test performance at epoch 15 is precision: 0.990737, recall: 0.985756, fscore: 0.988240, macro-fscore: 0.963383, right: 2353, predict: 2375, standard: 2387.
+Loss is: 0.030748.
+2024-03-29 10:08:22 : WARNING  Train performance at epoch 16 is precision: 1.000000, recall: 0.999581, fscore: 0.999790, macro-fscore: 0.999530, right: 2386, predict: 2386, standard: 2387.
+Loss is: 0.009929.
+2024-03-29 10:08:29 : WARNING  Validate performance at epoch 16 is precision: 0.991586, recall: 0.987432, fscore: 0.989505, macro-fscore: 0.965000, right: 2357, predict: 2377, standard: 2387.
+Loss is: 0.029194.
+2024-03-29 10:08:35 : WARNING  test performance at epoch 16 is precision: 0.991586, recall: 0.987432, fscore: 0.989505, macro-fscore: 0.965000, right: 2357, predict: 2377, standard: 2387.
+Loss is: 0.029194.
+2024-03-29 10:08:53 : WARNING  Train performance at epoch 17 is precision: 1.000000, recall: 0.999581, fscore: 0.999790, macro-fscore: 0.999530, right: 2386, predict: 2386, standard: 2387.
+Loss is: 0.009343.
+2024-03-29 10:09:00 : WARNING  Validate performance at epoch 17 is precision: 0.992418, recall: 0.987013, fscore: 0.989708, macro-fscore: 0.965008, right: 2356, predict: 2374, standard: 2387.
+Loss is: 0.028683.
+2024-03-29 10:09:06 : WARNING  test performance at epoch 17 is precision: 0.992418, recall: 0.987013, fscore: 0.989708, macro-fscore: 0.965008, right: 2356, predict: 2374, standard: 2387.
+Loss is: 0.028683.
+2024-03-29 10:09:24 : WARNING  Train performance at epoch 18 is precision: 1.000000, recall: 1.000000, fscore: 1.000000, macro-fscore: 1.000000, right: 2387, predict: 2387, standard: 2387.
+Loss is: 0.008929.
+2024-03-29 10:09:31 : WARNING  Validate performance at epoch 18 is precision: 0.991165, recall: 0.987013, fscore: 0.989085, macro-fscore: 0.963667, right: 2356, predict: 2377, standard: 2387.
+Loss is: 0.027700.
+2024-03-29 10:09:38 : WARNING  test performance at epoch 18 is precision: 0.991165, recall: 0.987013, fscore: 0.989085, macro-fscore: 0.963667, right: 2356, predict: 2377, standard: 2387.
+Loss is: 0.027700.
+2024-03-29 10:09:57 : WARNING  Train performance at epoch 19 is precision: 1.000000, recall: 1.000000, fscore: 1.000000, macro-fscore: 1.000000, right: 2387, predict: 2387, standard: 2387.
+Loss is: 0.008224.
+2024-03-29 10:10:03 : WARNING  Validate performance at epoch 19 is precision: 0.990764, recall: 0.988689, fscore: 0.989725, macro-fscore: 0.964181, right: 2360, predict: 2382, standard: 2387.
+Loss is: 0.026077.
+2024-03-29 10:10:11 : WARNING  test performance at epoch 19 is precision: 0.990764, recall: 0.988689, fscore: 0.989725, macro-fscore: 0.964181, right: 2360, predict: 2382, standard: 2387.
+Loss is: 0.026077.
+2024-03-29 10:10:18 : WARNING  Best test performance at epoch 19 is precision: 0.990764, recall: 0.988689, fscore: 0.989725, macro-fscore: 0.964181, right: 2360, predict: 2382, standard: 2387.
+Loss is: 0.026077.
+2024-04-06 13:31:34 : WARNING  Load doc_token embedding from ../embedding.txt
+2024-04-06 13:31:36 : WARNING  Total dict size of doc_token is 617
+2024-04-06 13:31:36 : WARNING  Size of pretrained doc_token embedding is 614
+2024-04-06 13:31:36 : WARNING  Size of randomly initialize doc_token embedding is 3
+2024-04-06 13:31:57 : WARNING  Train performance at epoch 0 is precision: 0.823983, recall: 0.939078, fscore: 0.877774, macro-fscore: 0.715947, right: 3422, predict: 4153, standard: 3644.
+Loss is: 0.325725.
+2024-04-06 13:32:02 : WARNING  Validate performance at epoch 0 is precision: 0.797357, recall: 0.961062, fscore: 0.871589, macro-fscore: 0.706408, right: 1086, predict: 1362, standard: 1130.
+Loss is: 0.330125.
+2024-04-06 13:32:07 : WARNING  test performance at epoch 0 is precision: 0.797357, recall: 0.961062, fscore: 0.871589, macro-fscore: 0.706408, right: 1086, predict: 1362, standard: 1130.
+Loss is: 0.330125.
+2024-04-06 13:32:27 : WARNING  Train performance at epoch 1 is precision: 0.942556, recall: 0.981614, fscore: 0.961688, macro-fscore: 0.833507, right: 3577, predict: 3795, standard: 3644.
+Loss is: 0.081823.
+2024-04-06 13:32:30 : WARNING  Validate performance at epoch 1 is precision: 0.908714, recall: 0.969027, fscore: 0.937901, macro-fscore: 0.810727, right: 1095, predict: 1205, standard: 1130.
+Loss is: 0.105002.
+2024-04-06 13:32:35 : WARNING  test performance at epoch 1 is precision: 0.908714, recall: 0.969027, fscore: 0.937901, macro-fscore: 0.810727, right: 1095, predict: 1205, standard: 1130.
+Loss is: 0.105002.
+2024-04-06 13:32:53 : WARNING  Train performance at epoch 2 is precision: 0.988462, recall: 0.987377, fscore: 0.987919, macro-fscore: 0.865187, right: 3598, predict: 3640, standard: 3644.
+Loss is: 0.066771.
+2024-04-06 13:32:57 : WARNING  Validate performance at epoch 2 is precision: 0.953468, recall: 0.961062, fscore: 0.957250, macro-fscore: 0.827478, right: 1086, predict: 1139, standard: 1130.
+Loss is: 0.102890.
+2024-04-06 13:33:01 : WARNING  test performance at epoch 2 is precision: 0.953468, recall: 0.961062, fscore: 0.957250, macro-fscore: 0.827478, right: 1086, predict: 1139, standard: 1130.
+Loss is: 0.102890.
+2024-04-06 13:33:22 : WARNING  Train performance at epoch 3 is precision: 0.989578, recall: 0.990121, fscore: 0.989849, macro-fscore: 0.866566, right: 3608, predict: 3646, standard: 3644.
+Loss is: 0.051712.
+2024-04-06 13:33:30 : WARNING  Validate performance at epoch 3 is precision: 0.963383, recall: 0.977876, fscore: 0.970575, macro-fscore: 0.839933, right: 1105, predict: 1147, standard: 1130.
+Loss is: 0.084622.
+2024-04-06 13:33:35 : WARNING  test performance at epoch 3 is precision: 0.963383, recall: 0.977876, fscore: 0.970575, macro-fscore: 0.839933, right: 1105, predict: 1147, standard: 1130.
+Loss is: 0.084622.
+2024-04-06 13:33:56 : WARNING  Train performance at epoch 4 is precision: 0.992607, recall: 0.994786, fscore: 0.993695, macro-fscore: 0.955464, right: 3625, predict: 3652, standard: 3644.
+Loss is: 0.036409.
+2024-04-06 13:33:59 : WARNING  Validate performance at epoch 4 is precision: 0.969592, recall: 0.987611, fscore: 0.978518, macro-fscore: 0.852740, right: 1116, predict: 1151, standard: 1130.
+Loss is: 0.067744.
+2024-04-06 13:34:03 : WARNING  test performance at epoch 4 is precision: 0.969592, recall: 0.987611, fscore: 0.978518, macro-fscore: 0.852740, right: 1116, predict: 1151, standard: 1130.
+Loss is: 0.067744.
+2024-04-06 13:34:18 : WARNING  Train performance at epoch 5 is precision: 0.995612, recall: 0.996158, fscore: 0.995885, macro-fscore: 0.983316, right: 3630, predict: 3646, standard: 3644.
+Loss is: 0.028179.
+2024-04-06 13:34:22 : WARNING  Validate performance at epoch 5 is precision: 0.967601, recall: 0.977876, fscore: 0.972711, macro-fscore: 0.844672, right: 1105, predict: 1142, standard: 1130.
+Loss is: 0.064961.
+2024-04-06 13:34:25 : WARNING  test performance at epoch 5 is precision: 0.967601, recall: 0.977876, fscore: 0.972711, macro-fscore: 0.844672, right: 1105, predict: 1142, standard: 1130.
+Loss is: 0.064961.
+2024-04-06 13:34:44 : WARNING  Train performance at epoch 6 is precision: 0.999174, recall: 0.995884, fscore: 0.997526, macro-fscore: 0.984721, right: 3629, predict: 3632, standard: 3644.
+Loss is: 0.026150.
+2024-04-06 13:34:50 : WARNING  Validate performance at epoch 6 is precision: 0.975567, recall: 0.989381, fscore: 0.982425, macro-fscore: 0.859341, right: 1118, predict: 1146, standard: 1130.
+Loss is: 0.052039.
+2024-04-06 13:34:55 : WARNING  test performance at epoch 6 is precision: 0.975567, recall: 0.989381, fscore: 0.982425, macro-fscore: 0.859341, right: 1118, predict: 1146, standard: 1130.
+Loss is: 0.052039.
+2024-04-06 13:35:12 : WARNING  Train performance at epoch 7 is precision: 0.997799, recall: 0.995335, fscore: 0.996565, macro-fscore: 0.958577, right: 3627, predict: 3635, standard: 3644.
+Loss is: 0.019760.
+2024-04-06 13:35:16 : WARNING  Validate performance at epoch 7 is precision: 0.976357, recall: 0.986726, fscore: 0.981514, macro-fscore: 0.857798, right: 1115, predict: 1142, standard: 1130.
+Loss is: 0.047509.
+2024-04-06 13:35:21 : WARNING  test performance at epoch 7 is precision: 0.976357, recall: 0.986726, fscore: 0.981514, macro-fscore: 0.857798, right: 1115, predict: 1142, standard: 1130.
+Loss is: 0.047509.
+2024-04-06 13:35:43 : WARNING  Train performance at epoch 8 is precision: 0.998901, recall: 0.998079, fscore: 0.998490, macro-fscore: 0.979339, right: 3637, predict: 3641, standard: 3644.
+Loss is: 0.018682.
+2024-04-06 13:35:49 : WARNING  Validate performance at epoch 8 is precision: 0.969565, recall: 0.986726, fscore: 0.978070, macro-fscore: 0.854493, right: 1115, predict: 1150, standard: 1130.
+Loss is: 0.051309.
+2024-04-06 13:35:53 : WARNING  test performance at epoch 8 is precision: 0.969565, recall: 0.986726, fscore: 0.978070, macro-fscore: 0.854493, right: 1115, predict: 1150, standard: 1130.
+Loss is: 0.051309.
+2024-04-06 13:36:07 : WARNING  Train performance at epoch 9 is precision: 0.999176, recall: 0.998353, fscore: 0.998765, macro-fscore: 0.998442, right: 3638, predict: 3641, standard: 3644.
+Loss is: 0.021075.
+2024-04-06 13:36:11 : WARNING  Validate performance at epoch 9 is precision: 0.972973, recall: 0.987611, fscore: 0.980237, macro-fscore: 0.857971, right: 1116, predict: 1147, standard: 1130.
+Loss is: 0.052926.
+2024-04-06 13:36:14 : WARNING  test performance at epoch 9 is precision: 0.972973, recall: 0.987611, fscore: 0.980237, macro-fscore: 0.857971, right: 1116, predict: 1147, standard: 1130.
+Loss is: 0.052926.
+2024-04-06 13:36:31 : WARNING  Train performance at epoch 10 is precision: 1.000000, recall: 0.999451, fscore: 0.999726, macro-fscore: 0.999416, right: 3642, predict: 3642, standard: 3644.
+Loss is: 0.017568.
+2024-04-06 13:36:34 : WARNING  Validate performance at epoch 10 is precision: 0.974672, recall: 0.987611, fscore: 0.981099, macro-fscore: 0.858274, right: 1116, predict: 1145, standard: 1130.
+Loss is: 0.049441.
+2024-04-06 13:36:38 : WARNING  test performance at epoch 10 is precision: 0.974672, recall: 0.987611, fscore: 0.981099, macro-fscore: 0.858274, right: 1116, predict: 1145, standard: 1130.
+Loss is: 0.049441.
+2024-04-06 13:36:58 : WARNING  Train performance at epoch 11 is precision: 0.999726, recall: 0.999451, fscore: 0.999588, macro-fscore: 0.999277, right: 3642, predict: 3643, standard: 3644.
+Loss is: 0.013620.
+2024-04-06 13:37:02 : WARNING  Validate performance at epoch 11 is precision: 0.973890, recall: 0.990265, fscore: 0.982010, macro-fscore: 0.859561, right: 1119, predict: 1149, standard: 1130.
+Loss is: 0.041734.
+2024-04-06 13:37:06 : WARNING  test performance at epoch 11 is precision: 0.973890, recall: 0.990265, fscore: 0.982010, macro-fscore: 0.859561, right: 1119, predict: 1149, standard: 1130.
+Loss is: 0.041734.
+2024-04-06 13:37:27 : WARNING  Train performance at epoch 12 is precision: 0.999726, recall: 0.999726, fscore: 0.999726, macro-fscore: 0.999416, right: 3643, predict: 3644, standard: 3644.
+Loss is: 0.012792.
+2024-04-06 13:37:31 : WARNING  Validate performance at epoch 12 is precision: 0.973868, recall: 0.989381, fscore: 0.981563, macro-fscore: 0.857795, right: 1118, predict: 1148, standard: 1130.
+Loss is: 0.042545.
+2024-04-06 13:37:37 : WARNING  test performance at epoch 12 is precision: 0.973868, recall: 0.989381, fscore: 0.981563, macro-fscore: 0.857795, right: 1118, predict: 1148, standard: 1130.
+Loss is: 0.042545.
+2024-04-06 13:37:52 : WARNING  Train performance at epoch 13 is precision: 1.000000, recall: 0.999726, fscore: 0.999863, macro-fscore: 0.999708, right: 3643, predict: 3643, standard: 3644.
+Loss is: 0.010194.
+2024-04-06 13:37:56 : WARNING  Validate performance at epoch 13 is precision: 0.978984, recall: 0.989381, fscore: 0.984155, macro-fscore: 0.860767, right: 1118, predict: 1142, standard: 1130.
+Loss is: 0.037411.
+2024-04-06 13:37:59 : WARNING  test performance at epoch 13 is precision: 0.978984, recall: 0.989381, fscore: 0.984155, macro-fscore: 0.860767, right: 1118, predict: 1142, standard: 1130.
+Loss is: 0.037411.
+2024-04-06 13:38:14 : WARNING  Train performance at epoch 14 is precision: 1.000000, recall: 1.000000, fscore: 1.000000, macro-fscore: 1.000000, right: 3644, predict: 3644, standard: 3644.
+Loss is: 0.009535.
+2024-04-06 13:38:18 : WARNING  Validate performance at epoch 14 is precision: 0.979021, recall: 0.991150, fscore: 0.985048, macro-fscore: 0.861916, right: 1120, predict: 1144, standard: 1130.
+Loss is: 0.035609.
+2024-04-06 13:38:21 : WARNING  test performance at epoch 14 is precision: 0.979021, recall: 0.991150, fscore: 0.985048, macro-fscore: 0.861916, right: 1120, predict: 1144, standard: 1130.
+Loss is: 0.035609.
+2024-04-06 13:38:35 : WARNING  Train performance at epoch 15 is precision: 0.998630, recall: 1.000000, fscore: 0.999314, macro-fscore: 0.998809, right: 3644, predict: 3649, standard: 3644.
+Loss is: 0.010781.
+2024-04-06 13:38:39 : WARNING  Validate performance at epoch 15 is precision: 0.977312, recall: 0.991150, fscore: 0.984183, macro-fscore: 0.860364, right: 1120, predict: 1146, standard: 1130.
+Loss is: 0.040938.
+2024-04-06 13:38:42 : WARNING  test performance at epoch 15 is precision: 0.977312, recall: 0.991150, fscore: 0.984183, macro-fscore: 0.860364, right: 1120, predict: 1146, standard: 1130.
+Loss is: 0.040938.
+2024-04-06 13:38:56 : WARNING  Train performance at epoch 16 is precision: 1.000000, recall: 0.999451, fscore: 0.999726, macro-fscore: 0.999595, right: 3642, predict: 3642, standard: 3644.
+Loss is: 0.010967.
+2024-04-06 13:38:59 : WARNING  Validate performance at epoch 16 is precision: 0.989352, recall: 0.986726, fscore: 0.988037, macro-fscore: 0.864331, right: 1115, predict: 1127, standard: 1130.
+Loss is: 0.037688.
+2024-04-06 13:39:02 : WARNING  test performance at epoch 16 is precision: 0.989352, recall: 0.986726, fscore: 0.988037, macro-fscore: 0.864331, right: 1115, predict: 1127, standard: 1130.
+Loss is: 0.037688.
+2024-04-06 13:39:17 : WARNING  Train performance at epoch 17 is precision: 1.000000, recall: 0.999726, fscore: 0.999863, macro-fscore: 0.999888, right: 3643, predict: 3643, standard: 3644.
+Loss is: 0.009527.
+2024-04-06 13:39:21 : WARNING  Validate performance at epoch 17 is precision: 0.989418, recall: 0.992920, fscore: 0.991166, macro-fscore: 0.867501, right: 1122, predict: 1134, standard: 1130.
+Loss is: 0.032969.
+2024-04-06 13:39:24 : WARNING  test performance at epoch 17 is precision: 0.989418, recall: 0.992920, fscore: 0.991166, macro-fscore: 0.867501, right: 1122, predict: 1134, standard: 1130.
+Loss is: 0.032969.
+2024-04-06 13:39:39 : WARNING  Train performance at epoch 18 is precision: 1.000000, recall: 0.999177, fscore: 0.999588, macro-fscore: 0.999123, right: 3641, predict: 3641, standard: 3644.
+Loss is: 0.009081.
+2024-04-06 13:39:42 : WARNING  Validate performance at epoch 18 is precision: 0.986842, recall: 0.995575, fscore: 0.991189, macro-fscore: 0.868152, right: 1125, predict: 1140, standard: 1130.
+Loss is: 0.031803.
+2024-04-06 13:39:46 : WARNING  test performance at epoch 18 is precision: 0.986842, recall: 0.995575, fscore: 0.991189, macro-fscore: 0.868152, right: 1125, predict: 1140, standard: 1130.
+Loss is: 0.031803.
+2024-04-06 13:40:00 : WARNING  Train performance at epoch 19 is precision: 1.000000, recall: 1.000000, fscore: 1.000000, macro-fscore: 1.000000, right: 3644, predict: 3644, standard: 3644.
+Loss is: 0.008574.
+2024-04-06 13:40:05 : WARNING  Validate performance at epoch 19 is precision: 0.985101, recall: 0.994690, fscore: 0.989872, macro-fscore: 0.867059, right: 1124, predict: 1141, standard: 1130.
+Loss is: 0.032262.
+2024-04-06 13:40:09 : WARNING  test performance at epoch 19 is precision: 0.985101, recall: 0.994690, fscore: 0.989872, macro-fscore: 0.867059, right: 1124, predict: 1141, standard: 1130.
+Loss is: 0.032262.
+2024-04-06 13:40:12 : WARNING  Best test performance at epoch 18 is precision: 0.986842, recall: 0.995575, fscore: 0.991189, macro-fscore: 0.868152, right: 1125, predict: 1140, standard: 1130.
+Loss is: 0.031803.
