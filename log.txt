@@ -1,0 +1,545 @@
+[2024-04-07 06:59:06,199] [get_question_text()][INFO] begin
+[2024-04-07 06:59:06,199] [get_question_text()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=450885f7-f469-11ee-a531-8c04ba12cb86
+[2024-04-07 06:59:06,290] [info()][INFO] Websocket connected
+[2024-04-07 06:59:10,310] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-04-07 06:59:11,499] [send_audio()][INFO] send_audio total=127020
+[2024-04-07 06:59:14,280] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-07 06:59:15,001] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1548099237,"sn":"450885f7-f469-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":1960,"end_time":3340}
+[2024-04-07 06:59:15,336] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1548099237,"sn":"450885f7-f469-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":1960,"end_time":3660}
+[2024-04-07 06:59:15,504] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1548099237,"sn":"450885f7-f469-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":1960,"end_time":3820}
+[2024-04-07 06:59:15,635] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-07 06:59:15,791] [send_audio()][INFO] send_audio total=127020
+[2024-04-07 06:59:16,323] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-07 06:59:16,366] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1548099237,"sn":"450885f7-f469-11ee-a531-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":1960,"end_time":4250,"product_id":15372,"product_line":"open"}
+[2024-04-07 06:59:16,668] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-07 06:59:17,204] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1548099237,"sn":"450885f7-f469-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请","start_time":4250,"end_time":5390}
+[2024-04-07 06:59:17,541] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1548099237,"sn":"450885f7-f469-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告","start_time":4250,"end_time":5710}
+[2024-04-07 06:59:17,706] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1548099237,"sn":"450885f7-f469-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉","start_time":4250,"end_time":5870}
+[2024-04-07 06:59:18,051] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1548099237,"sn":"450885f7-f469-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我","start_time":4250,"end_time":6190}
+[2024-04-07 06:59:18,218] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1548099237,"sn":"450885f7-f469-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最","start_time":4250,"end_time":6350}
+[2024-04-07 06:59:18,571] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1548099237,"sn":"450885f7-f469-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近","start_time":4250,"end_time":6670}
+[2024-04-07 06:59:18,741] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1548099237,"sn":"450885f7-f469-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一","start_time":4250,"end_time":6830}
+[2024-04-07 06:59:19,097] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1548099237,"sn":"450885f7-f469-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一条","start_time":4250,"end_time":7150}
+[2024-04-07 06:59:19,431] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1548099237,"sn":"450885f7-f469-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一条实","start_time":4250,"end_time":7470}
+[2024-04-07 06:59:19,773] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1548099237,"sn":"450885f7-f469-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一条实时","start_time":4250,"end_time":7790}
+[2024-04-07 06:59:20,068] [send_audio()][INFO] send_audio total=127020
+[2024-04-07 06:59:20,127] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1548099237,"sn":"450885f7-f469-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一条实时数","start_time":4250,"end_time":8080}
+[2024-04-07 06:59:20,777] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-07 06:59:20,950] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-07 06:59:21,031] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1548099237,"sn":"450885f7-f469-11ee-a531-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"请告诉我，最近一条实时数据。","start_time":4250,"end_time":8410,"product_id":15372,"product_line":"open"}
+[2024-04-07 06:59:24,357] [send_finish()][INFO] send FINISH frame
+[2024-04-07 06:59:24,416] [error()][ERROR] error from callback <function on_close at 0x0000024616BA74C0>: on_close() takes 1 positional argument but 3 were given
+[2024-04-07 06:59:24,417] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-04-07 07:03:02,468] [get_question_text()][INFO] begin
+[2024-04-07 07:03:02,485] [get_question_text()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=d1dec31c-f469-11ee-a531-8c04ba12cb86
+[2024-04-07 07:03:02,543] [info()][INFO] Websocket connected
+[2024-04-07 07:03:10,020] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-04-07 07:03:10,996] [send_audio()][INFO] send_audio total=127020
+[2024-04-07 07:03:12,732] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-07 07:03:13,295] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1582168367,"sn":"d1dec31c-f469-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":980,"end_time":2220}
+[2024-04-07 07:03:13,640] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1582168367,"sn":"d1dec31c-f469-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":980,"end_time":2540}
+[2024-04-07 07:03:13,811] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1582168367,"sn":"d1dec31c-f469-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":980,"end_time":2700}
+[2024-04-07 07:03:14,637] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-07 07:03:14,684] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1582168367,"sn":"d1dec31c-f469-11ee-a531-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":980,"end_time":3110,"product_id":15372,"product_line":"open"}
+[2024-04-07 07:03:15,310] [send_audio()][INFO] send_audio total=127020
+[2024-04-07 07:03:15,326] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-07 07:03:16,181] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-07 07:03:16,754] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1582168367,"sn":"d1dec31c-f469-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最","start_time":4150,"end_time":5390}
+[2024-04-07 07:03:17,109] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1582168367,"sn":"d1dec31c-f469-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一","start_time":4150,"end_time":5710}
+[2024-04-07 07:03:17,449] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1582168367,"sn":"d1dec31c-f469-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一次","start_time":4150,"end_time":6030}
+[2024-04-07 07:03:17,631] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1582168367,"sn":"d1dec31c-f469-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一次报","start_time":4150,"end_time":6190}
+[2024-04-07 07:03:18,145] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1582168367,"sn":"d1dec31c-f469-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一次报警","start_time":4150,"end_time":6670}
+[2024-04-07 07:03:18,311] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1582168367,"sn":"d1dec31c-f469-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一次报警是","start_time":4150,"end_time":6830}
+[2024-04-07 07:03:18,481] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1582168367,"sn":"d1dec31c-f469-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一次报警是什","start_time":4150,"end_time":6990}
+[2024-04-07 07:03:18,824] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1582168367,"sn":"d1dec31c-f469-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一次报警是什么","start_time":4150,"end_time":7310}
+[2024-04-07 07:03:19,170] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1582168367,"sn":"d1dec31c-f469-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一次报警是什么时","start_time":4150,"end_time":7630}
+[2024-04-07 07:03:19,604] [send_audio()][INFO] send_audio total=127020
+[2024-04-07 07:03:19,800] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-07 07:03:19,867] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1582168367,"sn":"d1dec31c-f469-11ee-a531-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"最近一次报警是什么时候？","start_time":4150,"end_time":7850,"product_id":15372,"product_line":"open"}
+[2024-04-07 07:03:20,492] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-07 07:03:23,907] [send_finish()][INFO] send FINISH frame
+[2024-04-07 07:03:23,974] [error()][ERROR] error from callback <function on_close at 0x00000233C76DD5E0>: on_close() takes 1 positional argument but 3 were given
+[2024-04-07 07:03:23,975] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-04-09 07:33:05,250] [get_question_text()][INFO] begin
+[2024-04-09 07:33:05,266] [get_question_text()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=593ce66e-f600-11ee-a531-8c04ba12cb86
+[2024-04-09 07:33:06,927] [info()][INFO] Websocket connected
+[2024-04-09 07:33:11,426] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-04-09 07:33:12,131] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:33:14,040] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:33:14,524] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1587615185,"sn":"593ce66e-f600-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":650,"end_time":1900}
+[2024-04-09 07:33:14,964] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1587615185,"sn":"593ce66e-f600-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":650,"end_time":2220}
+[2024-04-09 07:33:14,965] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1587615185,"sn":"593ce66e-f600-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":650,"end_time":2380}
+[2024-04-09 07:33:15,841] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:33:16,091] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1587615185,"sn":"593ce66e-f600-11ee-a531-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":650,"end_time":2820,"product_id":15372,"product_line":"open"}
+[2024-04-09 07:33:16,433] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:33:17,670] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:33:20,759] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:33:22,730] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:33:24,191] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:33:24,792] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1587615185,"sn":"593ce66e-f600-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请","start_time":9950,"end_time":11280}
+[2024-04-09 07:33:24,966] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1587615185,"sn":"593ce66e-f600-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告","start_time":9950,"end_time":11600}
+[2024-04-09 07:33:25,069] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:33:25,213] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1587615185,"sn":"593ce66e-f600-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉","start_time":9950,"end_time":11760}
+[2024-04-09 07:33:25,407] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1587615185,"sn":"593ce66e-f600-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我","start_time":9950,"end_time":11890}
+[2024-04-09 07:33:25,675] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1587615185,"sn":"593ce66e-f600-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最","start_time":9950,"end_time":12210}
+[2024-04-09 07:33:26,116] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1587615185,"sn":"593ce66e-f600-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近","start_time":9950,"end_time":12530}
+[2024-04-09 07:33:26,801] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1587615185,"sn":"593ce66e-f600-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近有时","start_time":9950,"end_time":13170}
+[2024-04-09 07:33:27,049] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1587615185,"sn":"593ce66e-f600-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近实时","start_time":9950,"end_time":13330}
+[2024-04-09 07:33:27,485] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1587615185,"sn":"593ce66e-f600-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近实时数","start_time":9950,"end_time":13810}
+[2024-04-09 07:33:27,681] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:33:28,121] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:33:28,340] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1587615185,"sn":"593ce66e-f600-11ee-a531-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"请告诉我最近实时数据。","start_time":9950,"end_time":14050,"product_id":15372,"product_line":"open"}
+[2024-04-09 07:33:29,380] [send_finish()][INFO] send FINISH frame
+[2024-04-09 07:33:30,043] [error()][ERROR] error from callback <function on_close at 0x0000023F4E8C8790>: on_close() takes 1 positional argument but 3 were given
+[2024-04-09 07:33:30,044] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-04-09 07:36:33,935] [get_question_text()][INFO] begin
+[2024-04-09 07:36:33,973] [get_question_text()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=d5a321eb-f600-11ee-a531-8c04ba12cb86
+[2024-04-09 07:36:35,162] [info()][INFO] Websocket connected
+[2024-04-09 07:36:42,444] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-04-09 07:36:42,854] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:36:47,076] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:36:47,164] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:36:47,762] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"这","start_time":2810,"end_time":4110}
+[2024-04-09 07:36:48,000] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"这段","start_time":2810,"end_time":4270}
+[2024-04-09 07:36:48,195] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:36:48,391] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"这段舞","start_time":2810,"end_time":4750}
+[2024-04-09 07:36:48,894] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"这端午","start_time":2810,"end_time":5070}
+[2024-04-09 07:36:48,895] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"这段我不会","start_time":2810,"end_time":5230}
+[2024-04-09 07:36:49,333] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"这段不会被","start_time":2810,"end_time":5550}
+[2024-04-09 07:36:49,567] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"这端午不会被输","start_time":2810,"end_time":5710}
+[2024-04-09 07:36:49,773] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"这端午不会被输入","start_time":2810,"end_time":6030}
+[2024-04-09 07:36:49,968] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"这端午不会被输入系","start_time":2810,"end_time":6190}
+[2024-04-09 07:36:50,879] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:36:51,074] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"这端午不会被输入系统。","start_time":2810,"end_time":6760,"product_id":15372,"product_line":"open"}
+[2024-04-09 07:36:51,470] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:36:53,105] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:36:53,548] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:36:54,044] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"开","start_time":8700,"end_time":10000}
+[2024-04-09 07:36:54,449] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"开始","start_time":8700,"end_time":10320}
+[2024-04-09 07:36:54,888] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"开始提","start_time":8700,"end_time":10640}
+[2024-04-09 07:36:55,546] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:36:55,548] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"开始提问。","start_time":8700,"end_time":10940,"product_id":15372,"product_line":"open"}
+[2024-04-09 07:36:55,779] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:36:56,666] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:36:57,165] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"告","start_time":11540,"end_time":12850}
+[2024-04-09 07:36:57,602] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"告诉","start_time":11540,"end_time":13170}
+[2024-04-09 07:36:57,603] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"告诉我","start_time":11540,"end_time":13330}
+[2024-04-09 07:36:58,040] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"告诉我最","start_time":11540,"end_time":13650}
+[2024-04-09 07:36:58,240] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"告诉我最近","start_time":11540,"end_time":13810}
+[2024-04-09 07:36:58,438] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:36:58,688] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"告诉我最近一","start_time":11540,"end_time":14130}
+[2024-04-09 07:36:58,885] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"告诉我最近一条","start_time":11540,"end_time":14450}
+[2024-04-09 07:36:59,221] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"告诉我最近一条实","start_time":11540,"end_time":14770}
+[2024-04-09 07:36:59,578] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"告诉我最近一条实时","start_time":11540,"end_time":15090}
+[2024-04-09 07:36:59,946] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"告诉我最近一条实时数","start_time":11540,"end_time":15410}
+[2024-04-09 07:37:00,087] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:37:00,790] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:37:00,792] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1575640110,"sn":"d5a321eb-f600-11ee-a531-8c04ba12cb86_ws_2","type":"FIN_TEXT","result":"告诉我，最近一条实时数据。","start_time":11540,"end_time":15710,"product_id":15372,"product_line":"open"}
+[2024-04-09 07:37:03,353] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:37:04,396] [send_finish()][INFO] send FINISH frame
+[2024-04-09 07:37:04,812] [error()][ERROR] error from callback <function on_close at 0x000001809F6FE790>: on_close() takes 1 positional argument but 3 were given
+[2024-04-09 07:37:04,812] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-04-09 07:38:50,670] [get_question_text()][INFO] begin
+[2024-04-09 07:38:50,694] [get_question_text()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=27211334-f601-11ee-a531-8c04ba12cb86
+[2024-04-09 07:38:51,468] [info()][INFO] Websocket connected
+[2024-04-09 07:38:55,524] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-04-09 07:38:55,949] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:39:44,526] [get_question_text()][INFO] begin
+[2024-04-09 07:39:44,549] [get_question_text()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=473aa911-f601-11ee-a531-8c04ba12cb86
+[2024-04-09 07:39:45,491] [info()][INFO] Websocket connected
+[2024-04-09 07:39:49,551] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-04-09 07:39:49,958] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:39:52,304] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:39:52,935] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556034284,"sn":"473aa911-f601-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":1090,"end_time":2380}
+[2024-04-09 07:39:53,366] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556034284,"sn":"473aa911-f601-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":1090,"end_time":2700}
+[2024-04-09 07:39:53,562] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556034284,"sn":"473aa911-f601-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":1090,"end_time":3020}
+[2024-04-09 07:39:54,268] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:39:54,386] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:39:54,510] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556034284,"sn":"473aa911-f601-11ee-a531-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":1090,"end_time":3360,"product_id":15372,"product_line":"open"}
+[2024-04-09 07:39:55,284] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:39:58,199] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:39:58,591] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:39:58,888] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556034284,"sn":"473aa911-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请","start_time":6530,"end_time":7790}
+[2024-04-09 07:39:59,092] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556034284,"sn":"473aa911-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告","start_time":6530,"end_time":8080}
+[2024-04-09 07:39:59,783] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556034284,"sn":"473aa911-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我","start_time":6530,"end_time":8560}
+[2024-04-09 07:40:00,220] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556034284,"sn":"473aa911-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最","start_time":6530,"end_time":9040}
+[2024-04-09 07:40:00,221] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:40:00,416] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556034284,"sn":"473aa911-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近","start_time":6530,"end_time":9200}
+[2024-04-09 07:40:00,610] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556034284,"sn":"473aa911-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一","start_time":6530,"end_time":9520}
+[2024-04-09 07:40:01,187] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556034284,"sn":"473aa911-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一条","start_time":6530,"end_time":10000}
+[2024-04-09 07:40:01,439] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556034284,"sn":"473aa911-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一条十","start_time":6530,"end_time":10160}
+[2024-04-09 07:40:01,678] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556034284,"sn":"473aa911-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一条实时","start_time":6530,"end_time":10480}
+[2024-04-09 07:40:02,232] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556034284,"sn":"473aa911-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一条实时数","start_time":6530,"end_time":10960}
+[2024-04-09 07:40:02,825] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:40:02,895] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:40:03,026] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556034284,"sn":"473aa911-f601-11ee-a531-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"请告诉我，最近一条实时数据。","start_time":6530,"end_time":11240,"product_id":15372,"product_line":"open"}
+[2024-04-09 07:40:05,283] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:40:07,193] [send_finish()][INFO] send FINISH frame
+[2024-04-09 07:40:07,841] [error()][ERROR] error from callback <function on_close at 0x0000017D8B7D0820>: on_close() takes 1 positional argument but 3 were given
+[2024-04-09 07:40:07,841] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-04-09 07:43:16,709] [get_question_text()][INFO] begin
+[2024-04-09 07:43:16,730] [get_question_text()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=c5b2f9a0-f601-11ee-a531-8c04ba12cb86
+[2024-04-09 07:43:17,541] [info()][INFO] Websocket connected
+[2024-04-09 07:43:21,591] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-04-09 07:43:22,001] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:43:23,866] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:43:24,470] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556383097,"sn":"c5b2f9a0-f601-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":700,"end_time":1900}
+[2024-04-09 07:43:24,915] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556383097,"sn":"c5b2f9a0-f601-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":700,"end_time":2380}
+[2024-04-09 07:43:25,127] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556383097,"sn":"c5b2f9a0-f601-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":700,"end_time":2540}
+[2024-04-09 07:43:26,014] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:43:26,015] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556383097,"sn":"c5b2f9a0-f601-11ee-a531-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":700,"end_time":2950,"product_id":15372,"product_line":"open"}
+[2024-04-09 07:43:26,316] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:43:27,089] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:43:28,414] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:43:28,845] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556383097,"sn":"c5b2f9a0-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请","start_time":4800,"end_time":6030}
+[2024-04-09 07:43:29,292] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556383097,"sn":"c5b2f9a0-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告","start_time":4800,"end_time":6350}
+[2024-04-09 07:43:29,739] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556383097,"sn":"c5b2f9a0-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉","start_time":4800,"end_time":6830}
+[2024-04-09 07:43:30,405] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556383097,"sn":"c5b2f9a0-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我","start_time":4800,"end_time":7310}
+[2024-04-09 07:43:30,635] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:43:30,657] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556383097,"sn":"c5b2f9a0-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最","start_time":4800,"end_time":7630}
+[2024-04-09 07:43:30,852] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556383097,"sn":"c5b2f9a0-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近","start_time":4800,"end_time":7790}
+[2024-04-09 07:43:31,330] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556383097,"sn":"c5b2f9a0-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一","start_time":4800,"end_time":8240}
+[2024-04-09 07:43:31,772] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556383097,"sn":"c5b2f9a0-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一天","start_time":4800,"end_time":8720}
+[2024-04-09 07:43:32,209] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:43:32,699] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556383097,"sn":"c5b2f9a0-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一天实数","start_time":4800,"end_time":9360}
+[2024-04-09 07:43:33,370] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:43:33,566] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1556383097,"sn":"c5b2f9a0-f601-11ee-a531-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"请告诉我最近一天数据。","start_time":4800,"end_time":9800,"product_id":15372,"product_line":"open"}
+[2024-04-09 07:43:34,951] [send_finish()][INFO] send FINISH frame
+[2024-04-09 07:43:35,374] [error()][ERROR] error from callback <function on_close at 0x00000244BBD8E700>: on_close() takes 1 positional argument but 3 were given
+[2024-04-09 07:43:35,374] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-04-09 07:44:28,196] [get_question_text()][INFO] begin
+[2024-04-09 07:44:28,219] [get_question_text()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=f04f44d7-f601-11ee-a531-8c04ba12cb86
+[2024-04-09 07:44:28,998] [info()][INFO] Websocket connected
+[2024-04-09 07:44:33,045] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-04-09 07:44:33,453] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:44:34,879] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:44:35,791] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1550401218,"sn":"f04f44d7-f601-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":340,"end_time":1740}
+[2024-04-09 07:44:36,039] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1550401218,"sn":"f04f44d7-f601-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":340,"end_time":2060}
+[2024-04-09 07:44:36,477] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1550401218,"sn":"f04f44d7-f601-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":340,"end_time":2380}
+[2024-04-09 07:44:37,113] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:44:37,114] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1550401218,"sn":"f04f44d7-f601-11ee-a531-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":340,"end_time":2670,"product_id":15372,"product_line":"open"}
+[2024-04-09 07:44:37,755] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:44:38,870] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:44:40,262] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:44:40,698] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1550401218,"sn":"f04f44d7-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请","start_time":5080,"end_time":6350}
+[2024-04-09 07:44:41,137] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1550401218,"sn":"f04f44d7-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告","start_time":5080,"end_time":6670}
+[2024-04-09 07:44:41,332] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1550401218,"sn":"f04f44d7-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉","start_time":5080,"end_time":6990}
+[2024-04-09 07:44:41,806] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1550401218,"sn":"f04f44d7-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我","start_time":5080,"end_time":7470}
+[2024-04-09 07:44:42,047] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:44:42,443] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1550401218,"sn":"f04f44d7-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最","start_time":5080,"end_time":7920}
+[2024-04-09 07:44:42,637] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1550401218,"sn":"f04f44d7-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近","start_time":5080,"end_time":8080}
+[2024-04-09 07:44:43,524] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1550401218,"sn":"f04f44d7-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近十","start_time":5080,"end_time":9040}
+[2024-04-09 07:44:43,964] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:44:44,159] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1550401218,"sn":"f04f44d7-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近十时","start_time":5080,"end_time":9520}
+[2024-04-09 07:44:44,401] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1550401218,"sn":"f04f44d7-f601-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近十时数","start_time":5080,"end_time":9840}
+[2024-04-09 07:44:45,268] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:44:45,505] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1550401218,"sn":"f04f44d7-f601-11ee-a531-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"请告诉我最近实时数据。","start_time":5080,"end_time":10240,"product_id":15372,"product_line":"open"}
+[2024-04-09 07:44:46,353] [send_finish()][INFO] send FINISH frame
+[2024-04-09 07:44:46,835] [error()][ERROR] error from callback <function on_close at 0x0000022E9D78D790>: on_close() takes 1 positional argument but 3 were given
+[2024-04-09 07:44:46,835] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-04-09 07:45:20,189] [get_question_text()][INFO] begin
+[2024-04-09 07:45:20,209] [get_question_text()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=0f4c5c95-f602-11ee-a531-8c04ba12cb86
+[2024-04-09 07:45:21,023] [info()][INFO] Websocket connected
+[2024-04-09 07:45:25,121] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-04-09 07:45:25,556] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:45:27,617] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:45:28,114] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552863081,"sn":"0f4c5c95-f602-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":740,"end_time":2060}
+[2024-04-09 07:45:28,755] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552863081,"sn":"0f4c5c95-f602-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":740,"end_time":2540}
+[2024-04-09 07:45:28,756] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552863081,"sn":"0f4c5c95-f602-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":740,"end_time":2700}
+[2024-04-09 07:45:29,610] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:45:29,840] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:45:29,867] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552863081,"sn":"0f4c5c95-f602-11ee-a531-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":740,"end_time":3120,"product_id":15372,"product_line":"open"}
+[2024-04-09 07:45:30,799] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:45:31,913] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:45:32,414] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552863081,"sn":"0f4c5c95-f602-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请","start_time":4840,"end_time":6030}
+[2024-04-09 07:45:33,103] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552863081,"sn":"0f4c5c95-f602-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告","start_time":4840,"end_time":6510}
+[2024-04-09 07:45:33,350] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552863081,"sn":"0f4c5c95-f602-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉","start_time":4840,"end_time":6830}
+[2024-04-09 07:45:33,786] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552863081,"sn":"0f4c5c95-f602-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我","start_time":4840,"end_time":7310}
+[2024-04-09 07:45:34,122] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:45:34,284] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552863081,"sn":"0f4c5c95-f602-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最","start_time":4840,"end_time":7630}
+[2024-04-09 07:45:34,482] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552863081,"sn":"0f4c5c95-f602-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近","start_time":4840,"end_time":7920}
+[2024-04-09 07:45:34,720] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552863081,"sn":"0f4c5c95-f602-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一","start_time":4840,"end_time":8080}
+[2024-04-09 07:45:35,379] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552863081,"sn":"0f4c5c95-f602-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一天","start_time":4840,"end_time":8720}
+[2024-04-09 07:45:35,858] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:45:36,103] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552863081,"sn":"0f4c5c95-f602-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一天实数","start_time":4840,"end_time":9360}
+[2024-04-09 07:45:36,786] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:45:37,036] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552863081,"sn":"0f4c5c95-f602-11ee-a531-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"请告诉我最近一天数据。","start_time":4840,"end_time":9800,"product_id":15372,"product_line":"open"}
+[2024-04-09 07:45:38,396] [send_finish()][INFO] send FINISH frame
+[2024-04-09 07:45:38,901] [error()][ERROR] error from callback <function on_close at 0x000001DA9A305790>: on_close() takes 1 positional argument but 3 were given
+[2024-04-09 07:45:38,901] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-04-09 07:45:59,952] [get_question_text()][INFO] begin
+[2024-04-09 07:45:59,953] [get_question_text()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=26fccb2d-f602-11ee-a531-8c04ba12cb86
+[2024-04-09 07:46:00,996] [info()][INFO] Websocket connected
+[2024-04-09 07:46:05,011] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-04-09 07:46:05,418] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:46:07,319] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:46:07,766] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1586467574,"sn":"26fccb2d-f602-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":680,"end_time":1900}
+[2024-04-09 07:46:08,445] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1586467574,"sn":"26fccb2d-f602-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":680,"end_time":2380}
+[2024-04-09 07:46:08,445] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1586467574,"sn":"26fccb2d-f602-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":680,"end_time":2540}
+[2024-04-09 07:46:09,320] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:46:09,349] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1586467574,"sn":"26fccb2d-f602-11ee-a531-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":680,"end_time":2930,"product_id":15372,"product_line":"open"}
+[2024-04-09 07:46:09,719] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:46:10,599] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:46:10,847] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:46:11,285] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1586467574,"sn":"26fccb2d-f602-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"告","start_time":3610,"end_time":5070}
+[2024-04-09 07:46:11,481] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1586467574,"sn":"26fccb2d-f602-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"告诉","start_time":3610,"end_time":5230}
+[2024-04-09 07:46:11,727] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1586467574,"sn":"26fccb2d-f602-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"告诉我","start_time":3610,"end_time":5550}
+[2024-04-09 07:46:11,922] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1586467574,"sn":"26fccb2d-f602-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"告诉我最","start_time":3610,"end_time":5710}
+[2024-04-09 07:46:12,397] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1586467574,"sn":"26fccb2d-f602-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"告诉我最近","start_time":3610,"end_time":6030}
+[2024-04-09 07:46:12,632] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1586467574,"sn":"26fccb2d-f602-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"告诉我最近一","start_time":3610,"end_time":6350}
+[2024-04-09 07:46:13,068] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1586467574,"sn":"26fccb2d-f602-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"告诉我最近一条","start_time":3610,"end_time":6670}
+[2024-04-09 07:46:13,317] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1586467574,"sn":"26fccb2d-f602-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"告诉我最近一条是","start_time":3610,"end_time":6990}
+[2024-04-09 07:46:13,717] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1586467574,"sn":"26fccb2d-f602-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"告诉我最近一条实时","start_time":3610,"end_time":7310}
+[2024-04-09 07:46:13,911] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1586467574,"sn":"26fccb2d-f602-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"告诉我最近一条是实数","start_time":3610,"end_time":7470}
+[2024-04-09 07:46:14,016] [send_audio()][INFO] send_audio total=127020
+[2024-04-09 07:46:14,808] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:46:14,810] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1586467574,"sn":"26fccb2d-f602-11ee-a531-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"告诉我，最近一条实时数据。","start_time":3610,"end_time":7910,"product_id":15372,"product_line":"open"}
+[2024-04-09 07:46:15,925] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-09 07:46:18,328] [send_finish()][INFO] send FINISH frame
+[2024-04-09 07:46:18,868] [error()][ERROR] error from callback <function on_close at 0x000002C63CA95790>: on_close() takes 1 positional argument but 3 were given
+[2024-04-09 07:46:18,868] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-04-10 07:21:33,539] [get_question_text()][INFO] begin
+[2024-04-10 07:21:33,551] [get_question_text()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=e75b71db-f6c7-11ee-a531-8c04ba12cb86
+[2024-04-10 07:21:35,324] [info()][INFO] Websocket connected
+[2024-04-10 07:21:39,332] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-04-10 07:21:39,918] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 07:21:44,233] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 07:21:44,969] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 07:21:45,362] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 07:21:45,602] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1576937421,"sn":"e75b71db-f6c7-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":3670,"end_time":4910}
+[2024-04-10 07:21:46,046] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1576937421,"sn":"e75b71db-f6c7-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":3670,"end_time":5230}
+[2024-04-10 07:21:46,292] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1576937421,"sn":"e75b71db-f6c7-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":3670,"end_time":5550}
+[2024-04-10 07:21:46,970] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 07:21:46,972] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1576937421,"sn":"e75b71db-f6c7-11ee-a531-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":3670,"end_time":5870,"product_id":15372,"product_line":"open"}
+[2024-04-10 07:21:48,540] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 07:21:50,447] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 07:21:50,686] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 07:21:51,137] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1576937421,"sn":"e75b71db-f6c7-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请","start_time":8740,"end_time":10000}
+[2024-04-10 07:21:51,574] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1576937421,"sn":"e75b71db-f6c7-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告","start_time":8740,"end_time":10320}
+[2024-04-10 07:21:51,770] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1576937421,"sn":"e75b71db-f6c7-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉","start_time":8740,"end_time":10640}
+[2024-04-10 07:21:52,017] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1576937421,"sn":"e75b71db-f6c7-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我","start_time":8740,"end_time":10800}
+[2024-04-10 07:21:52,267] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1576937421,"sn":"e75b71db-f6c7-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最","start_time":8740,"end_time":11120}
+[2024-04-10 07:21:52,463] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1576937421,"sn":"e75b71db-f6c7-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近","start_time":8740,"end_time":11280}
+[2024-04-10 07:21:52,860] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 07:21:52,961] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1576937421,"sn":"e75b71db-f6c7-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一","start_time":8740,"end_time":11600}
+[2024-04-10 07:21:53,157] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1576937421,"sn":"e75b71db-f6c7-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一条","start_time":8740,"end_time":11890}
+[2024-04-10 07:21:53,649] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1576937421,"sn":"e75b71db-f6c7-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一条时","start_time":8740,"end_time":12210}
+[2024-04-10 07:21:54,090] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1576937421,"sn":"e75b71db-f6c7-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一条实时","start_time":8740,"end_time":12690}
+[2024-04-10 07:21:54,790] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 07:21:54,815] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1576937421,"sn":"e75b71db-f6c7-11ee-a531-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"请告诉我，最近一条实时。","start_time":8740,"end_time":12980,"product_id":15372,"product_line":"open"}
+[2024-04-10 07:21:55,475] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 07:21:57,179] [send_finish()][INFO] send FINISH frame
+[2024-04-10 07:21:57,581] [error()][ERROR] error from callback <function on_close at 0x00000236C3AFFD30>: on_close() takes 1 positional argument but 3 were given
+[2024-04-10 07:21:57,581] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-04-10 07:24:29,733] [get_question_text()][INFO] begin
+[2024-04-10 07:24:29,750] [get_question_text()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=506124e1-f6c8-11ee-a531-8c04ba12cb86
+[2024-04-10 07:24:30,803] [info()][INFO] Websocket connected
+[2024-04-10 07:24:38,232] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-04-10 07:24:38,654] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 07:24:42,202] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 07:24:42,950] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 07:24:42,957] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1546567403,"sn":"506124e1-f6c8-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":2250,"end_time":3660}
+[2024-04-10 07:24:43,099] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1546567403,"sn":"506124e1-f6c8-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":2250,"end_time":3820}
+[2024-04-10 07:24:43,738] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1546567403,"sn":"506124e1-f6c8-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":2250,"end_time":4270}
+[2024-04-10 07:24:43,934] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 07:24:44,341] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 07:24:44,342] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1546567403,"sn":"506124e1-f6c8-11ee-a531-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":2250,"end_time":4510,"product_id":15372,"product_line":"open"}
+[2024-04-10 07:24:47,268] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 07:24:47,523] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 07:24:47,966] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1546567403,"sn":"506124e1-f6c8-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请","start_time":6940,"end_time":8240}
+[2024-04-10 07:24:48,409] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1546567403,"sn":"506124e1-f6c8-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉","start_time":6940,"end_time":8720}
+[2024-04-10 07:24:48,605] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1546567403,"sn":"506124e1-f6c8-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我","start_time":6940,"end_time":8880}
+[2024-04-10 07:24:49,098] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 07:24:49,099] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1546567403,"sn":"506124e1-f6c8-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最","start_time":6940,"end_time":9360}
+[2024-04-10 07:24:49,296] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1546567403,"sn":"506124e1-f6c8-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近","start_time":6940,"end_time":9520}
+[2024-04-10 07:24:49,787] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1546567403,"sn":"506124e1-f6c8-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一","start_time":6940,"end_time":9840}
+[2024-04-10 07:24:50,225] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1546567403,"sn":"506124e1-f6c8-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一条","start_time":6940,"end_time":10320}
+[2024-04-10 07:24:50,475] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1546567403,"sn":"506124e1-f6c8-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一条十","start_time":6940,"end_time":10480}
+[2024-04-10 07:24:50,674] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1546567403,"sn":"506124e1-f6c8-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一条实时","start_time":6940,"end_time":10800}
+[2024-04-10 07:24:51,082] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1546567403,"sn":"506124e1-f6c8-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一条实时数","start_time":6940,"end_time":11120}
+[2024-04-10 07:24:51,577] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 07:24:52,007] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 07:24:52,009] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1546567403,"sn":"506124e1-f6c8-11ee-a531-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"请告诉我，最近一条实时数据。","start_time":6940,"end_time":11530,"product_id":15372,"product_line":"open"}
+[2024-04-10 07:24:54,190] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 07:24:55,888] [send_finish()][INFO] send FINISH frame
+[2024-04-10 07:24:56,302] [error()][ERROR] error from callback <function on_close at 0x000002821902E790>: on_close() takes 1 positional argument but 3 were given
+[2024-04-10 07:24:56,302] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-04-10 18:50:21,804] [get_question_text()][INFO] begin
+[2024-04-10 18:50:21,827] [get_question_text()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=20eceed9-f728-11ee-a531-8c04ba12cb86
+[2024-04-10 18:50:23,830] [info()][INFO] Websocket connected
+[2024-04-10 18:50:31,092] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-04-10 18:50:31,728] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 18:50:33,493] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 18:50:33,881] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563114416,"sn":"20eceed9-f728-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":340,"end_time":1580}
+[2024-04-10 18:50:34,612] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563114416,"sn":"20eceed9-f728-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":340,"end_time":1900}
+[2024-04-10 18:50:34,898] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563114416,"sn":"20eceed9-f728-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":340,"end_time":2220}
+[2024-04-10 18:50:35,723] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 18:50:35,769] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563114416,"sn":"20eceed9-f728-11ee-a531-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":340,"end_time":2500,"product_id":15372,"product_line":"open"}
+[2024-04-10 18:50:36,018] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 18:50:37,049] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 18:50:37,683] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 18:50:37,683] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563114416,"sn":"20eceed9-f728-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"一条","start_time":3580,"end_time":5070}
+[2024-04-10 18:50:38,079] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563114416,"sn":"20eceed9-f728-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"一条十","start_time":3580,"end_time":5390}
+[2024-04-10 18:50:38,517] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563114416,"sn":"20eceed9-f728-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"一条实施","start_time":3580,"end_time":5550}
+[2024-04-10 18:50:38,961] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563114416,"sn":"20eceed9-f728-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"条石是数","start_time":3580,"end_time":5870}
+[2024-04-10 18:50:38,962] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563114416,"sn":"20eceed9-f728-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"一条实时数据","start_time":3580,"end_time":6190}
+[2024-04-10 18:50:39,154] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563114416,"sn":"20eceed9-f728-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"一条实时数据是","start_time":3580,"end_time":6350}
+[2024-04-10 18:50:39,871] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563114416,"sn":"20eceed9-f728-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"一条实时数据是多","start_time":3580,"end_time":6670}
+[2024-04-10 18:50:40,324] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 18:50:40,998] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 18:50:41,020] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563114416,"sn":"20eceed9-f728-11ee-a531-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"一条实时数据是多少？","start_time":3580,"end_time":7180,"product_id":15372,"product_line":"open"}
+[2024-04-10 18:50:43,271] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 18:50:44,624] [send_finish()][INFO] send FINISH frame
+[2024-04-10 18:50:45,147] [error()][ERROR] error from callback <function on_close at 0x0000018218061790>: on_close() takes 1 positional argument but 3 were given
+[2024-04-10 18:50:45,147] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-04-10 18:51:25,392] [get_question_text()][INFO] begin
+[2024-04-10 18:51:25,432] [get_question_text()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=46d74077-f728-11ee-a531-8c04ba12cb86
+[2024-04-10 18:51:26,697] [info()][INFO] Websocket connected
+[2024-04-10 18:51:33,855] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-04-10 18:51:34,263] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 18:51:35,916] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 18:51:36,360] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552556752,"sn":"46d74077-f728-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":360,"end_time":1580}
+[2024-04-10 18:51:36,789] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552556752,"sn":"46d74077-f728-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":360,"end_time":1900}
+[2024-04-10 18:51:37,036] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552556752,"sn":"46d74077-f728-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":360,"end_time":2060}
+[2024-04-10 18:51:37,921] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 18:51:37,922] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552556752,"sn":"46d74077-f728-11ee-a531-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":360,"end_time":2540,"product_id":15372,"product_line":"open"}
+[2024-04-10 18:51:38,593] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 18:51:39,992] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 18:51:39,992] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 18:51:40,187] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552556752,"sn":"46d74077-f728-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"近","start_time":3590,"end_time":4910}
+[2024-04-10 18:51:40,188] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552556752,"sn":"46d74077-f728-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"近一","start_time":3590,"end_time":5070}
+[2024-04-10 18:51:40,826] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552556752,"sn":"46d74077-f728-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"仅一条","start_time":3590,"end_time":5390}
+[2024-04-10 18:51:41,308] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552556752,"sn":"46d74077-f728-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"第一条是","start_time":3590,"end_time":5710}
+[2024-04-10 18:51:41,309] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552556752,"sn":"46d74077-f728-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"第一条实施","start_time":3590,"end_time":5870}
+[2024-04-10 18:51:41,502] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552556752,"sn":"46d74077-f728-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"第一条实施数","start_time":3590,"end_time":6190}
+[2024-04-10 18:51:41,695] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552556752,"sn":"46d74077-f728-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"仅一条实时数据","start_time":3590,"end_time":6350}
+[2024-04-10 18:51:42,384] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552556752,"sn":"46d74077-f728-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"仅一条实时数据是","start_time":3590,"end_time":6670}
+[2024-04-10 18:51:42,385] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552556752,"sn":"46d74077-f728-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"仅一条实时数据是多","start_time":3590,"end_time":6830}
+[2024-04-10 18:51:42,869] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 18:51:43,482] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 18:51:43,484] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1552556752,"sn":"46d74077-f728-11ee-a531-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"仅一条实时数据是多少？","start_time":3590,"end_time":7390,"product_id":15372,"product_line":"open"}
+[2024-04-10 18:51:45,092] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 18:51:47,145] [send_finish()][INFO] send FINISH frame
+[2024-04-10 18:51:47,795] [error()][ERROR] error from callback <function on_close at 0x0000024E0A5CB790>: on_close() takes 1 positional argument but 3 were given
+[2024-04-10 18:51:47,795] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-04-10 18:58:31,946] [get_question_text()][INFO] begin
+[2024-04-10 18:58:31,963] [get_question_text()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=45129fab-f729-11ee-a531-8c04ba12cb86
+[2024-04-10 18:58:32,930] [info()][INFO] Websocket connected
+[2024-04-10 18:58:36,998] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-04-10 18:58:37,412] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 18:58:39,394] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 18:58:39,844] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1578950685,"sn":"45129fab-f729-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":660,"end_time":1900}
+[2024-04-10 18:58:40,314] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1578950685,"sn":"45129fab-f729-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":660,"end_time":2220}
+[2024-04-10 18:58:40,513] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1578950685,"sn":"45129fab-f729-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":660,"end_time":2380}
+[2024-04-10 18:58:41,456] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 18:58:41,457] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1578950685,"sn":"45129fab-f729-11ee-a531-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":660,"end_time":2800,"product_id":15372,"product_line":"open"}
+[2024-04-10 18:58:41,718] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 18:58:43,298] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 18:58:43,735] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 18:58:44,247] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1578950685,"sn":"45129fab-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请","start_time":4680,"end_time":5870}
+[2024-04-10 18:58:44,925] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1578950685,"sn":"45129fab-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告","start_time":4680,"end_time":6350}
+[2024-04-10 18:58:44,926] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1578950685,"sn":"45129fab-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉","start_time":4680,"end_time":6510}
+[2024-04-10 18:58:45,369] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1578950685,"sn":"45129fab-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我","start_time":4680,"end_time":6830}
+[2024-04-10 18:58:45,369] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1578950685,"sn":"45129fab-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最","start_time":4680,"end_time":6990}
+[2024-04-10 18:58:46,036] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 18:58:46,232] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1578950685,"sn":"45129fab-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近","start_time":4680,"end_time":7310}
+[2024-04-10 18:58:46,233] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1578950685,"sn":"45129fab-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一","start_time":4680,"end_time":7470}
+[2024-04-10 18:58:46,636] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1578950685,"sn":"45129fab-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一条","start_time":4680,"end_time":7790}
+[2024-04-10 18:58:46,886] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1578950685,"sn":"45129fab-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一条实","start_time":4680,"end_time":8240}
+[2024-04-10 18:58:47,327] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1578950685,"sn":"45129fab-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一条实时","start_time":4680,"end_time":8560}
+[2024-04-10 18:58:47,994] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 18:58:48,234] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1578950685,"sn":"45129fab-f729-11ee-a531-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"请告诉我，最近一条实时。","start_time":4680,"end_time":8900,"product_id":15372,"product_line":"open"}
+[2024-04-10 18:58:48,429] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 18:58:50,347] [send_finish()][INFO] send FINISH frame
+[2024-04-10 18:58:51,002] [error()][ERROR] error from callback <function on_close at 0x000001DA79F00790>: on_close() takes 1 positional argument but 3 were given
+[2024-04-10 18:58:51,002] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-04-10 18:59:23,758] [get_question_text()][INFO] begin
+[2024-04-10 18:59:23,789] [get_question_text()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=63f6b44e-f729-11ee-a531-8c04ba12cb86
+[2024-04-10 18:59:25,046] [info()][INFO] Websocket connected
+[2024-04-10 18:59:29,177] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-04-10 18:59:29,480] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 18:59:31,322] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 18:59:31,918] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1588549626,"sn":"63f6b44e-f729-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":440,"end_time":1740}
+[2024-04-10 18:59:32,112] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1588549626,"sn":"63f6b44e-f729-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":440,"end_time":2060}
+[2024-04-10 18:59:32,507] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1588549626,"sn":"63f6b44e-f729-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":440,"end_time":2380}
+[2024-04-10 18:59:33,463] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 18:59:33,464] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1588549626,"sn":"63f6b44e-f729-11ee-a531-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":440,"end_time":2710,"product_id":15372,"product_line":"open"}
+[2024-04-10 18:59:33,812] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 18:59:35,146] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 18:59:35,802] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 18:59:36,442] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1588549626,"sn":"63f6b44e-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请","start_time":4580,"end_time":5870}
+[2024-04-10 18:59:36,636] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1588549626,"sn":"63f6b44e-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告","start_time":4580,"end_time":6190}
+[2024-04-10 18:59:37,302] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1588549626,"sn":"63f6b44e-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉","start_time":4580,"end_time":6510}
+[2024-04-10 18:59:37,303] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1588549626,"sn":"63f6b44e-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我","start_time":4580,"end_time":6670}
+[2024-04-10 18:59:37,496] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1588549626,"sn":"63f6b44e-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最","start_time":4580,"end_time":6990}
+[2024-04-10 18:59:37,637] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1588549626,"sn":"63f6b44e-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近","start_time":4580,"end_time":7150}
+[2024-04-10 18:59:38,127] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1588549626,"sn":"63f6b44e-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一","start_time":4580,"end_time":7470}
+[2024-04-10 18:59:38,145] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 18:59:38,601] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1588549626,"sn":"63f6b44e-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一条","start_time":4580,"end_time":7790}
+[2024-04-10 18:59:38,887] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1588549626,"sn":"63f6b44e-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我最近一条十","start_time":4580,"end_time":8080}
+[2024-04-10 18:59:39,924] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 18:59:39,951] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1588549626,"sn":"63f6b44e-f729-11ee-a531-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"请告诉我，最近一条十。","start_time":4580,"end_time":8840,"product_id":15372,"product_line":"open"}
+[2024-04-10 18:59:40,147] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 18:59:42,458] [send_finish()][INFO] send FINISH frame
+[2024-04-10 18:59:43,123] [error()][ERROR] error from callback <function on_close at 0x0000022CDE2EC790>: on_close() takes 1 positional argument but 3 were given
+[2024-04-10 18:59:43,123] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-04-10 19:00:14,631] [get_question_text()][INFO] begin
+[2024-04-10 19:00:14,654] [get_question_text()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=8247ff79-f729-11ee-a531-8c04ba12cb86
+[2024-04-10 19:00:15,665] [info()][INFO] Websocket connected
+[2024-04-10 19:00:19,751] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-04-10 19:00:20,183] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 19:00:21,734] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 19:00:22,625] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563326758,"sn":"8247ff79-f729-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":310,"end_time":1580}
+[2024-04-10 19:00:23,087] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563326758,"sn":"8247ff79-f729-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":310,"end_time":1740}
+[2024-04-10 19:00:23,088] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563326758,"sn":"8247ff79-f729-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":310,"end_time":2060}
+[2024-04-10 19:00:23,777] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 19:00:23,975] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563326758,"sn":"8247ff79-f729-11ee-a531-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":310,"end_time":2450,"product_id":15372,"product_line":"open"}
+[2024-04-10 19:00:23,976] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 19:00:24,488] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 19:00:25,160] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563326758,"sn":"8247ff79-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请","start_time":2480,"end_time":3820}
+[2024-04-10 19:00:25,161] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563326758,"sn":"8247ff79-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告","start_time":2480,"end_time":3950}
+[2024-04-10 19:00:25,359] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563326758,"sn":"8247ff79-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉","start_time":2480,"end_time":4270}
+[2024-04-10 19:00:25,360] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 19:00:26,056] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563326758,"sn":"8247ff79-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我","start_time":2480,"end_time":4590}
+[2024-04-10 19:00:26,296] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563326758,"sn":"8247ff79-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我我","start_time":2480,"end_time":4750}
+[2024-04-10 19:00:26,297] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563326758,"sn":"8247ff79-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我我一","start_time":2480,"end_time":4910}
+[2024-04-10 19:00:26,492] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563326758,"sn":"8247ff79-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我我一条","start_time":2480,"end_time":5390}
+[2024-04-10 19:00:27,305] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563326758,"sn":"8247ff79-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我我一条实","start_time":2480,"end_time":5710}
+[2024-04-10 19:00:27,501] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563326758,"sn":"8247ff79-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我我一条实时","start_time":2480,"end_time":5870}
+[2024-04-10 19:00:27,502] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563326758,"sn":"8247ff79-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请告诉我我一条实时数","start_time":2480,"end_time":6190}
+[2024-04-10 19:00:28,356] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 19:00:28,358] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1563326758,"sn":"8247ff79-f729-11ee-a531-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"请告诉我，我一条实时数据。","start_time":2480,"end_time":6540,"product_id":15372,"product_line":"open"}
+[2024-04-10 19:00:28,789] [send_finish()][INFO] send FINISH frame
+[2024-04-10 19:00:29,332] [error()][ERROR] error from callback <function on_close at 0x0000020449F07790>: on_close() takes 1 positional argument but 3 were given
+[2024-04-10 19:00:29,332] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-04-10 19:01:05,008] [get_question_text()][INFO] begin
+[2024-04-10 19:01:05,035] [get_question_text()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=a04f91ef-f729-11ee-a531-8c04ba12cb86
+[2024-04-10 19:01:06,100] [info()][INFO] Websocket connected
+[2024-04-10 19:01:10,147] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-04-10 19:01:10,570] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 19:01:12,259] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 19:01:12,906] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1581042505,"sn":"a04f91ef-f729-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":500,"end_time":1740}
+[2024-04-10 19:01:13,155] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1581042505,"sn":"a04f91ef-f729-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":500,"end_time":2060}
+[2024-04-10 19:01:14,034] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1581042505,"sn":"a04f91ef-f729-11ee-a531-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":500,"end_time":2380}
+[2024-04-10 19:01:14,466] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 19:01:14,468] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1581042505,"sn":"a04f91ef-f729-11ee-a531-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":500,"end_time":2690,"product_id":15372,"product_line":"open"}
+[2024-04-10 19:01:14,871] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 19:01:16,010] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 19:01:16,010] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 19:01:16,512] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1581042505,"sn":"a04f91ef-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"告","start_time":3590,"end_time":4910}
+[2024-04-10 19:01:17,144] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1581042505,"sn":"a04f91ef-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"你告诉","start_time":3590,"end_time":5230}
+[2024-04-10 19:01:17,344] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1581042505,"sn":"a04f91ef-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"你告诉我","start_time":3590,"end_time":5390}
+[2024-04-10 19:01:17,592] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1581042505,"sn":"a04f91ef-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"你告诉我最","start_time":3590,"end_time":5710}
+[2024-04-10 19:01:17,593] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1581042505,"sn":"a04f91ef-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"告诉我最近","start_time":3590,"end_time":5870}
+[2024-04-10 19:01:17,693] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1581042505,"sn":"a04f91ef-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"告诉我最近一","start_time":3590,"end_time":6190}
+[2024-04-10 19:01:18,280] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1581042505,"sn":"a04f91ef-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"告诉我最近一条","start_time":3590,"end_time":6670}
+[2024-04-10 19:01:18,473] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1581042505,"sn":"a04f91ef-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"告诉我最近一条十","start_time":3590,"end_time":6830}
+[2024-04-10 19:01:18,674] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1581042505,"sn":"a04f91ef-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"告诉我最近一条实时","start_time":3590,"end_time":7150}
+[2024-04-10 19:01:18,876] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1581042505,"sn":"a04f91ef-f729-11ee-a531-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"告诉我最近一条实时数","start_time":3590,"end_time":7310}
+[2024-04-10 19:01:19,172] [send_audio()][INFO] send_audio total=127020
+[2024-04-10 19:01:20,016] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 19:01:20,167] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1581042505,"sn":"a04f91ef-f729-11ee-a531-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"告诉我，最近一条实时数据。","start_time":3590,"end_time":7830,"product_id":15372,"product_line":"open"}
+[2024-04-10 19:01:21,019] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-04-10 19:01:23,481] [send_finish()][INFO] send FINISH frame
+[2024-04-10 19:01:24,185] [error()][ERROR] error from callback <function on_close at 0x00000293B94FD790>: on_close() takes 1 positional argument but 3 were given
+[2024-04-10 19:01:24,185] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given

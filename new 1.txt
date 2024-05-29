@@ -1,0 +1,470 @@
+NL question: 请调出今天的前6条实时数据。
+SQL query: select * from t_rt_data where date ( t_rt_data.result_time ) = curdate ( ) order by t_rt_data.id asc limit 6 ;NL answer: 查询到6条结果，并且每条结果有5个域，分别为数据编号、位点编码、采集值、采集时间、报警状态，您可以细化您的查询要
+求。第一条结果的具体内容如下：数据编号为61972651、位点编码为2B2LXCZ_AUTO_PIR_201、采集值为2.932、采集时间为2023年08月31日
+00时00分00秒、报警状态为正常。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.757 s
+Execution:   21.993 s
+NAG:         0.660 s
+TTS:         7.853 s
+Answering:   37.715 s
+14 21 155
+
+
+NL question: 告诉我最近的1次报警的有关信息。
+SQL query: select * from t_rt_data where t_rt_data.alarm_status != 0 order by t_rt_data.id desc limit 1 ;
+NL answer: 查询到的结果有5个域，分别为数据编号、位点编码、采集值、采集时间、报警状态，您可以细化您的查询要求。具体内容如
+下：数据编号为62525554、位点编码为3B2CHLH_0202B_PDT111.PV、采集值为-5.012、采集时间为2023年08月31日23时59分00秒、报警状态
+为低报警。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.126 s
+Execution:   0.101 s
+NAG:         0.207 s
+TTS:         4.040 s
+Answering:   36.501 s
+16 16 146
+
+
+NL question: 返回关键变量的所有位点定义信息。
+SQL query: select * from t_rt_info where t_rt_info.key_tag = 1 ;
+NL answer: 查询到76条结果，并且每条结果有10个域，分别为数据编号、位点编码、位点描述、量纲、关键变量、所属装置编码、低低报
+警阈值、低报警阈值、高报警阈值、高高报警阈值，您可以细化您的查询要求。第一条结果的具体内容如下：数据编号为1、位点编码为3B1CHLH_TIC232C.PV、位点描述为R-201A第一反应区上部温控、量纲为摄氏度、是关键变量、所属装置编码为3B1CHLH、低低报警阈值为495.0、低报警阈值为500.0、高报警阈值为532.0、高高报警阈值为534.0。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.073 s
+Execution:   0.004 s
+NAG:         0.180 s
+TTS:         11.385 s
+Answering:   58.726 s
+16 10 235
+
+
+NL question: 最近18分钟内吸收塔补充吸收剂流量调节的最大采样值是多少？
+SQL query: select max ( t_rt_data.result_value ) from t_rt_data where t_rt_data.tag_code = '3b1chlh_fic403.pv' and t_rt_data.result_time > addtime ( now ( ) , ' - 0 : 18 ' ) ;
+NL answer: 最近18分钟内吸收塔补充吸收剂流量调节的最大采样值是33.402。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.177 s
+Execution:   0.077 s
+NAG:         0.230 s
+TTS:         4.652 s
+Answering:   9.069 s
+29 29 33
+
+
+NL question: 帮我调取今天所有超过了高高报警限的变量。
+SQL query: select t_rt_data.tag_code from t_rt_info inner join t_rt_data on t_rt_info.tag_code = t_rt_data.tag_code where date ( t_rt_data.result_time ) = curdate ( ) and t_rt_data.result_value > t_rt_info.uupper_limit ;
+NL answer: 查询到13210条结果，第一条是2B2LXCZ_0211TI_11101，其余结果请在计算机查看。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.200 s
+Execution:   23.196 s
+NAG:         0.174 s
+TTS:         3.935 s
+Answering:   13.245 s
+20 26 49
+
+
+NL question: 查询所有今天的关键位号报警。
+SQL query: select * from t_rt_info inner join t_rt_data on t_rt_info.tag_code = t_rt_data.tag_code where t_rt_info.key_tag = 1 and date ( t_rt_data.result_time ) = adddate ( curdate ( ) , - 1 ) and t_rt_data.alarm_status != 0 ;
+NL answer: 查询到6384条结果，并且每条结果有15个域，分别为数据编号、位点编码、位点描述、量纲、关键变量、所属装置编码、低低
+报警阈值、低报警阈值、高报警阈值、高高报警阈值、数据编号、位点编码、采集值、采集时间、报警状态，您可以细化您的查询要求。 
+第一条结果的具体内容如下：数据编号为30、位点编码为3B1CHLH_TIA5102.PV、位点描述为烟机入口温度、量纲为摄氏度、是关键变量、 
+所属装置编码为3B1CHLH、低低报警阈值为630.0、低报警阈值为640.0、高报警阈值为660.0、高高报警阈值为670.0、数据编号为61419904、位点编码为3B1CHLH_TIA5102.PV、采集值为661.0、采集时间为2023年08月30日00时00分00秒、报警状态为高报警。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.208 s
+Execution:   24.038 s
+NAG:         0.157 s
+TTS:         4.766 s
+Answering:   83.702 s
+14 36 336
+
+
+NL question: 最近一次f102瓦斯流量出现报警是几点？
+SQL query: select t_rt_data.result_time from t_rt_data where t_rt_data.tag_code = '2b2lxcz_0211fic_11401' and t_rt_data.alarm_status != 0 order by t_rt_data.id desc limit 1 ;
+NL answer: 没有查询到相应结果。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.116 s
+Execution:   18.426 s
+NAG:         0.267 s
+TTS:         2.210 s
+Answering:   3.104 s
+20 20 10
+
+
+NL question: 列举装置连续重整二中的变量的所有根原因。
+SQL query: select distinct t_model_data.tag_code from t_model_data inner join t_rt_info on t_model_data.tag_code = t_rt_info.tag_code where t_rt_info.unit_code = '2b2lxcz' ;
+NL answer: 查询到40条结果，第一条是2B2LXCZ_0211PIC_10502，其余结果请在计算机查看。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.097 s
+Execution:   0.003 s
+NAG:         0.142 s
+TTS:         3.440 s
+Answering:   12.429 s
+20 18 47
+
+
+NL question: 向我展示最近1条根原因推断的记录。
+SQL query: select * from t_inference_data order by t_inference_data.id desc limit 1 ;
+NL answer: 查询到的结果有7个域，分别为数据编号、采集数据编号、推断时间、模型推断路径、推断结果分数、根原因位点编码、根原
+因位点状态，您可以细化您的查询要求。具体内容如下：数据编号为585048、采集数据编号为62524142、推断时间为2023年08月31日23时59分21秒、模型推断路径为PDI_20303,TI_20302、推断结果分数为90.91、根原因位点编码为2B2LXCZ_0211TI_20302、根原因位点状态为上 
+升。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.058 s
+Execution:   0.002 s
+NAG:         0.139 s
+TTS:         5.245 s
+Answering:   53.168 s
+17 12 213
+
+
+NL question: 统计自昨天3点以来完成的根原因诊断次数。
+SQL query: select count ( * ) from t_inference_data where t_inference_data.inference_time > addtime ( adddate ( curdate ( ) , - 1 ) , ' 3 : 0 ' ) ;
+NL answer: 统计自昨天3点以来完成的根原因诊断次数是12646。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.155 s
+Execution:   0.212 s
+NAG:         0.144 s
+TTS:         4.800 s
+Answering:   8.564 s
+20 30 26
+
+
+NL question: 告诉我推理表中最后3条记录的根原因的描述。
+SQL query: select * from t_inference_data inner join t_rt_info on t_inference_data.inference_root_cause_id = t_rt_info.tag_code order by t_inference_data.id desc limit 3 ;
+NL answer: 查询到3条结果，并且每条结果有17个域，分别为数据编号、采集数据编号、推断时间、模型推断路径、推断结果分数、根原
+因位点编码、根原因位点状态、数据编号、位点编码、位点描述、量纲、关键变量、所属装置编码、低低报警阈值、低报警阈值、高报警 
+阈值、高高报警阈值，您可以细化您的查询要求。第一条结果的具体内容如下：数据编号为585048、采集数据编号为62524142、推断时间 
+为2023年08月31日23时59分21秒、模型推断路径为PDI_20303,TI_20302、推断结果分数为90.91、根原因位点编码为2B2LXCZ_0211TI_20302、根原因位点状态为上升、数据编号为266、位点编码为2B2LXCZ_0211TI_20302、位点描述为E201进料端出口温度、量纲为摄氏度、不是关
+键变量、所属装置编码为2B2LXCZ、没有低低报警阈值、低报警阈值为400.0、高报警阈值为480.0、没有高高报警阈值。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.103 s
+Execution:   0.788 s
+NAG:         0.165 s
+TTS:         9.086 s
+Answering:   99.074 s
+21 19 407
+
+
+NL question: 查询推理表最近2条数据的报警来源。
+SQL query: select t_rt_data.tag_code from t_inference_data inner join t_rt_data on t_inference_data.rt_code = t_rt_data.id order by t_inference_data.id desc limit 2 ;
+NL answer: 查询到2条结果，分别是2B2LXCZ_0211PDI_20303、2B2LXCZ_0211FICQ_20301。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.100 s
+Execution:   0.001 s
+NAG:         0.154 s
+TTS:         2.233 s
+Answering:   15.179 s
+17 19 56
+
+
+NL question: 统计最近24小时内，每个发生报警的变量的各自推理结果的最优路径分数的平均值。
+SQL query: select avg ( t_inference_data.inference_score ) from t_inference_data inner join t_rt_data on t_inference_data.rt_code = t_rt_data.id where t_inference_data.inference_time > addtime ( now ( ) , ' - 24 : 0 ' ) group by t_rt_data.tag_code ;
+NL answer: 查询到8条结果，分别是56.230259、37.91597、44.919335、63.861202、40.706579、46.118233、56.941652、57.810911。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.278 s
+Execution:   0.171 s
+NAG:         0.191 s
+TTS:         2.097 s
+Answering:   23.293 s
+38 35 90
+
+
+NL question: 数据库里的变量都有相应的描述了吗？
+SQL query: select count ( * ) != 0 from t_rt_info where t_rt_info.tag_desc is null ;
+NL answer: 是的，数据库里的变量都有相应的描述了。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.077 s
+Execution:   0.011 s
+NAG:         0.137 s
+TTS:         0.925 s
+Answering:   4.780 s
+17 15 19
+
+
+NL question: 分馏塔底搅拌蒸汽流量调节是关键报警吗？
+SQL query: select t_rt_info.key_tag from t_rt_info where t_rt_info.tag_code = '3b1chlh_fic373.pv' ;
+NL answer: 不是，分馏塔底搅拌蒸汽流量调节不是关键报警。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.055 s
+Execution:   0.001 s
+NAG:         0.327 s
+TTS:         0.734 s
+Answering:   5.813 s
+19 10 22
+
+
+NL question: t202塔釜液位是不是关键报警变量？
+SQL query: select t_rt_info.key_tag from t_rt_info where t_rt_info.tag_code = '2b2lxcz_0211lic_21701' ;
+NL answer: t202塔釜液位不是关键报警变量。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.055 s
+Execution:   0.001 s
+NAG:         0.132 s
+TTS:         0.866 s
+Answering:   4.854 s
+18 10 17
+
+
+NL question: 是否存在推断表推理的位号报警状态是正常的？
+SQL query: select count ( * ) != 0 from t_inference_data inner join t_rt_data on t_inference_data.rt_code = t_rt_data.id 
+where t_rt_data.alarm_status = 0 ;
+NL answer: 不存在推断表推理的位号报警状态是正常的。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.127 s
+Execution:   60.355 s
+NAG:         0.171 s
+TTS:         1.741 s
+Answering:   5.428 s
+21 22 20
+
+
+NL question: 最近6次不同的采样时间分别是几点？
+SQL query: select distinct t_rt_data.result_time from t_rt_data order by t_rt_data.result_time desc limit 6 ;
+NL answer: 查询到6条结果，分别是2023年08月31日23时59分00秒、2023年08月31日23时58分00秒、2023年08月31日23时57分00秒、2023
+年08月31日23时56分00秒、2023年08月31日23时55分00秒、2023年08月31日23时54分00秒。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.087 s
+Execution:   0.030 s
+NAG:         0.151 s
+TTS:         2.205 s
+Answering:   33.800 s
+17 13 137
+
+
+NL question: 反应油气至分馏塔压力现在是多少？
+SQL query: select t_rt_data.result_value from t_rt_data where t_rt_data.tag_code = '3b1chlh_pi371.pv' order by t_rt_data.id desc limit 1 ;
+NL answer: 反应油气至分馏塔压力现在是0.1。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.103 s
+Execution:   0.007 s
+NAG:         0.153 s
+TTS:         1.593 s
+Answering:   5.135 s
+16 16 17
+
+
+NL question: 所有位号中，在最近60小时内发生报警次数最多的是哪个？
+SQL query: select t_rt_data.tag_code from t_rt_data where t_rt_data.result_time > addtime ( now ( ) , ' - 60 : 0 ' ) group by t_rt_data.tag_code order by sum ( t_rt_data.alarm_status != 0 ) desc limit 1 ;
+NL answer: 所有位号中，在最近60小时内发生报警次数最多的是3B2CHLH_0202B_TIN104B.PV。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.209 s
+Execution:   2.925 s
+NAG:         0.173 s
+TTS:         1.424 s
+Answering:   12.974 s
+27 36 49
+
+
+NL question: 数据库中的装置数是多少？
+SQL query: select count ( distinct t_rt_info.unit_code ) from t_rt_info ;
+NL answer: 数据库中的装置数是3。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.058 s
+Execution:   0.132 s
+NAG:         0.163 s
+TTS:         3.008 s
+Answering:   3.292 s
+12 10 11
+
+
+NL question: 催化裂化装置二号里有哪些变量是关键变量？
+SQL query: select * from t_rt_info where t_rt_info.unit_code = '3b2chlh' and t_rt_info.key_tag = 1 ;
+NL answer: 查询到19条结果，并且每条结果有10个域，分别为数据编号、位点编码、位点描述、量纲、关键变量、所属装置编码、低低报
+警阈值、低报警阈值、高报警阈值、高高报警阈值，您可以细化您的查询要求。第一条结果的具体内容如下：数据编号为103、位点编码为
+3B2CHLH_0202B_TIN104B.PV、位点描述为提升管反应器上部温度指示、量纲为摄氏度、是关键变量、所属装置编码为3B2CHLH、低低报警阈
+值为492.0、低报警阈值为495.0、高报警阈值为533.0、高高报警阈值为534.0。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.068 s
+Execution:   0.002 s
+NAG:         0.149 s
+TTS:         8.897 s
+Answering:   61.057 s
+20 14 240
+
+
+NL question: 从上午1点到现在，装置催化裂化2有报警记录多少次？
+SQL query: select count ( * ) from t_rt_info inner join t_rt_data on t_rt_info.tag_code = t_rt_data.tag_code where t_rt_info.unit_code = '3b2chlh' and t_rt_data.result_time > addtime ( curdate ( ) , ' 1 : 0 ' ) and t_rt_data.alarm_status != 0 ;
+NL answer: 从上午1点到现在，装置催化裂化2有报警记录2772次。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.220 s
+Execution:   0.700 s
+NAG:         0.171 s
+TTS:         1.942 s
+Answering:   7.882 s
+25 39 27
+
+
+NL question: 回炼油返塔流量调节是多少个不同关键变量的根原因？
+SQL query: select count ( distinct t_model_data.tag_code ) from t_model_data inner join t_rt_info on t_model_data.tag_code = t_rt_info.tag_code where t_model_data.inference_root_cause_id = '3b1chlh_fic314.pv' and t_rt_info.key_tag = 1 ;      
+NL answer: 回炼油返塔流量调节是1个不同关键变量的根原因。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.147 s
+Execution:   0.007 s
+NAG:         0.169 s
+TTS:         0.891 s
+Answering:   5.854 s
+24 25 23
+
+
+NL question: 关键变量在昨天发生了多少次报警？
+SQL query: select count ( * ) from t_rt_info inner join t_rt_data on t_rt_info.tag_code = t_rt_data.tag_code where t_rt_info.key_tag = 1 and date ( t_rt_data.result_time ) = adddate ( curdate ( ) , - 1 ) and t_rt_data.alarm_status != 0 ;     
+NL answer: 关键变量在昨天发生了6384次报警。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.243 s
+Execution:   21.434 s
+NAG:         0.163 s
+TTS:         1.048 s
+Answering:   6.040 s
+16 39 18
+
+
+NL question: 哪个位号有最多的路径？
+SQL query: select t_model_data.tag_code from t_model_data group by t_model_data.tag_code order by count ( * ) desc limit 
+1 ;
+NL answer: 3B1CHLH_PDIC217.PV位号有最多的路径。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.145 s
+Execution:   0.005 s
+NAG:         0.160 s
+TTS:         1.143 s
+Answering:   7.362 s
+11 18 27
+
+
+NL question: 哪些关键变量曾经出现于推理结果表中的根源因栏中？
+SQL query: select distinct t_rt_info.tag_code from t_inference_data inner join t_rt_info on t_inference_data.inference_root_cause_id = t_rt_info.tag_code where t_rt_info.key_tag = 1 ;
+NL answer: 查询到34条结果，第一条是3B2CHLH_0202B_PRA104.PV，其余结果请在计算机查看。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.102 s
+Execution:   0.196 s
+NAG:         0.140 s
+TTS:         1.166 s
+Answering:   13.470 s
+24 18 49
+
+
+NL question: 2#催化装置当中有几条路径？
+SQL query: select count ( * ) from t_model_data inner join t_rt_info on t_model_data.tag_code = t_rt_info.tag_code where 
+t_rt_info.unit_code = '3b2chlh' ;
+NL answer: 2#催化装置当中有503条路径。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.106 s
+Execution:   0.002 s
+NAG:         0.156 s
+TTS:         0.872 s
+Answering:   4.782 s
+14 20 16
+
+
+NL question: 数据表中最新的1条根原因推断分别发生在什么时间？
+SQL query: select t_inference_data.inference_time from t_inference_data order by t_inference_data.id desc limit 1 ;
+NL answer: 分别发生在2023年08月31日23时59分21秒时间。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.074 s
+Execution:   0.001 s
+NAG:         0.162 s
+TTS:         1.001 s
+Answering:   8.256 s
+24 12 28
+
+
+NL question: 最近5条根原因状态显示下降的诊断结果是什么
+SQL query: select * from t_inference_data where t_inference_data.inference_root_cause_status = 1 order by t_inference_data.id desc limit 1 ;
+NL answer: 查询到的结果有7个域，分别为数据编号、采集数据编号、推断时间、模型推断路径、推断结果分数、根原因位点编码、根原
+因位点状态，您可以细化您的查询要求。具体内容如下：数据编号为585046、采集数据编号为62524402、推断时间为2023年08月31日23时59分21秒、模型推断路径为0202B_PDT111A,0202B_PCA101A、推断结果分数为48.47、根原因位点编码为3B2CHLH_0202B_PCA101A.PV、根原因
+位点状态为下降。
+Start TTS...
+TTS successful.
+Start playing...
+Playing done.
+Translation: 0.098 s
+Execution:   0.002 s
+NAG:         0.160 s
+TTS:         3.173 s
+Answering:   56.832 s
+21 16 226
