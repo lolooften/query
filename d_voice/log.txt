@@ -1,0 +1,417 @@
+[2024-03-14 13:12:35,758] [<module>()][INFO] begin
+[2024-03-14 13:12:35,758] [<module>()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=7841e943-e1c1-11ee-9684-8c04ba12cb86
+[2024-03-14 13:12:36,399] [info()][INFO] Websocket connected
+[2024-03-14 13:12:40,412] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-03-14 13:12:41,413] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 13:12:42,302] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 13:12:42,992] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":0,"end_time":1100}
+[2024-03-14 13:12:43,088] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":0,"end_time":1420}
+[2024-03-14 13:12:43,360] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":0,"end_time":1580}
+[2024-03-14 13:12:44,185] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 13:12:44,185] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":0,"end_time":1920,"product_id":15372,"product_line":"open"}
+[2024-03-14 13:12:44,185] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 13:12:44,825] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在","start_time":1920,"end_time":3020}
+[2024-03-14 13:12:44,921] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那","start_time":1920,"end_time":3180}
+[2024-03-14 13:12:45,418] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远","start_time":1920,"end_time":3500}
+[2024-03-14 13:12:45,562] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的","start_time":1920,"end_time":3660}
+[2024-03-14 13:12:45,674] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 13:12:46,074] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 13:12:46,074] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地","start_time":1920,"end_time":3950}
+[2024-03-14 13:12:46,411] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方","start_time":1920,"end_time":4430}
+[2024-03-14 13:12:47,276] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方那遥远","start_time":1920,"end_time":5230}
+[2024-03-14 13:12:47,412] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方那遥远的","start_time":1920,"end_time":5390}
+[2024-03-14 13:12:47,757] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方那遥远的地","start_time":1920,"end_time":5710}
+[2024-03-14 13:12:48,102] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方那遥远的地方","start_time":1920,"end_time":6030}
+[2024-03-14 13:12:48,425] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是","start_time":1920,"end_time":6350}
+[2024-03-14 13:12:48,865] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王","start_time":1920,"end_time":6670}
+[2024-03-14 13:12:48,986] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛","start_time":1920,"end_time":6830}
+[2024-03-14 13:12:49,266] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾","start_time":1920,"end_time":7150}
+[2024-03-14 13:12:49,498] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创","start_time":1920,"end_time":7470}
+[2024-03-14 13:12:49,914] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 13:12:49,970] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作","start_time":1920,"end_time":7630}
+[2024-03-14 13:12:49,970] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的","start_time":1920,"end_time":7790}
+[2024-03-14 13:12:50,155] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的一","start_time":1920,"end_time":7920}
+[2024-03-14 13:12:50,588] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的一首","start_time":1920,"end_time":8240}
+[2024-03-14 13:12:50,732] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家","start_time":1920,"end_time":8560}
+[2024-03-14 13:12:51,116] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 13:12:51,116] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的一首小","start_time":1920,"end_time":8880}
+[2024-03-14 13:12:51,510] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家不晓得","start_time":1920,"end_time":9200}
+[2024-03-14 13:12:51,566] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家小的民","start_time":1920,"end_time":9360}
+[2024-03-14 13:12:51,934] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家小的民族","start_time":1920,"end_time":9680}
+[2024-03-14 13:12:52,455] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家小的民族歌","start_time":1920,"end_time":10000}
+[2024-03-14 13:12:53,464] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家小的民族歌曲","start_time":1920,"end_time":10800}
+[2024-03-14 13:12:53,464] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家小的民族歌曲讲","start_time":1920,"end_time":11120}
+[2024-03-14 13:12:53,736] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家小的民族歌曲讲述了","start_time":1920,"end_time":11280}
+[2024-03-14 13:12:53,976] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家小的民族歌曲讲述了一","start_time":1920,"end_time":11440}
+[2024-03-14 13:12:54,152] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 13:12:54,216] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家小的民族歌曲讲述了一个","start_time":1920,"end_time":11760}
+[2024-03-14 13:12:54,641] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家小的民族歌曲讲述了一个年","start_time":1920,"end_time":11890}
+[2024-03-14 13:12:54,745] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家小的民族歌曲讲述了一个年轻","start_time":1920,"end_time":12210}
+[2024-03-14 13:12:55,162] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家小的民族歌曲讲述了一个年轻小","start_time":1920,"end_time":12530}
+[2024-03-14 13:12:55,706] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家小的民族歌曲讲述了一个年轻小以为","start_time":1920,"end_time":13170}
+[2024-03-14 13:12:55,979] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家小的民族歌曲讲述了一个年轻小韦穆","start_time":1920,"end_time":13330}
+[2024-03-14 13:12:56,091] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 13:12:56,091] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家小的民族歌曲讲述了一个年轻小韦慕杨","start_time":1920,"end_time":13650}
+[2024-03-14 13:12:56,331] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家小的民族歌曲讲述了一个年轻小一位牧羊姑","start_time":1920,"end_time":13810}
+[2024-03-14 13:12:56,652] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家小的民族歌曲讲述了一个年轻小一位牧羊姑娘","start_time":1920,"end_time":14130}
+[2024-03-14 13:12:56,901] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家小的民族歌曲讲述了一个年轻小一位牧羊姑娘之","start_time":1920,"end_time":14290}
+[2024-03-14 13:12:57,374] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家小的民族歌曲讲述了一个年轻小一位牧羊姑娘之前","start_time":1920,"end_time":14770}
+[2024-03-14 13:12:57,511] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家小的民族歌曲讲述了一个年轻小一位牧羊姑娘之前至","start_time":1920,"end_time":14930}
+[2024-03-14 13:12:57,888] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家小的民族歌曲讲述了一个年轻小一位牧羊姑娘之前质朴","start_time":1920,"end_time":15250}
+[2024-03-14 13:12:58,016] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家小的民族歌曲讲述了一个年轻小一位牧羊姑娘之前质朴而","start_time":1920,"end_time":15410}
+[2024-03-14 13:12:58,360] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 13:12:58,400] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家小的民族歌曲讲述了一个年轻小一位牧羊姑娘之前质朴而动","start_time":1920,"end_time":15730}
+[2024-03-14 13:12:58,544] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家小的民族歌曲讲述了一个年轻小一位牧羊姑娘之前质朴而动人","start_time":1920,"end_time":15860}
+[2024-03-14 13:12:58,929] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"在那遥远的地方在那遥远的地方是王洛宾创作的艺术家小的民族歌曲讲述了一个年轻小一位牧羊姑娘之前质朴而动人的","start_time":1920,"end_time":16020}
+[2024-03-14 13:12:59,354] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 13:12:59,458] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"在那遥远的地方，在那遥远的地方是王洛宾创作的艺术家，小的民族歌曲，讲述了一个年轻小一位牧羊姑娘之前质朴而动人的爱情。","start_time":1920,"end_time":16420,"product_id":15372,"product_line":"open"}
+[2024-03-14 13:12:59,458] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 13:13:00,085] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"故","start_time":16420,"end_time":17300}
+[2024-03-14 13:13:00,421] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"故事","start_time":16420,"end_time":17620}
+[2024-03-14 13:13:00,693] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"故事轻","start_time":16420,"end_time":17940}
+[2024-03-14 13:13:00,965] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"故事清新","start_time":16420,"end_time":18260}
+[2024-03-14 13:13:01,197] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 13:13:01,309] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"故事清新自","start_time":16420,"end_time":18580}
+[2024-03-14 13:13:01,966] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"故事清新自然","start_time":16420,"end_time":19060}
+[2024-03-14 13:13:02,246] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"故事清新自然玄","start_time":16420,"end_time":19380}
+[2024-03-14 13:13:02,342] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"故事清新自然旋律","start_time":16420,"end_time":19540}
+[2024-03-14 13:13:02,606] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 13:13:03,111] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"故事清新自然旋律优","start_time":16420,"end_time":19830}
+[2024-03-14 13:13:03,352] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"故事清新自然旋律优美","start_time":16420,"end_time":20150}
+[2024-03-14 13:13:04,088] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"故事清新自然旋律优美动","start_time":16420,"end_time":20950}
+[2024-03-14 13:13:04,088] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"故事清新自然旋律优美一","start_time":16420,"end_time":21110}
+[2024-03-14 13:13:04,617] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"故事清新自然旋律优美一直","start_time":16420,"end_time":21430}
+[2024-03-14 13:13:04,617] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"故事清新自然旋律优美一直以","start_time":16420,"end_time":21590}
+[2024-03-14 13:13:05,194] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"故事清新自然旋律优美一直以来","start_time":16420,"end_time":22070}
+[2024-03-14 13:13:05,290] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"故事清新自然旋律优美一直以来深","start_time":16420,"end_time":22230}
+[2024-03-14 13:13:05,539] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"故事清新自然旋律优美一直以来深受","start_time":16420,"end_time":22550}
+[2024-03-14 13:13:05,772] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"故事清新自然旋律优美一直以来深受国","start_time":16420,"end_time":22710}
+[2024-03-14 13:13:06,028] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"故事清新自然旋律优美一直以来深受国内","start_time":16420,"end_time":23030}
+[2024-03-14 13:13:06,172] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 13:13:06,404] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"故事清新自然旋律优美一直以来深受国内外","start_time":16420,"end_time":23350}
+[2024-03-14 13:13:06,772] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"故事清新自然旋律优美一直以来深受国内外听","start_time":16420,"end_time":23510}
+[2024-03-14 13:13:06,828] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 13:13:07,365] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_2","type":"MID_TEXT","result":"故事清新自然旋律优美一直以来深受国内外听众","start_time":16420,"end_time":23960}
+[2024-03-14 13:13:08,014] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 13:13:08,022] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_2","type":"FIN_TEXT","result":"故事清新自然，旋律优美，一直以来深受国内外听众席。","start_time":16420,"end_time":24350,"product_id":15372,"product_line":"open"}
+[2024-03-14 13:13:11,089] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 13:13:11,329] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 13:13:15,390] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 13:13:16,504] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 13:13:18,197] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 13:13:18,870] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该","start_time":33450,"end_time":34780}
+[2024-03-14 13:13:19,207] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该取","start_time":33450,"end_time":35100}
+[2024-03-14 13:13:19,479] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为","start_time":33450,"end_time":35260}
+[2024-03-14 13:13:19,663] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 13:13:19,719] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王","start_time":33450,"end_time":35700}
+[2024-03-14 13:13:19,991] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为黄河","start_time":33450,"end_time":35860}
+[2024-03-14 13:13:20,488] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生活","start_time":33450,"end_time":36340}
+[2024-03-14 13:13:21,050] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生活的","start_time":33450,"end_time":36660}
+[2024-03-14 13:13:21,275] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说","start_time":33450,"end_time":37140}
+[2024-03-14 13:13:21,419] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 13:13:21,555] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说改","start_time":33450,"end_time":37300}
+[2024-03-14 13:13:22,059] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说改编","start_time":33450,"end_time":37780}
+[2024-03-14 13:13:22,677] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说改编版","start_time":33450,"end_time":38420}
+[2024-03-14 13:13:22,958] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说改编版曾","start_time":33450,"end_time":38740}
+[2024-03-14 13:13:23,286] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说改编版层次","start_time":33450,"end_time":39060}
+[2024-03-14 13:13:23,806] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说改编版层次丰","start_time":33450,"end_time":39380}
+[2024-03-14 13:13:23,894] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 13:13:24,303] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说改编版层次丰富","start_time":33450,"end_time":39830}
+[2024-03-14 13:13:25,689] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说改编版层次丰富应该和","start_time":33450,"end_time":40790}
+[2024-03-14 13:13:26,027] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说改编版层次丰富应该和谐","start_time":33450,"end_time":41430}
+[2024-03-14 13:13:26,443] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说改编版层次丰富应该和谐继保","start_time":33450,"end_time":41910}
+[2024-03-14 13:13:26,699] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 13:13:26,699] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说改编版层次丰富应该和谐既保留","start_time":33450,"end_time":42070}
+[2024-03-14 13:13:26,795] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说改编版层次丰富应该和谐既保留了","start_time":33450,"end_time":42230}
+[2024-03-14 13:13:27,285] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说改编版层次丰富应该和谐既保留了原曲","start_time":33450,"end_time":42710}
+[2024-03-14 13:13:27,693] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说改编版层次丰富应该和谐既保留了原曲的","start_time":33450,"end_time":43030}
+[2024-03-14 13:13:27,837] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说改编版层次丰富应该和谐既保留了原曲的风","start_time":33450,"end_time":43190}
+[2024-03-14 13:13:28,174] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 13:13:28,639] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说改编版层次丰富应该和谐既保留了原曲的风韵","start_time":33450,"end_time":43800}
+[2024-03-14 13:13:29,842] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说改编版层次丰富应该和谐既保留了原曲的风韵关","start_time":33450,"end_time":45080}
+[2024-03-14 13:13:30,363] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说改编版层次丰富应该和谐既保留了原曲的风韵带给观众","start_time":33450,"end_time":45560}
+[2024-03-14 13:13:30,700] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说改编版层次丰富应该和谐既保留了原曲的风韵带给观众展","start_time":33450,"end_time":45880}
+[2024-03-14 13:13:30,933] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说改编版层次丰富应该和谐既保留了原曲的风韵带给观众崭新","start_time":33450,"end_time":46040}
+[2024-03-14 13:13:31,213] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说改编版层次丰富应该和谐既保留了原曲的风韵带给观众崭新的","start_time":33450,"end_time":46360}
+[2024-03-14 13:13:31,446] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说改编版层次丰富应该和谐既保留了原曲的风韵带给观众崭新的听","start_time":33450,"end_time":46520}
+[2024-03-14 13:13:31,728] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 13:13:31,872] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说改编版层次丰富应该和谐既保留了原曲的风韵带给观众崭新的听觉","start_time":33450,"end_time":47000}
+[2024-03-14 13:13:32,120] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"MID_TEXT","result":"该曲为王和生管说改编版层次丰富应该和谐既保留了原曲的风韵带给观众崭新的听觉体验","start_time":33450,"end_time":47160}
+[2024-03-14 13:13:32,392] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 13:13:32,760] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 13:13:32,978] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1010463989,"sn":"7841e943-e1c1-11ee-9684-8c04ba12cb86_ws_3","type":"FIN_TEXT","result":"该曲为王和生管说改编版层次丰富，应该和谐，既保留了原曲的风韵，带给观众崭新的听觉体验。","start_time":33450,"end_time":47590,"product_id":15372,"product_line":"open"}
+[2024-03-14 13:13:36,662] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 13:13:36,758] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:20:11,686] [<module>()][INFO] begin
+[2024-03-14 19:20:11,688] [<module>()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=d29d9340-e1f4-11ee-ac73-8c04ba12cb86
+[2024-03-14 19:20:13,269] [info()][INFO] Websocket connected
+[2024-03-14 19:20:17,289] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-03-14 19:20:17,580] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:20:21,852] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:20:39,419] [<module>()][INFO] begin
+[2024-03-14 19:20:39,419] [<module>()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=e32521f0-e1f4-11ee-8d3b-8c04ba12cb86
+[2024-03-14 19:20:39,957] [info()][INFO] Websocket connected
+[2024-03-14 19:20:43,967] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-03-14 19:20:44,374] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:20:46,303] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:20:46,806] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1400650462,"sn":"e32521f0-e1f4-11ee-8d3b-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":860,"end_time":2060}
+[2024-03-14 19:20:47,276] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1400650462,"sn":"e32521f0-e1f4-11ee-8d3b-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":860,"end_time":2540}
+[2024-03-14 19:20:47,478] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1400650462,"sn":"e32521f0-e1f4-11ee-8d3b-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":860,"end_time":2700}
+[2024-03-14 19:20:48,110] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:20:48,301] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1400650462,"sn":"e32521f0-e1f4-11ee-8d3b-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":860,"end_time":3010,"product_id":15372,"product_line":"open"}
+[2024-03-14 19:20:48,634] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:20:49,499] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:20:50,842] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:20:51,720] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1400650462,"sn":"e32521f0-e1f4-11ee-8d3b-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最","start_time":5160,"end_time":6350}
+[2024-03-14 19:20:51,827] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1400650462,"sn":"e32521f0-e1f4-11ee-8d3b-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近","start_time":5160,"end_time":6670}
+[2024-03-14 19:20:52,070] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1400650462,"sn":"e32521f0-e1f4-11ee-8d3b-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一","start_time":5160,"end_time":6830}
+[2024-03-14 19:20:52,616] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1400650462,"sn":"e32521f0-e1f4-11ee-8d3b-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一条","start_time":5160,"end_time":7150}
+[2024-03-14 19:20:52,765] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1400650462,"sn":"e32521f0-e1f4-11ee-8d3b-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一条十","start_time":5160,"end_time":7310}
+[2024-03-14 19:20:52,906] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:20:53,125] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1400650462,"sn":"e32521f0-e1f4-11ee-8d3b-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一条实施","start_time":5160,"end_time":7630}
+[2024-03-14 19:20:53,316] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1400650462,"sn":"e32521f0-e1f4-11ee-8d3b-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一条实施数","start_time":5160,"end_time":7790}
+[2024-03-14 19:20:53,502] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1400650462,"sn":"e32521f0-e1f4-11ee-8d3b-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一条实施数据","start_time":5160,"end_time":8080}
+[2024-03-14 19:20:54,129] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:20:54,305] [error()][ERROR] error from callback <function on_message at 0x0000023B384860D0>: local variable 'flag' referenced before assignment
+[2024-03-14 19:20:54,305] [on_error()][ERROR] error: local variable 'flag' referenced before assignment
+[2024-03-14 19:20:54,596] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:20:57,182] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:20:59,940] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:21:01,463] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:21:04,860] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:21:05,735] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:21:09,987] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:21:10,104] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:22:19,873] [<module>()][INFO] begin
+[2024-03-14 19:22:19,873] [<module>()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=1f051da1-e1f5-11ee-bdb6-8c04ba12cb86
+[2024-03-14 19:22:20,353] [info()][INFO] Websocket connected
+[2024-03-14 19:22:24,371] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-03-14 19:22:24,787] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:22:26,295] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:22:26,747] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1627172479,"sn":"1f051da1-e1f5-11ee-bdb6-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":450,"end_time":1740}
+[2024-03-14 19:22:26,902] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1627172479,"sn":"1f051da1-e1f5-11ee-bdb6-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":450,"end_time":1900}
+[2024-03-14 19:22:27,595] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1627172479,"sn":"1f051da1-e1f5-11ee-bdb6-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":450,"end_time":2220}
+[2024-03-14 19:22:27,947] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:22:28,106] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1627172479,"sn":"1f051da1-e1f5-11ee-bdb6-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":450,"end_time":2540,"product_id":15372,"product_line":"open"}
+[2024-03-14 19:22:29,048] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:22:29,873] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:22:33,007] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:22:33,297] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:22:33,519] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1627172479,"sn":"1f051da1-e1f5-11ee-bdb6-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近","start_time":6470,"end_time":7790}
+[2024-03-14 19:22:33,734] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1627172479,"sn":"1f051da1-e1f5-11ee-bdb6-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一","start_time":6470,"end_time":8080}
+[2024-03-14 19:22:34,098] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1627172479,"sn":"1f051da1-e1f5-11ee-bdb6-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一条","start_time":6470,"end_time":8400}
+[2024-03-14 19:22:34,706] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1627172479,"sn":"1f051da1-e1f5-11ee-bdb6-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一条数","start_time":6470,"end_time":9040}
+[2024-03-14 19:22:35,070] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:22:35,070] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1627172479,"sn":"1f051da1-e1f5-11ee-bdb6-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一条数据","start_time":6470,"end_time":9360}
+[2024-03-14 19:22:35,632] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1627172479,"sn":"1f051da1-e1f5-11ee-bdb6-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一条数据是","start_time":6470,"end_time":9840}
+[2024-03-14 19:22:36,063] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1627172479,"sn":"1f051da1-e1f5-11ee-bdb6-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一条数据是多","start_time":6470,"end_time":10160}
+[2024-03-14 19:22:37,031] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:22:37,032] [error()][ERROR] error from callback <function on_message at 0x000001B93B985160>: local variable 'flag' referenced before assignment
+[2024-03-14 19:22:37,032] [on_error()][ERROR] error: local variable 'flag' referenced before assignment
+[2024-03-14 19:22:37,582] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:22:40,128] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:22:41,867] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:27:50,581] [<module>()][INFO] begin
+[2024-03-14 19:27:50,581] [<module>()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=e42341ee-e1f5-11ee-beea-8c04ba12cb86
+[2024-03-14 19:27:51,553] [info()][INFO] Websocket connected
+[2024-03-14 19:27:55,564] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-03-14 19:27:55,971] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:27:57,745] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:27:58,146] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":2048568397,"sn":"e42341ee-e1f5-11ee-beea-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":690,"end_time":1900}
+[2024-03-14 19:27:58,727] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":2048568397,"sn":"e42341ee-e1f5-11ee-beea-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":690,"end_time":2380}
+[2024-03-14 19:27:58,927] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":2048568397,"sn":"e42341ee-e1f5-11ee-beea-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":690,"end_time":2540}
+[2024-03-14 19:27:59,866] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:27:59,866] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":2048568397,"sn":"e42341ee-e1f5-11ee-beea-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":690,"end_time":2870,"product_id":15372,"product_line":"open"}
+[2024-03-14 19:28:00,163] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:28:01,061] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:28:01,062] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:28:01,778] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":2048568397,"sn":"e42341ee-e1f5-11ee-beea-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近","start_time":3890,"end_time":5230}
+[2024-03-14 19:28:02,231] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":2048568397,"sn":"e42341ee-e1f5-11ee-beea-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一","start_time":3890,"end_time":5550}
+[2024-03-14 19:28:02,478] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":2048568397,"sn":"e42341ee-e1f5-11ee-beea-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一条","start_time":3890,"end_time":5870}
+[2024-03-14 19:28:02,949] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":2048568397,"sn":"e42341ee-e1f5-11ee-beea-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一条十","start_time":3890,"end_time":6190}
+[2024-03-14 19:28:02,949] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":2048568397,"sn":"e42341ee-e1f5-11ee-beea-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一条实施","start_time":3890,"end_time":6350}
+[2024-03-14 19:28:03,356] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":2048568397,"sn":"e42341ee-e1f5-11ee-beea-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一条实施数","start_time":3890,"end_time":6670}
+[2024-03-14 19:28:03,734] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":2048568397,"sn":"e42341ee-e1f5-11ee-beea-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一条实施数据","start_time":3890,"end_time":7150}
+[2024-03-14 19:28:04,006] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":2048568397,"sn":"e42341ee-e1f5-11ee-beea-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一条实施数据是","start_time":3890,"end_time":7310}
+[2024-03-14 19:28:04,346] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:28:04,434] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":2048568397,"sn":"e42341ee-e1f5-11ee-beea-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"最近一条实施数据是多","start_time":3890,"end_time":7630}
+[2024-03-14 19:28:05,610] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:28:05,815] [send_finish()][INFO] send FINISH frame
+[2024-03-14 19:28:05,815] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":2048568397,"sn":"e42341ee-e1f5-11ee-beea-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"最近，一条实施数据是多少？","start_time":3890,"end_time":8120,"product_id":15372,"product_line":"open"}
+[2024-03-14 19:28:06,012] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:28:06,127] [error()][ERROR] error from callback <function on_close at 0x00000246DB896280>: on_close() takes 1 positional argument but 3 were given
+[2024-03-14 19:28:06,127] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-03-14 19:33:15,217] [<module>()][INFO] begin
+[2024-03-14 19:33:15,218] [<module>()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=a5a2ccb4-e1f6-11ee-9a80-8c04ba12cb86
+[2024-03-14 19:33:16,139] [info()][INFO] Websocket connected
+[2024-03-14 19:33:20,154] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-03-14 19:33:20,273] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:33:54,522] [<module>()][INFO] begin
+[2024-03-14 19:33:54,524] [<module>()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=bd1066f8-e1f6-11ee-bf5a-8c04ba12cb86
+[2024-03-14 19:33:56,318] [info()][INFO] Websocket connected
+[2024-03-14 19:34:00,334] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-03-14 19:34:00,451] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:34:02,078] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:34:02,682] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1998713602,"sn":"bd1066f8-e1f6-11ee-bf5a-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":430,"end_time":1740}
+[2024-03-14 19:34:03,187] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1998713602,"sn":"bd1066f8-e1f6-11ee-bf5a-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":430,"end_time":2060}
+[2024-03-14 19:34:03,187] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1998713602,"sn":"bd1066f8-e1f6-11ee-bf5a-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":430,"end_time":2220}
+[2024-03-14 19:34:04,042] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:34:04,044] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1998713602,"sn":"bd1066f8-e1f6-11ee-bf5a-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":430,"end_time":2600,"product_id":15372,"product_line":"open"}
+[2024-03-14 19:34:04,723] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:34:05,827] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:34:06,043] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:34:06,174] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1998713602,"sn":"bd1066f8-e1f6-11ee-bf5a-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"现","start_time":3830,"end_time":5070}
+[2024-03-14 19:34:06,485] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1998713602,"sn":"bd1066f8-e1f6-11ee-bf5a-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"现在","start_time":3830,"end_time":5230}
+[2024-03-14 19:34:06,750] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1998713602,"sn":"bd1066f8-e1f6-11ee-bf5a-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"现在的","start_time":3830,"end_time":5390}
+[2024-03-14 19:34:08,964] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1998713602,"sn":"bd1066f8-e1f6-11ee-bf5a-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"现在的时","start_time":3830,"end_time":5710}
+[2024-03-14 19:34:08,994] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:34:09,216] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1998713602,"sn":"bd1066f8-e1f6-11ee-bf5a-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"现在的时间","start_time":3830,"end_time":6030}
+[2024-03-14 19:34:09,217] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1998713602,"sn":"bd1066f8-e1f6-11ee-bf5a-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"现在的时间是","start_time":3830,"end_time":6350}
+[2024-03-14 19:34:09,397] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1998713602,"sn":"bd1066f8-e1f6-11ee-bf5a-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"现在的时间是几","start_time":3830,"end_time":6510}
+[2024-03-14 19:34:09,652] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:34:09,868] [send_finish()][INFO] send FINISH frame
+[2024-03-14 19:34:09,868] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1998713602,"sn":"bd1066f8-e1f6-11ee-bf5a-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"现在的时间是几点？","start_time":3830,"end_time":7130,"product_id":15372,"product_line":"open"}
+[2024-03-14 19:34:10,330] [error()][ERROR] error from callback <function on_close at 0x000002AED1846280>: on_close() takes 1 positional argument but 3 were given
+[2024-03-14 19:34:10,330] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-03-14 19:57:14,654] [<module>()][INFO] begin
+[2024-03-14 19:57:14,655] [<module>()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=ff9b54ec-e1f9-11ee-a5a6-8c04ba12cb86
+[2024-03-14 19:57:15,496] [info()][INFO] Websocket connected
+[2024-03-14 19:57:19,503] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-03-14 19:57:19,717] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:57:22,210] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:57:22,726] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1642706015,"sn":"ff9b54ec-e1f9-11ee-a5a6-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":1280,"end_time":2540}
+[2024-03-14 19:57:22,990] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1642706015,"sn":"ff9b54ec-e1f9-11ee-a5a6-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":1280,"end_time":2860}
+[2024-03-14 19:57:23,306] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1642706015,"sn":"ff9b54ec-e1f9-11ee-a5a6-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":1280,"end_time":3180}
+[2024-03-14 19:57:23,936] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:57:23,979] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:57:24,125] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1642706015,"sn":"ff9b54ec-e1f9-11ee-a5a6-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":1280,"end_time":3500,"product_id":15372,"product_line":"open"}
+[2024-03-14 19:57:24,939] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:57:26,841] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:57:27,662] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1642706015,"sn":"ff9b54ec-e1f9-11ee-a5a6-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"现","start_time":5750,"end_time":6990}
+[2024-03-14 19:57:27,878] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1642706015,"sn":"ff9b54ec-e1f9-11ee-a5a6-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"现在","start_time":5750,"end_time":7150}
+[2024-03-14 19:57:27,878] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1642706015,"sn":"ff9b54ec-e1f9-11ee-a5a6-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"现在的","start_time":5750,"end_time":7310}
+[2024-03-14 19:57:28,229] [send_finish()][INFO] send FINISH frame
+[2024-03-14 19:57:28,305] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1642706015,"sn":"ff9b54ec-e1f9-11ee-a5a6-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"现在的时","start_time":5750,"end_time":7790}
+[2024-03-14 19:57:28,867] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:57:28,869] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1642706015,"sn":"ff9b54ec-e1f9-11ee-a5a6-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"现在的时间是。","start_time":5750,"end_time":7930,"product_id":15372,"product_line":"open"}
+[2024-03-14 19:57:28,870] [error()][ERROR] error from callback <function on_close at 0x0000021C577961F0>: on_close() takes 1 positional argument but 3 were given
+[2024-03-14 19:57:28,870] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-03-14 19:58:37,105] [<module>()][INFO] begin
+[2024-03-14 19:58:37,105] [<module>()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=30c05c3c-e1fa-11ee-bbd5-8c04ba12cb86
+[2024-03-14 19:58:37,701] [info()][INFO] Websocket connected
+[2024-03-14 19:58:41,707] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-03-14 19:58:42,125] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:58:45,195] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:58:45,846] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1646720225,"sn":"30c05c3c-e1fa-11ee-bbd5-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":1940,"end_time":3180}
+[2024-03-14 19:58:46,002] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1646720225,"sn":"30c05c3c-e1fa-11ee-bbd5-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":1940,"end_time":3500}
+[2024-03-14 19:58:46,190] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1646720225,"sn":"30c05c3c-e1fa-11ee-bbd5-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":1940,"end_time":3660}
+[2024-03-14 19:58:46,392] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 19:58:47,149] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:58:47,346] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1646720225,"sn":"30c05c3c-e1fa-11ee-bbd5-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":1940,"end_time":4140,"product_id":15372,"product_line":"open"}
+[2024-03-14 19:58:47,778] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:58:48,984] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:58:49,475] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1646720225,"sn":"30c05c3c-e1fa-11ee-bbd5-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"现在","start_time":5350,"end_time":6670}
+[2024-03-14 19:58:49,740] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1646720225,"sn":"30c05c3c-e1fa-11ee-bbd5-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"现在的","start_time":5350,"end_time":6990}
+[2024-03-14 19:58:50,101] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1646720225,"sn":"30c05c3c-e1fa-11ee-bbd5-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"现在的时","start_time":5350,"end_time":7150}
+[2024-03-14 19:58:50,637] [send_finish()][INFO] send FINISH frame
+[2024-03-14 19:58:50,753] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1646720225,"sn":"30c05c3c-e1fa-11ee-bbd5-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"现在的时间","start_time":5350,"end_time":7630}
+[2024-03-14 19:58:50,915] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 19:58:51,047] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1646720225,"sn":"30c05c3c-e1fa-11ee-bbd5-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"现在的时间是","start_time":5350,"end_time":7920}
+[2024-03-14 19:58:51,050] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1646720225,"sn":"30c05c3c-e1fa-11ee-bbd5-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"现在的时间是几点？","start_time":5350,"end_time":7930,"product_id":15372,"product_line":"open"}
+[2024-03-14 19:58:51,051] [error()][ERROR] error from callback <function on_close at 0x0000017AE73361F0>: on_close() takes 1 positional argument but 3 were given
+[2024-03-14 19:58:51,051] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-03-14 20:01:16,689] [<module>()][INFO] begin
+[2024-03-14 20:01:16,690] [<module>()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=8fdf0056-e1fa-11ee-813e-8c04ba12cb86
+[2024-03-14 20:01:17,394] [info()][INFO] Websocket connected
+[2024-03-14 20:01:21,400] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-03-14 20:01:21,803] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 20:01:24,311] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 20:01:24,718] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1435202050,"sn":"8fdf0056-e1fa-11ee-813e-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":1050,"end_time":2380}
+[2024-03-14 20:01:25,067] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1435202050,"sn":"8fdf0056-e1fa-11ee-813e-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":1050,"end_time":2700}
+[2024-03-14 20:01:25,390] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1435202050,"sn":"8fdf0056-e1fa-11ee-813e-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":1050,"end_time":2860}
+[2024-03-14 20:01:25,971] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 20:01:26,115] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 20:01:26,153] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1435202050,"sn":"8fdf0056-e1fa-11ee-813e-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":1050,"end_time":3240,"product_id":15372,"product_line":"open"}
+[2024-03-14 20:01:26,875] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 20:01:27,567] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 20:01:28,271] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1435202050,"sn":"8fdf0056-e1fa-11ee-813e-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"现","start_time":4300,"end_time":5550}
+[2024-03-14 20:01:28,369] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1435202050,"sn":"8fdf0056-e1fa-11ee-813e-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"现在","start_time":4300,"end_time":5710}
+[2024-03-14 20:01:28,527] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1435202050,"sn":"8fdf0056-e1fa-11ee-813e-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"现在的","start_time":4300,"end_time":6030}
+[2024-03-14 20:01:28,802] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1435202050,"sn":"8fdf0056-e1fa-11ee-813e-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"现在的时","start_time":4300,"end_time":6350}
+[2024-03-14 20:01:29,348] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1435202050,"sn":"8fdf0056-e1fa-11ee-813e-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"现在的时间","start_time":4300,"end_time":6670}
+[2024-03-14 20:01:29,549] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1435202050,"sn":"8fdf0056-e1fa-11ee-813e-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"现在的时间是","start_time":4300,"end_time":6830}
+[2024-03-14 20:01:29,721] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1435202050,"sn":"8fdf0056-e1fa-11ee-813e-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"现在的时间是几","start_time":4300,"end_time":7150}
+[2024-03-14 20:01:30,410] [send_finish()][INFO] send FINISH frame
+[2024-03-14 20:01:30,650] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 20:01:30,769] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1435202050,"sn":"8fdf0056-e1fa-11ee-813e-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"现在的时间是几点？","start_time":4300,"end_time":7550,"product_id":15372,"product_line":"open"}
+[2024-03-14 20:01:30,934] [error()][ERROR] error from callback <function on_close at 0x00000242BC9261F0>: on_close() takes 1 positional argument but 3 were given
+[2024-03-14 20:01:30,934] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-03-14 20:02:56,782] [<module>()][INFO] begin
+[2024-03-14 20:02:56,783] [<module>()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=cb87f068-e1fa-11ee-882d-8c04ba12cb86
+[2024-03-14 20:02:57,565] [info()][INFO] Websocket connected
+[2024-03-14 20:03:01,586] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-03-14 20:03:01,970] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 20:03:03,591] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 20:03:04,320] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1437059379,"sn":"cb87f068-e1fa-11ee-882d-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":560,"end_time":1900}
+[2024-03-14 20:03:04,543] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1437059379,"sn":"cb87f068-e1fa-11ee-882d-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":560,"end_time":2060}
+[2024-03-14 20:03:05,056] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1437059379,"sn":"cb87f068-e1fa-11ee-882d-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":560,"end_time":2380}
+[2024-03-14 20:03:05,851] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 20:03:05,852] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1437059379,"sn":"cb87f068-e1fa-11ee-882d-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":560,"end_time":2660,"product_id":15372,"product_line":"open"}
+[2024-03-14 20:03:06,201] [send_finish()][INFO] send FINISH frame
+[2024-03-14 20:03:06,732] [error()][ERROR] error from callback <function on_close at 0x0000018770B261F0>: on_close() takes 1 positional argument but 3 were given
+[2024-03-14 20:03:06,732] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-03-14 20:06:02,851] [<module>()][INFO] begin
+[2024-03-14 20:06:02,851] [<module>()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=3a6fe145-e1fb-11ee-a654-8c04ba12cb86
+[2024-03-14 20:06:03,824] [info()][INFO] Websocket connected
+[2024-03-14 20:06:07,838] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-03-14 20:06:08,224] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 20:06:10,098] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 20:06:10,710] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1582559638,"sn":"3a6fe145-e1fb-11ee-a654-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":640,"end_time":1900}
+[2024-03-14 20:06:11,012] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1582559638,"sn":"3a6fe145-e1fb-11ee-a654-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":640,"end_time":2220}
+[2024-03-14 20:06:11,851] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 20:06:11,852] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1582559638,"sn":"3a6fe145-e1fb-11ee-a654-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":640,"end_time":2650,"product_id":15372,"product_line":"open"}
+[2024-03-14 20:06:12,455] [send_finish()][INFO] send FINISH frame
+[2024-03-14 20:06:12,723] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 20:06:13,058] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 20:06:13,060] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1582559638,"sn":"3a6fe145-e1fb-11ee-a654-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"现在。","start_time":3010,"end_time":3960,"product_id":15372,"product_line":"open"}
+[2024-03-14 20:06:13,061] [error()][ERROR] error from callback <function on_close at 0x000001EEE4D281F0>: on_close() takes 1 positional argument but 3 were given
+[2024-03-14 20:06:13,061] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-03-14 20:09:51,481] [<module>()][INFO] begin
+[2024-03-14 20:09:51,481] [<module>()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=c2b5fb21-e1fb-11ee-95e1-8c04ba12cb86
+[2024-03-14 20:09:52,531] [info()][INFO] Websocket connected
+[2024-03-14 20:09:56,541] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-03-14 20:09:56,946] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 20:09:59,372] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 20:09:59,930] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1007977744,"sn":"c2b5fb21-e1fb-11ee-95e1-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开","start_time":1160,"end_time":2380}
+[2024-03-14 20:10:00,190] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1007977744,"sn":"c2b5fb21-e1fb-11ee-95e1-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始","start_time":1160,"end_time":2700}
+[2024-03-14 20:10:00,487] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1007977744,"sn":"c2b5fb21-e1fb-11ee-95e1-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"开始提","start_time":1160,"end_time":2860}
+[2024-03-14 20:10:01,249] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 20:10:01,340] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 20:10:01,342] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1007977744,"sn":"c2b5fb21-e1fb-11ee-95e1-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"开始提问。","start_time":1160,"end_time":3320,"product_id":15372,"product_line":"open"}
+[2024-03-14 20:10:02,007] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 20:10:03,224] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 20:10:03,885] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1007977744,"sn":"c2b5fb21-e1fb-11ee-95e1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请","start_time":4680,"end_time":5870}
+[2024-03-14 20:10:04,072] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1007977744,"sn":"c2b5fb21-e1fb-11ee-95e1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请您","start_time":4680,"end_time":6190}
+[2024-03-14 20:10:04,297] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1007977744,"sn":"c2b5fb21-e1fb-11ee-95e1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请您告","start_time":4680,"end_time":6510}
+[2024-03-14 20:10:04,858] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1007977744,"sn":"c2b5fb21-e1fb-11ee-95e1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请您告诉","start_time":4680,"end_time":6830}
+[2024-03-14 20:10:05,141] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1007977744,"sn":"c2b5fb21-e1fb-11ee-95e1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请您告诉我","start_time":4680,"end_time":7150}
+[2024-03-14 20:10:05,142] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1007977744,"sn":"c2b5fb21-e1fb-11ee-95e1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请您告诉我帮","start_time":4680,"end_time":7310}
+[2024-03-14 20:10:05,560] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 20:10:05,759] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1007977744,"sn":"c2b5fb21-e1fb-11ee-95e1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请您告诉我帮我","start_time":4680,"end_time":7630}
+[2024-03-14 20:10:05,975] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1007977744,"sn":"c2b5fb21-e1fb-11ee-95e1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请您告诉我帮我查","start_time":4680,"end_time":7920}
+[2024-03-14 20:10:05,977] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1007977744,"sn":"c2b5fb21-e1fb-11ee-95e1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请您告诉我帮我查一","start_time":4680,"end_time":8080}
+[2024-03-14 20:10:06,721] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1007977744,"sn":"c2b5fb21-e1fb-11ee-95e1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请您告诉我帮我查一下","start_time":4680,"end_time":8560}
+[2024-03-14 20:10:07,015] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 20:10:07,607] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1007977744,"sn":"c2b5fb21-e1fb-11ee-95e1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请您告诉我帮我查一下的时","start_time":4680,"end_time":9360}
+[2024-03-14 20:10:07,907] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1007977744,"sn":"c2b5fb21-e1fb-11ee-95e1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请您告诉我帮我查一下的时间","start_time":4680,"end_time":9840}
+[2024-03-14 20:10:08,155] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1007977744,"sn":"c2b5fb21-e1fb-11ee-95e1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请您告诉我帮我查一下的时间是","start_time":4680,"end_time":10000}
+[2024-03-14 20:10:08,417] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1007977744,"sn":"c2b5fb21-e1fb-11ee-95e1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请您告诉我帮我查一下的时间是几","start_time":4680,"end_time":10320}
+[2024-03-14 20:10:09,010] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1007977744,"sn":"c2b5fb21-e1fb-11ee-95e1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请您告诉我帮我查一下的时间是几点","start_time":4680,"end_time":10800}
+[2024-03-14 20:10:09,352] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1007977744,"sn":"c2b5fb21-e1fb-11ee-95e1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"请您告诉我帮我查一下的时间是几点好","start_time":4680,"end_time":11120}
+[2024-03-14 20:10:09,874] [send_audio()][INFO] send_audio total=127020
+[2024-03-14 20:10:10,589] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 20:10:10,590] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1007977744,"sn":"c2b5fb21-e1fb-11ee-95e1-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"请您告诉我，帮我查一下的时间是几点？好吗？","start_time":4680,"end_time":11570,"product_id":15372,"product_line":"open"}
+[2024-03-14 20:10:12,122] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 20:10:14,178] [send_finish()][INFO] send FINISH frame
+[2024-03-14 20:10:14,748] [error()][ERROR] error from callback <function on_close at 0x000002085ADF81F0>: on_close() takes 1 positional argument but 3 were given
+[2024-03-14 20:10:14,748] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given

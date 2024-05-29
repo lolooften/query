@@ -1,0 +1,427 @@
+Seed num: 42
+MODEL: train
+Load pretrained word embedding, norm: False, dir: ../../b_table_classification/embedding.txt
+Embedding:
+     pretrain word:21127, prefect match:488, case_match:14, oov:1, oov%:0.001984126984126984
+Training model...
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DATA SUMMARY START:
+ I/O:
+     Start   Sequence   Laebling   task...
+     Tag          scheme: BIO
+     Split         token:  ||| 
+     MAX SENTENCE LENGTH: 250
+     MAX   WORD   LENGTH: -1
+     Number   normalized: True
+     Word  alphabet size: 504
+     Char  alphabet size: 504
+     Label alphabet size: 8
+     Word embedding  dir: ../../b_table_classification/embedding.txt
+     Char embedding  dir: None
+     Word embedding size: 768
+     Char embedding size: 30
+     Norm   word     emb: False
+     Norm   char     emb: False
+     Train  file directory: ../../a_dataset/dataset_query_based_split/data_ner_train.txt
+     Dev    file directory: ../../a_dataset/dataset_query_based_split/data_ner_test.txt
+     Test   file directory: ../../a_dataset/dataset_query_based_split/data_ner_test.txt
+     Raw    file directory: None
+     Dset   file directory: None
+     Model  file directory: data/saved_model.lstmcrf
+     Loadmodel   directory: None
+     Decode file directory: None
+     Train instance number: 1650
+     Dev   instance number: 486
+     Test  instance number: 486
+     Raw   instance number: 0
+     FEATURE num: 0
+ ++++++++++++++++++++++++++++++++++++++++
+ Model Network:
+     Model        use_crf: True
+     Model word extractor: LSTM
+     Model       use_char: False
+ ++++++++++++++++++++++++++++++++++++++++
+ Training:
+     Optimizer: SGD
+     Iteration: 20
+     BatchSize: 10
+     Average  batch   loss: False
+ ++++++++++++++++++++++++++++++++++++++++
+ Hyperparameters:
+     Hyper              lr: 0.015
+     Hyper        lr_decay: 0.05
+     Hyper         HP_clip: None
+     Hyper        momentum: 0.0
+     Hyper              l2: 1e-08
+     Hyper      hidden_dim: 200
+     Hyper         dropout: 0.5
+     Hyper      lstm_layer: 1
+     Hyper          bilstm: True
+DATA SUMMARY END.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                                                                                        ++++++
+build sequence labeling network...
+use_char:  False
+word feature extractor:  LSTM
+use crf:  True
+build word sequence feature extractor: LSTM...
+build word representation...
+build CRF...
+Epoch: 0/20
+ Learning rate is set as: 0.015
+Shuffle: first input word list: [2, 3, 127, 128, 6, 88, 129, 130, 131, 132, 133, 134, 135, 135, 71, 26, 10, 11,, 71, 26, 10, 11, 12]
+     Instance: 500; Time: 4.63s; loss: 52371.2102; acc: 9442/13533=0.6977
+     Instance: 1000; Time: 4.67s; loss: 2272.6409; acc: 21947/26902=0.8158
+     Instance: 1500; Time: 4.50s; loss: 671.3806; acc: 35008/40319=0.8683
+     Instance: 1650; Time: 1.49s; loss: 111.0054; acc: 39057/44427=0.8791
+Epoch: 0 training finished. Time: 15.29s, speed: 107.90st/s,  total loss: 55426.237060546875  
+totalloss: 55426.237060546875
+Right token =  12987  All token =  13222  acc =  0.9822265920435638
+Dev: time: 57.79s, speed: 341.55st/s; acc: 0.9822, p: 0.8069, r: 0.6656, f: 0.7295
+Exceed previous best f score: -10
+Save current best model in file: data/saved_model.lstmcrf
+Right token =  12987  All token =  13222  acc =  0.9822265920435638
+Test: time: 2.08s, speed: 286.48st/s; acc: 0.9822, p: 0.8069, r: 0.6656, f: 0.7295
+Epoch: 1/20
+ Learning rate is set as: 0.014285714285714285
+Shuffle: first input word list: [390, 3, 4, 5, 6, 6, 88, 129, 185, 279, 94, 309, 310, 26, 18, 
+19, 26, 395, 396, 12]
+     Instance: 500; Time: 4.43s; loss: 347.9812; acc: 13089/13231=0.9893
+     Instance: 1000; Time: 4.54s; loss: 350.8921; acc: 26480/26749=0.9899
+     Instance: 1500; Time: 4.77s; loss: 324.5603; acc: 40072/40462=0.9904
+     Instance: 1650; Time: 1.36s; loss: 65.7417; acc: 44010/44427=0.9906
+Epoch: 1 training finished. Time: 15.10s, speed: 109.29st/s,  total loss: 1089.17529296875    
+totalloss: 1089.17529296875
+Right token =  13061  All token =  13222  acc =  0.9878233247617607
+Dev: time: 1.43s, speed: 351.36st/s; acc: 0.9878, p: 0.8000, r: 0.7643, f: 0.7818
+Exceed previous best f score: 0.7294938917975567
+Save current best model in file: data/saved_model.lstmcrf
+Right token =  13061  All token =  13222  acc =  0.9878233247617607
+Test: time: 1.30s, speed: 388.82st/s; acc: 0.9878, p: 0.8000, r: 0.7643, f: 0.7818
+Epoch: 2/20
+ Learning rate is set as: 0.013636363636363634
+Shuffle: first input word list: [291, 311, 78, 273, 437, 438, 80, 40, 124, 118, 6, 6, 57, 58, 
+161, 56, 64, 65, 85, 86, 26, 345, 199, 435, 71, 72, 16, 116, 26, 45, 10, 12]
+     Instance: 500; Time: 4.82s; loss: 188.3607; acc: 13664/13741=0.9944
+     Instance: 1000; Time: 5.02s; loss: 235.1362; acc: 26967/27139=0.9937
+     Instance: 1500; Time: 5.02s; loss: 166.5182; acc: 40109/40339=0.9943
+     Instance: 1650; Time: 1.49s; loss: 58.9397; acc: 44160/44427=0.9940
+Epoch: 2 training finished. Time: 16.35s, speed: 100.91st/s,  total loss: 648.954833984375    
+totalloss: 648.954833984375
+Right token =  13098  All token =  13222  acc =  0.9906216911208592
+Dev: time: 1.40s, speed: 358.37st/s; acc: 0.9906, p: 0.8436, r: 0.8248, f: 0.8341
+Exceed previous best f score: 0.7817589576547231
+Save current best model in file: data/saved_model.lstmcrf
+Right token =  13098  All token =  13222  acc =  0.9906216911208592
+Test: time: 1.69s, speed: 300.17st/s; acc: 0.9906, p: 0.8436, r: 0.8248, f: 0.8341
+Epoch: 3/20
+ Learning rate is set as: 0.013043478260869566
+Shuffle: first input word list: [194, 195, 14, 331, 39, 76, 342, 309, 172, 198, 245, 6, 26, 71, 101, 12]
+     Instance: 500; Time: 4.94s; loss: 132.4135; acc: 13386/13445=0.9956
+     Instance: 1000; Time: 4.77s; loss: 137.7129; acc: 27040/27151=0.9959
+     Instance: 1500; Time: 4.52s; loss: 144.1808; acc: 40213/40374=0.9960
+     Instance: 1650; Time: 1.45s; loss: 37.2307; acc: 44248/44427=0.9960
+Epoch: 3 training finished. Time: 15.69s, speed: 105.19st/s,  total loss: 451.537841796875    
+totalloss: 451.537841796875
+Right token =  13158  All token =  13222  acc =  0.9951595825139918
+Dev: time: 1.47s, speed: 344.15st/s; acc: 0.9952, p: 0.9233, r: 0.9204, f: 0.9219
+Exceed previous best f score: 0.8341384863123994
+Save current best model in file: data/saved_model.lstmcrf
+Right token =  13158  All token =  13222  acc =  0.9951595825139918
+Test: time: 1.38s, speed: 368.01st/s; acc: 0.9952, p: 0.9233, r: 0.9204, f: 0.9219
+Epoch: 4/20
+ Learning rate is set as: 0.0125
+Shuffle: first input word list: [341, 346, 248, 78, 127, 128, 6, 6, 88, 129, 185, 65, 127, 256, 245, 256, 309, 371, 156, 26, 266, 363, 309, 310, 124, 88, 89, 277, 278, 181, 197, 9, 87, 185, 256, 245, 256, 309, 371, 156, 26, 45, 10, 12]
+     Instance: 500; Time: 4.50s; loss: 75.4902; acc: 13315/13330=0.9989
+     Instance: 1000; Time: 4.68s; loss: 96.6793; acc: 26860/26905=0.9983
+     Instance: 1500; Time: 4.67s; loss: 127.3608; acc: 40252/40340=0.9978
+     Instance: 1650; Time: 1.41s; loss: 28.8501; acc: 44326/44427=0.9977
+Epoch: 4 training finished. Time: 15.26s, speed: 108.15st/s,  total loss: 328.3804931640625   
+totalloss: 328.3804931640625
+Right token =  13170  All token =  13222  acc =  0.9960671607926184
+Dev: time: 1.43s, speed: 354.40st/s; acc: 0.9961, p: 0.9423, r: 0.9363, f: 0.9393
+Exceed previous best f score: 0.9218500797448166
+Save current best model in file: data/saved_model.lstmcrf
+Right token =  13170  All token =  13222  acc =  0.9960671607926184
+Test: time: 1.45s, speed: 348.08st/s; acc: 0.9961, p: 0.9423, r: 0.9363, f: 0.9393
+Epoch: 5/20
+ Learning rate is set as: 0.012
+Shuffle: first input word list: [8, 9, 10, 11, 80, 40, 4, 27, 26, 6, 7, 10, 11, 71, 101, 78, 432, 262, 80, 40, 304, 121, 65, 61, 62, 7, 432, 262, 24, 25, 63]
+     Instance: 500; Time: 4.56s; loss: 87.2637; acc: 13416/13442=0.9981
+     Instance: 1000; Time: 4.57s; loss: 95.3494; acc: 27033/27092=0.9978
+     Instance: 1500; Time: 4.55s; loss: 66.5544; acc: 40261/40338=0.9981
+     Instance: 1650; Time: 1.34s; loss: 21.7606; acc: 44340/44427=0.9980
+Epoch: 5 training finished. Time: 15.03s, speed: 109.81st/s,  total loss: 270.9281005859375   
+totalloss: 270.9281005859375
+Right token =  13177  All token =  13222  acc =  0.9965965814551505
+Dev: time: 1.45s, speed: 346.59st/s; acc: 0.9966, p: 0.9429, r: 0.9459, f: 0.9444
+Exceed previous best f score: 0.939297124600639
+Save current best model in file: data/saved_model.lstmcrf
+Right token =  13177  All token =  13222  acc =  0.9965965814551505
+Test: time: 1.50s, speed: 332.64st/s; acc: 0.9966, p: 0.9429, r: 0.9459, f: 0.9444
+Epoch: 6/20
+ Learning rate is set as: 0.011538461538461537
+Shuffle: first input word list: [277, 278, 341, 245, 331, 353, 405, 71, 124, 18, 19, 26, 342, 
+309, 26, 4, 184, 156, 12]
+     Instance: 500; Time: 4.58s; loss: 57.4028; acc: 13478/13489=0.9992
+     Instance: 1000; Time: 4.49s; loss: 63.2622; acc: 26967/27003=0.9987
+     Instance: 1500; Time: 4.66s; loss: 67.2972; acc: 40400/40456=0.9986
+     Instance: 1650; Time: 1.35s; loss: 16.6034; acc: 44369/44427=0.9987
+Epoch: 6 training finished. Time: 15.09s, speed: 109.38st/s,  total loss: 204.565673828125    
+totalloss: 204.565673828125
+Right token =  13173  All token =  13222  acc =  0.996294055362275
+Dev: time: 1.47s, speed: 345.84st/s; acc: 0.9963, p: 0.9365, r: 0.9395, f: 0.9380
+Right token =  13173  All token =  13222  acc =  0.996294055362275
+Test: time: 1.34s, speed: 371.41st/s; acc: 0.9963, p: 0.9365, r: 0.9395, f: 0.9380
+Epoch: 7/20
+ Learning rate is set as: 0.01111111111111111
+Shuffle: first input word list: [277, 70, 345, 199, 435, 433, 434, 60, 335, 100, 16, 133, 42, 
+19, 17, 43, 26, 64, 65, 18, 19, 78, 127, 128, 6, 6, 88, 129, 185, 304, 121, 26, 211, 156, 12] 
+     Instance: 500; Time: 4.46s; loss: 56.1398; acc: 13290/13310=0.9985
+     Instance: 1000; Time: 4.54s; loss: 62.2123; acc: 26875/26917=0.9984
+     Instance: 1500; Time: 4.31s; loss: 48.2614; acc: 40260/40311=0.9987
+     Instance: 1650; Time: 1.48s; loss: 35.1515; acc: 44363/44427=0.9986
+Epoch: 7 training finished. Time: 14.79s, speed: 111.55st/s,  total loss: 201.764892578125    
+totalloss: 201.764892578125
+Right token =  13171  All token =  13222  acc =  0.9961427923158372
+Dev: time: 1.41s, speed: 353.62st/s; acc: 0.9961, p: 0.9365, r: 0.9395, f: 0.9380
+Right token =  13171  All token =  13222  acc =  0.9961427923158372
+Test: time: 1.43s, speed: 349.07st/s; acc: 0.9961, p: 0.9365, r: 0.9395, f: 0.9380
+Epoch: 8/20
+ Learning rate is set as: 0.010714285714285714
+Shuffle: first input word list: [247, 248, 71, 101, 78, 119, 57, 26, 64, 65, 8, 9, 10, 11, 40, 280, 65, 256, 245, 256, 309, 325, 280, 65, 342, 245, 342, 309, 12]
+     Instance: 500; Time: 4.50s; loss: 52.8076; acc: 13457/13478=0.9984
+     Instance: 1000; Time: 4.68s; loss: 59.8035; acc: 26926/26959=0.9988
+     Instance: 1500; Time: 4.55s; loss: 44.3884; acc: 40386/40436=0.9988
+     Instance: 1650; Time: 1.40s; loss: 12.4398; acc: 44375/44427=0.9988
+Epoch: 8 training finished. Time: 15.13s, speed: 109.07st/s,  total loss: 169.4393310546875   
+totalloss: 169.4393310546875
+Right token =  13178  All token =  13222  acc =  0.9966722129783694
+Dev: time: 1.41s, speed: 357.78st/s; acc: 0.9967, p: 0.9397, r: 0.9427, f: 0.9412
+Right token =  13178  All token =  13222  acc =  0.9966722129783694
+Test: time: 1.40s, speed: 358.05st/s; acc: 0.9967, p: 0.9397, r: 0.9427, f: 0.9412
+Epoch: 9/20
+ Learning rate is set as: 0.010344827586206896
+Shuffle: first input word list: [119, 57, 82, 83, 9, 84, 162, 6, 6, 6, 132, 133, 33, 34, 65, 4, 184, 156, 63]
+     Instance: 500; Time: 4.57s; loss: 65.3350; acc: 13699/13719=0.9985
+     Instance: 1000; Time: 4.57s; loss: 32.5166; acc: 27102/27131=0.9989
+     Instance: 1500; Time: 4.56s; loss: 41.1895; acc: 40359/40404=0.9989
+     Instance: 1650; Time: 1.44s; loss: 11.1254; acc: 44378/44427=0.9989
+Epoch: 9 training finished. Time: 15.15s, speed: 108.94st/s,  total loss: 150.1663818359375   
+totalloss: 150.1663818359375
+Right token =  13174  All token =  13222  acc =  0.9963696868854939
+Dev: time: 1.40s, speed: 357.26st/s; acc: 0.9964, p: 0.9367, r: 0.9427, f: 0.9397
+Right token =  13174  All token =  13222  acc =  0.9963696868854939
+Test: time: 1.47s, speed: 341.49st/s; acc: 0.9964, p: 0.9367, r: 0.9427, f: 0.9397
+Epoch: 10/20
+ Learning rate is set as: 0.01
+Shuffle: first input word list: [194, 195, 14, 56, 57, 93, 94, 95, 96, 136, 135, 22, 201, 17, 
+43, 78, 305, 75, 4, 184, 156, 26, 9, 306, 26, 58, 81, 304, 6, 6, 88, 129, 26, 93, 94, 95, 96, 
+136, 135, 22, 201, 17, 43, 26, 66, 77, 156, 12]
+     Instance: 500; Time: 4.62s; loss: 44.4457; acc: 13645/13655=0.9993
+     Instance: 1000; Time: 4.53s; loss: 39.9342; acc: 27183/27203=0.9993
+     Instance: 1500; Time: 4.53s; loss: 44.8180; acc: 40456/40491=0.9991
+     Instance: 1650; Time: 1.34s; loss: 9.5138; acc: 44390/44427=0.9992
+Epoch: 10 training finished. Time: 15.02s, speed: 109.82st/s,  total loss: 138.711669921875   
+totalloss: 138.711669921875
+Right token =  13172  All token =  13222  acc =  0.9962184238390561
+Dev: time: 1.40s, speed: 356.47st/s; acc: 0.9962, p: 0.9367, r: 0.9427, f: 0.9397
+Right token =  13172  All token =  13222  acc =  0.9962184238390561
+Test: time: 1.44s, speed: 350.83st/s; acc: 0.9962, p: 0.9367, r: 0.9427, f: 0.9397
+Epoch: 11/20
+ Learning rate is set as: 0.009677419354838708
+Shuffle: first input word list: [186, 187, 53, 188, 189, 97, 32, 33, 34, 26, 10, 11, 78, 56, 57, 65, 127, 79, 45, 256, 309, 63]
+     Instance: 500; Time: 4.47s; loss: 30.7875; acc: 13423/13426=0.9998
+     Instance: 1000; Time: 4.66s; loss: 49.4219; acc: 26898/26920=0.9992
+     Instance: 1500; Time: 4.72s; loss: 28.1815; acc: 40496/40526=0.9993
+     Instance: 1650; Time: 1.47s; loss: 9.6425; acc: 44394/44427=0.9993
+Epoch: 11 training finished. Time: 15.32s, speed: 107.71st/s,  total loss: 118.0333251953125  
+totalloss: 118.0333251953125
+Right token =  13175  All token =  13222  acc =  0.9964453184087128
+Dev: time: 1.41s, speed: 356.73st/s; acc: 0.9964, p: 0.9397, r: 0.9427, f: 0.9412
+Right token =  13175  All token =  13222  acc =  0.9964453184087128
+Test: time: 1.37s, speed: 365.02st/s; acc: 0.9964, p: 0.9397, r: 0.9427, f: 0.9412
+Epoch: 12/20
+ Learning rate is set as: 0.009375
+Shuffle: first input word list: [360, 361, 202, 203, 269, 270, 44, 78, 127, 128, 6, 6, 88, 129, 66, 67, 75, 61, 62, 10, 11, 63]
+     Instance: 500; Time: 4.41s; loss: 33.9904; acc: 13542/13547=0.9996
+     Instance: 1000; Time: 4.53s; loss: 27.8373; acc: 26837/26848=0.9996
+     Instance: 1500; Time: 4.36s; loss: 30.0028; acc: 40464/40486=0.9995
+     Instance: 1650; Time: 1.30s; loss: 9.1152; acc: 44403/44427=0.9995
+Epoch: 12 training finished. Time: 14.60s, speed: 112.98st/s,  total loss: 100.9456787109375  
+totalloss: 100.9456787109375
+Right token =  13172  All token =  13222  acc =  0.9962184238390561
+Dev: time: 1.35s, speed: 371.41st/s; acc: 0.9962, p: 0.9399, r: 0.9459, f: 0.9429
+Right token =  13172  All token =  13222  acc =  0.9962184238390561
+Test: time: 1.38s, speed: 366.93st/s; acc: 0.9962, p: 0.9399, r: 0.9459, f: 0.9429
+Epoch: 13/20
+ Learning rate is set as: 0.00909090909090909
+Shuffle: first input word list: [341, 245, 331, 76, 269, 270, 124, 194, 195, 14, 247, 248, 18, 19, 60, 256, 256, 309, 293, 256, 309, 293, 342, 309, 293, 342, 342, 309, 371, 156, 326, 65, 26, 12]
+     Instance: 500; Time: 4.49s; loss: 30.0422; acc: 13611/13616=0.9996
+     Instance: 1000; Time: 4.35s; loss: 27.5804; acc: 26892/26911=0.9993
+     Instance: 1500; Time: 4.31s; loss: 26.5100; acc: 40346/40371=0.9994
+     Instance: 1650; Time: 1.30s; loss: 8.7594; acc: 44399/44427=0.9994
+Epoch: 13 training finished. Time: 14.46s, speed: 114.11st/s,  total loss: 92.89208984375     
+totalloss: 92.89208984375
+Right token =  13174  All token =  13222  acc =  0.9963696868854939
+Dev: time: 1.28s, speed: 393.94st/s; acc: 0.9964, p: 0.9367, r: 0.9427, f: 0.9397
+Right token =  13174  All token =  13222  acc =  0.9963696868854939
+Test: time: 1.34s, speed: 381.29st/s; acc: 0.9964, p: 0.9367, r: 0.9427, f: 0.9397
+Epoch: 14/20
+ Learning rate is set as: 0.008823529411764704
+Shuffle: first input word list: [194, 195, 14, 64, 65, 85, 86, 26, 405, 71, 287, 183, 26, 18, 
+19, 26, 4, 198, 256, 309, 310, 273, 12]
+     Instance: 500; Time: 4.68s; loss: 38.1746; acc: 13950/13968=0.9987
+     Instance: 1000; Time: 4.22s; loss: 24.3306; acc: 26927/26957=0.9989
+     Instance: 1500; Time: 4.39s; loss: 26.7976; acc: 40395/40431=0.9991
+     Instance: 1650; Time: 1.34s; loss: 7.9932; acc: 44387/44427=0.9991
+Epoch: 14 training finished. Time: 14.63s, speed: 112.78st/s,  total loss: 97.2958984375      
+totalloss: 97.2958984375
+Right token =  13176  All token =  13222  acc =  0.9965209499319316
+Dev: time: 1.32s, speed: 376.29st/s; acc: 0.9965, p: 0.9429, r: 0.9459, f: 0.9444
+Right token =  13176  All token =  13222  acc =  0.9965209499319316
+Test: time: 1.30s, speed: 384.91st/s; acc: 0.9965, p: 0.9429, r: 0.9459, f: 0.9444
+Epoch: 15/20
+ Learning rate is set as: 0.008571428571428572
+Shuffle: first input word list: [56, 57, 309, 310, 45, 10, 4, 61, 26, 18, 19, 60, 247, 76, 63]     Instance: 500; Time: 4.45s; loss: 30.0818; acc: 13446/13459=0.9990
+     Instance: 1000; Time: 4.41s; loss: 27.7798; acc: 26940/26959=0.9993
+     Instance: 1500; Time: 4.30s; loss: 31.1775; acc: 40398/40433=0.9991
+     Instance: 1650; Time: 1.34s; loss: 4.4824; acc: 44390/44427=0.9992
+Epoch: 15 training finished. Time: 14.50s, speed: 113.82st/s,  total loss: 93.521484375       
+totalloss: 93.521484375
+Right token =  13177  All token =  13222  acc =  0.9965965814551505
+Dev: time: 1.33s, speed: 374.56st/s; acc: 0.9966, p: 0.9460, r: 0.9490, f: 0.9475
+Exceed previous best f score: 0.9443561208267091
+Save current best model in file: data/saved_model.lstmcrf
+Right token =  13177  All token =  13222  acc =  0.9965965814551505
+Test: time: 1.34s, speed: 377.17st/s; acc: 0.9966, p: 0.9460, r: 0.9490, f: 0.9475
+Epoch: 16/20
+ Learning rate is set as: 0.008333333333333333
+Shuffle: first input word list: [163, 6, 6, 6, 160, 16, 133, 73, 33, 34, 4, 5, 6, 57, 26, 8, 9, 10, 11, 40, 124, 141, 225, 65, 61, 62, 7, 151, 127, 68, 181, 6, 57, 26, 212, 211, 156, 63]  
+     Instance: 500; Time: 4.34s; loss: 28.4678; acc: 13320/13334=0.9990
+     Instance: 1000; Time: 4.48s; loss: 21.2791; acc: 26891/26910=0.9993
+     Instance: 1500; Time: 4.44s; loss: 28.7274; acc: 40451/40478=0.9993
+     Instance: 1650; Time: 1.30s; loss: 6.9233; acc: 44398/44427=0.9993
+Epoch: 16 training finished. Time: 14.57s, speed: 113.27st/s,  total loss: 85.3975830078125   
+totalloss: 85.3975830078125
+Right token =  13176  All token =  13222  acc =  0.9965209499319316
+Dev: time: 1.31s, speed: 389.84st/s; acc: 0.9965, p: 0.9460, r: 0.9490, f: 0.9475
+Right token =  13176  All token =  13222  acc =  0.9965209499319316
+Test: time: 1.36s, speed: 370.28st/s; acc: 0.9965, p: 0.9460, r: 0.9490, f: 0.9475
+Epoch: 17/20
+ Learning rate is set as: 0.008108108108108107
+Shuffle: first input word list: [4, 5, 6, 6, 88, 129, 141, 65, 61, 62, 71, 101, 279, 94, 127, 
+309, 310, 63]
+     Instance: 500; Time: 4.56s; loss: 20.0691; acc: 13409/13414=0.9996
+     Instance: 1000; Time: 4.63s; loss: 22.8531; acc: 26874/26886=0.9996
+     Instance: 1500; Time: 4.52s; loss: 22.0315; acc: 40381/40398=0.9996
+     Instance: 1650; Time: 1.41s; loss: 7.2129; acc: 44405/44427=0.9995
+Epoch: 17 training finished. Time: 15.12s, speed: 109.13st/s,  total loss: 72.1666259765625   
+totalloss: 72.1666259765625
+Right token =  13181  All token =  13222  acc =  0.996899107548026
+Dev: time: 1.38s, speed: 364.75st/s; acc: 0.9969, p: 0.9429, r: 0.9459, f: 0.9444
+Right token =  13181  All token =  13222  acc =  0.996899107548026
+Test: time: 1.39s, speed: 364.47st/s; acc: 0.9969, p: 0.9429, r: 0.9459, f: 0.9444
+Epoch: 18/20
+ Learning rate is set as: 0.007894736842105263
+Shuffle: first input word list: [316, 367, 65, 280, 65, 256, 309, 371, 156, 88, 89, 194, 195, 
+14, 360, 361, 202, 203, 6, 40, 65, 247, 248, 18, 19, 12]
+     Instance: 500; Time: 4.31s; loss: 19.1246; acc: 13220/13224=0.9997
+     Instance: 1000; Time: 4.54s; loss: 17.3562; acc: 26828/26838=0.9996
+     Instance: 1500; Time: 4.44s; loss: 28.4714; acc: 40404/40433=0.9993
+     Instance: 1650; Time: 1.40s; loss: 8.4529; acc: 44393/44427=0.9992
+Epoch: 18 training finished. Time: 14.70s, speed: 112.28st/s,  total loss: 73.4051513671875   
+totalloss: 73.4051513671875
+Right token =  13176  All token =  13222  acc =  0.9965209499319316
+Dev: time: 1.30s, speed: 386.75st/s; acc: 0.9965, p: 0.9460, r: 0.9490, f: 0.9475
+Right token =  13176  All token =  13222  acc =  0.9965209499319316
+Test: time: 1.25s, speed: 400.41st/s; acc: 0.9965, p: 0.9460, r: 0.9490, f: 0.9475
+Epoch: 19/20
+ Learning rate is set as: 0.007692307692307691
+Shuffle: first input word list: [380, 264, 410, 227, 40, 22, 196, 287, 260, 6, 6, 6, 191, 71, 
+112, 113, 26, 345, 199, 435, 16, 116, 127, 198, 245, 6, 6, 45, 26, 18, 19, 12]
+     Instance: 500; Time: 4.36s; loss: 20.9094; acc: 13431/13437=0.9996
+     Instance: 1000; Time: 4.48s; loss: 20.1729; acc: 26733/26741=0.9997
+     Instance: 1500; Time: 4.48s; loss: 15.9806; acc: 40325/40333=0.9998
+     Instance: 1650; Time: 1.41s; loss: 7.4478; acc: 44419/44427=0.9998
+Epoch: 19 training finished. Time: 14.72s, speed: 112.08st/s,  total loss: 64.5106201171875   
+totalloss: 64.5106201171875
+Right token =  13176  All token =  13222  acc =  0.9965209499319316
+Dev: time: 1.33s, speed: 378.04st/s; acc: 0.9965, p: 0.9460, r: 0.9490, f: 0.9475
+Right token =  13176  All token =  13222  acc =  0.9965209499319316
+Test: time: 1.29s, speed: 389.52st/s; acc: 0.9965, p: 0.9460, r: 0.9490, f: 0.9475
+Seed num: 42
+MODEL: decode
+../../a_dataset/dataset_query_based_split/data_ner_train.txt
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DATA SUMMARY START:
+ I/O:
+     Start   Sequence   Laebling   task...
+     Tag          scheme: BIO
+     Split         token:  |||
+     MAX SENTENCE LENGTH: 250
+     MAX   WORD   LENGTH: -1
+     Number   normalized: True
+     Word  alphabet size: 504
+     Char  alphabet size: 504
+     Label alphabet size: 8
+     Word embedding  dir: ../../b_table_classification/embedding.txt
+     Char embedding  dir: None
+     Word embedding size: 768
+     Char embedding size: 30
+     Norm   word     emb: False
+     Norm   char     emb: False
+     Train  file directory: ../../a_dataset/dataset_query_based_split/data_ner_train.txt      
+     Dev    file directory: ../../a_dataset/dataset_query_based_split/data_ner_test.txt       
+     Test   file directory: ../../a_dataset/dataset_query_based_split/data_ner_test.txt       
+     Raw    file directory: ../../a_dataset/dataset_query_based_split/data_ner_train.txt      
+     Dset   file directory: data/saved_model.lstmcrf.dset
+     Model  file directory: data/saved_model.lstmcrf
+     Loadmodel   directory: data/saved_model.lstmcrf
+     Decode file directory: data/data_ner_test_out.txt
+     Train instance number: 1650
+     Dev   instance number: 486
+     Test  instance number: 486
+     Raw   instance number: 0
+     FEATURE num: 0
+ ++++++++++++++++++++++++++++++++++++++++
+ Model Network:
+     Model        use_crf: True
+     Model word extractor: LSTM
+     Model       use_char: False
+ ++++++++++++++++++++++++++++++++++++++++
+ Training:
+     Optimizer: SGD
+     Iteration: 20
+     BatchSize: 10
+     Average  batch   loss: False
+ ++++++++++++++++++++++++++++++++++++++++
+ Hyperparameters:
+     Hyper              lr: 0.015
+     Hyper        lr_decay: 0.05
+     Hyper         HP_clip: None
+     Hyper        momentum: 0.0
+     Hyper              l2: 1e-08
+     Hyper      hidden_dim: 200
+     Hyper         dropout: 0.5
+     Hyper      lstm_layer: 1
+     Hyper          bilstm: True
+     Hyper             GPU: False
+DATA SUMMARY END.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+nbest: 1
+Load Model from file:  data/saved_model.lstmcrf
+build sequence labeling network...
+use_char:  False
+word feature extractor:  LSTM
+use crf:  True
+build word sequence feature extractor: LSTM...
+build word representation...
+build CRF...
+Decode raw data, nbest: 1 ...
+Right token =  44416  All token =  44427  acc =  0.9997524028181061
+raw: time:7.52s, speed:223.60st/s; acc: 0.9998, p: 0.9958, r: 0.9958, f: 0.9958
+Predict raw 1-best result has been written into file. data/data_ner_test_out.txt
+
+Right token =  13177  All token =  13222  acc =  0.9965965814551505
+raw: time:2.26s, speed:219.20st/s; acc: 0.9966, p: 0.9460, r: 0.9490, f: 0.9475
+Predict raw 1-best result has been written into file. data/data_ner_test_out.txt

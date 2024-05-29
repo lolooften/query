@@ -1,0 +1,118 @@
+[2024-03-14 08:14:24,077] [<module>()][INFO] begin
+[2024-03-14 08:14:24,077] [<module>()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=cffc08dd-e197-11ee-8559-8c04ba12cb86
+[2024-03-14 08:14:24,650] [warning()][WARNING] websocket connected
+[2024-03-14 08:14:24,651] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-03-14 08:14:24,702] [send_audio()][INFO] send_audio total=129600
+[2024-03-14 08:14:33,064] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 08:26:00,369] [<module>()][INFO] begin
+[2024-03-14 08:26:00,369] [<module>()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=6f01aff9-e199-11ee-aa32-8c04ba12cb86
+[2024-03-14 08:26:00,672] [warning()][WARNING] websocket connected
+[2024-03-14 08:26:00,674] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-03-14 08:26:00,787] [send_audio()][INFO] send_audio total=4621824
+[2024-03-14 08:26:01,398] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 08:26:04,166] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你","start_time":0,"end_time":3020}
+[2024-03-14 08:26:04,314] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好","start_time":0,"end_time":3180}
+[2024-03-14 08:26:04,455] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我","start_time":0,"end_time":3340}
+[2024-03-14 08:26:04,676] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是","start_time":0,"end_time":3500}
+[2024-03-14 08:26:05,284] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省","start_time":0,"end_time":3980}
+[2024-03-14 08:26:05,955] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 08:26:06,331] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省航空","start_time":0,"end_time":5100}
+[2024-03-14 08:26:06,906] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省航空办公","start_time":0,"end_time":5580}
+[2024-03-14 08:26:07,049] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室","start_time":0,"end_time":5740}
+[2024-03-14 08:26:07,256] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的","start_time":0,"end_time":5900}
+[2024-03-14 08:26:07,575] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响","start_time":0,"end_time":6220}
+[2024-03-14 08:26:08,057] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会","start_time":0,"end_time":6700}
+[2024-03-14 08:26:08,287] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您","start_time":0,"end_time":6860}
+[2024-03-14 08:26:08,612] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这","start_time":0,"end_time":7180}
+[2024-03-14 08:26:08,754] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边","start_time":0,"end_time":7340}
+[2024-03-14 08:26:08,976] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或","start_time":0,"end_time":7500}
+[2024-03-14 08:26:09,257] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者","start_time":0,"end_time":7820}
+[2024-03-14 08:26:09,494] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里","start_time":0,"end_time":7980}
+[2024-03-14 08:26:09,778] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有","start_time":0,"end_time":8300}
+[2024-03-14 08:26:10,010] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人","start_time":0,"end_time":8460}
+[2024-03-14 08:26:10,150] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人牵","start_time":0,"end_time":8620}
+[2024-03-14 08:26:10,772] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人签几天","start_time":0,"end_time":9100}
+[2024-03-14 08:26:10,867] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我","start_time":0,"end_time":9260}
+[2024-03-14 08:26:11,152] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 08:26:11,153] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们","start_time":0,"end_time":9580}
+[2024-03-14 08:26:11,390] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们家","start_time":0,"end_time":9740}
+[2024-03-14 08:26:11,576] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们相处","start_time":0,"end_time":9900}
+[2024-03-14 08:26:12,013] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们相处的","start_time":0,"end_time":10380}
+[2024-03-14 08:26:12,390] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们江苏省人民医","start_time":0,"end_time":10700}
+[2024-03-14 08:26:12,529] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们江苏省人民医院","start_time":0,"end_time":10860}
+[2024-03-14 08:26:13,046] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们江苏省人民医院住院","start_time":0,"end_time":11340}
+[2024-03-14 08:26:13,279] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们江苏省人民医院住院治","start_time":0,"end_time":11500}
+[2024-03-14 08:26:13,937] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们江苏省人民医院住院治疗","start_time":0,"end_time":12140}
+[2024-03-14 08:26:14,078] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们江苏省人民医院住院治疗现","start_time":0,"end_time":12300}
+[2024-03-14 08:26:14,313] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们江苏省人民医院住院治疗现在","start_time":0,"end_time":12460}
+[2024-03-14 08:26:14,426] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们江苏省人民医院住院治疗现在我们","start_time":0,"end_time":12620}
+[2024-03-14 08:26:14,640] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们江苏省人民医院住院治疗现在我们做","start_time":0,"end_time":12780}
+[2024-03-14 08:26:14,782] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们江苏省人民医院住院治疗现在我们做一","start_time":0,"end_time":12940}
+[2024-03-14 08:26:14,926] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们江苏省人民医院住院治疗现在我们做一下","start_time":0,"end_time":13100}
+[2024-03-14 08:26:16,342] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 08:26:16,646] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们江苏省人民医院住院治疗现在我们做一下车都买不到","start_time":0,"end_time":14540}
+[2024-03-14 08:26:17,544] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们江苏省人民医院住院治疗现在我们做一下满意度调查你看方","start_time":0,"end_time":15500}
+[2024-03-14 08:26:17,895] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们江苏省人民医院住院治疗现在我们做一下满意度调查你看方便","start_time":0,"end_time":15820}
+[2024-03-14 08:26:19,143] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们江苏省人民医院住院治疗现在我们做一下满意度调查您看方便吗","start_time":0,"end_time":16940}
+[2024-03-14 08:26:21,440] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 08:26:22,213] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 08:26:25,330] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 08:26:25,821] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们江苏省人民医院住院治疗现在我们做一下满意度调查您看方便吗您一生的","start_time":0,"end_time":23180}
+[2024-03-14 08:26:26,406] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们江苏省人民医院住院治疗现在我们做一下满意度调查您看方便吗您一生的服务","start_time":0,"end_time":23660}
+[2024-03-14 08:26:26,497] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 08:26:26,640] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们江苏省人民医院住院治疗现在我们做一下满意度调查您看方便吗您一生的服务太","start_time":0,"end_time":23820}
+[2024-03-14 08:26:26,968] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们江苏省人民医院住院治疗现在我们做一下满意度调查您看方便吗您一生的服务特别","start_time":0,"end_time":24140}
+[2024-03-14 08:26:27,098] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们江苏省人民医院住院治疗现在我们做一下满意度调查您看方便吗您一生的服务特别不","start_time":0,"end_time":24300}
+[2024-03-14 08:26:27,447] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们江苏省人民医院住院治疗现在我们做一下满意度调查您看方便吗您一生的服务特别不满","start_time":0,"end_time":24620}
+[2024-03-14 08:26:27,539] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们江苏省人民医院住院治疗现在我们做一下满意度调查您看方便吗您一生的服务特别不满意","start_time":0,"end_time":24780}
+[2024-03-14 08:26:28,600] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"MID_TEXT","result":"你好我是江苏省杭州办公室的影响会您这边或者家里有人前几天在我们江苏省人民医院住院治疗现在我们做一下满意度调查您看方便吗您一生的服务特别不满意啊","start_time":0,"end_time":25740}
+[2024-03-14 08:26:31,473] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 08:26:31,692] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 08:26:34,798] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 08:26:35,466] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 08:26:35,586] [send_finish()][INFO] send FINISH frame
+[2024-03-14 08:26:35,586] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1564437325,"sn":"6f01aff9-e199-11ee-aa32-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"你好，我是江苏省杭州办公室的影响会您这边或者家里有人，前几天在我们江苏省人民医院住院治疗，现在我们做一下满意度调查，您看方便吗？您一生的服务特别不满意啊！","start_time":0,"end_time":32080,"product_id":15372,"product_line":"open"}
+[2024-03-14 08:26:35,771] [error()][ERROR] error from callback <function on_close at 0x000002233D89F4C0>: on_close() takes 1 positional argument but 3 were given
+[2024-03-14 08:26:35,771] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-03-14 08:35:21,252] [<module>()][INFO] begin
+[2024-03-14 08:35:21,253] [<module>()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=bd51e8c2-e19a-11ee-a79d-8c04ba12cb86
+[2024-03-14 08:35:22,043] [warning()][WARNING] websocket connected
+[2024-03-14 08:35:22,044] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-03-14 08:35:22,044] [send_audio()][INFO] send_audio total=159788
+[2024-03-14 08:35:22,950] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 08:35:24,331] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 08:35:24,433] [send_finish()][INFO] send FINISH frame
+[2024-03-14 08:35:24,433] [on_message()][INFO] Response: {"err_no":-3005,"err_msg":"asr server not find effective speech[info:-4]","log_id":2020541088,"sn":"bd51e8c2-e19a-11ee-a79d-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"","panting":0,"start_time":0,"end_time":1710,"asmr":0,"product_id":15372,"product_line":"open"}
+[2024-03-14 08:35:24,533] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 08:35:24,681] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 08:35:24,682] [send_finish()][INFO] send FINISH frame
+[2024-03-14 08:35:24,682] [on_message()][INFO] Response: {"err_no":-3005,"err_msg":"asr server not find effective speech[info:-4]","log_id":2020541088,"sn":"bd51e8c2-e19a-11ee-a79d-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"","panting":0,"start_time":1710,"end_time":2240,"asmr":0,"product_id":15372,"product_line":"open"}
+[2024-03-14 08:35:24,682] [error()][ERROR] error from callback <function on_close at 0x00000237BA0AF4C0>: on_close() takes 1 positional argument but 3 were given
+[2024-03-14 08:35:24,682] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
+[2024-03-14 08:43:39,293] [<module>()][INFO] begin
+[2024-03-14 08:43:39,293] [<module>()][INFO] uri is ws://vop.baidu.com/realtime_asr?sn=e62cb41a-e19b-11ee-92b1-8c04ba12cb86
+[2024-03-14 08:43:39,714] [warning()][WARNING] websocket connected
+[2024-03-14 08:43:39,715] [send_start_params()][INFO] send START frame with params:{"type": "START", "data": {"appid": 46311961, "appkey": "fY8REKpdfL0Pz4dmHMAND8dl", "dev_pid": 15372, "cuid": "00", "sample": 16000, "format": "pcm"}}
+[2024-03-14 08:43:39,716] [send_audio()][INFO] send_audio total=159788
+[2024-03-14 08:43:40,645] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 08:43:41,990] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 08:43:42,133] [on_message()][INFO] Response: {"err_no":-3005,"err_msg":"asr server not find effective speech[info:-4]","log_id":1034108164,"sn":"e62cb41a-e19b-11ee-92b1-8c04ba12cb86_ws_0","type":"FIN_TEXT","result":"","panting":0,"start_time":0,"end_time":1710,"asmr":0,"product_id":15372,"product_line":"open"}
+[2024-03-14 08:43:42,133] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 08:43:42,665] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1034108164,"sn":"e62cb41a-e19b-11ee-92b1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"会","start_time":1710,"end_time":2700}
+[2024-03-14 08:43:43,060] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1034108164,"sn":"e62cb41a-e19b-11ee-92b1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"问号七","start_time":1710,"end_time":3020}
+[2024-03-14 08:43:43,347] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1034108164,"sn":"e62cb41a-e19b-11ee-92b1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"问号七一","start_time":1710,"end_time":3340}
+[2024-03-14 08:43:43,579] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1034108164,"sn":"e62cb41a-e19b-11ee-92b1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"问号7101","start_time":1710,"end_time":3500}
+[2024-03-14 08:43:43,932] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1034108164,"sn":"e62cb41a-e19b-11ee-92b1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"问号7101的","start_time":1710,"end_time":3820}
+[2024-03-14 08:43:44,130] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1034108164,"sn":"e62cb41a-e19b-11ee-92b1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"问号7101在过","start_time":1710,"end_time":3980}
+[2024-03-14 08:43:44,276] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1034108164,"sn":"e62cb41a-e19b-11ee-92b1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"问号7101在过去","start_time":1710,"end_time":4140}
+[2024-03-14 08:43:44,479] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1034108164,"sn":"e62cb41a-e19b-11ee-92b1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"问号7101在过去的","start_time":1710,"end_time":4300}
+[2024-03-14 08:43:44,623] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1034108164,"sn":"e62cb41a-e19b-11ee-92b1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"问号7101在过去的一","start_time":1710,"end_time":4460}
+[2024-03-14 08:43:44,720] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1034108164,"sn":"e62cb41a-e19b-11ee-92b1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"问号7101在过去的一年","start_time":1710,"end_time":4620}
+[2024-03-14 08:43:44,972] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1034108164,"sn":"e62cb41a-e19b-11ee-92b1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"问号7101在过去的一年时","start_time":1710,"end_time":4780}
+[2024-03-14 08:43:45,074] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 08:43:45,172] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1034108164,"sn":"e62cb41a-e19b-11ee-92b1-8c04ba12cb86_ws_1","type":"MID_TEXT","result":"问号7101在过去的一年时间","start_time":1710,"end_time":4940}
+[2024-03-14 08:43:45,247] [send_finish()][INFO] send FINISH frame
+[2024-03-14 08:43:45,520] [on_message()][INFO] Response: {"type":"HEARTBEAT"}
+[2024-03-14 08:43:45,521] [on_message()][INFO] Response: {"err_no":0,"err_msg":"OK","log_id":1034108164,"sn":"e62cb41a-e19b-11ee-92b1-8c04ba12cb86_ws_1","type":"FIN_TEXT","result":"问号7101在过去的一年时间里。","start_time":1710,"end_time":4990,"product_id":15372,"product_line":"open"}
+[2024-03-14 08:43:45,522] [error()][ERROR] error from callback <function on_close at 0x000002141F1304C0>: on_close() takes 1 positional argument but 3 were given
+[2024-03-14 08:43:45,522] [on_error()][ERROR] error: on_close() takes 1 positional argument but 3 were given
