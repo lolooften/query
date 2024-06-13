@@ -1,0 +1,281 @@
+[
+	{
+		"column_names": [
+			[
+				-1,
+				"*"
+			],
+			[
+				0,
+				"id"
+			],
+			[
+				0,
+				"tag code"
+			],
+			[
+				0,
+				"tag desc"
+			],
+			[
+				0,
+				"tag unit"
+			],
+			[
+				0,
+				"key tag"
+			],
+			[
+				0,
+				"unit code"
+			],
+			[
+				0,
+				"llower limit"
+			],
+			[
+				0,
+				"lower limit"
+			],
+			[
+				0,
+				"upper limit"
+			],
+			[
+				0,
+				"uupper limit"
+			],
+			[
+				1,
+				"id"
+			],
+			[
+				1,
+				"tag code"
+			],
+			[
+				1,
+				"result value"
+			],
+			[
+				1,
+				"result time"
+			],
+			[
+				1,
+				"alarm status"
+			],
+			[
+				2,
+				"id"
+			],
+			[
+				2,
+				"tag code"
+			],
+			[
+				2,
+				"inference path"
+			],
+			[
+				2,
+				"inference root cause id"
+			],
+			[
+				3,
+				"id"
+			],
+			[
+				3,
+				"rt code"
+			],
+			[
+				3,
+				"inference time"
+			],
+			[
+				3,
+				"inference path"
+			],
+			[
+				3,
+				"inference score"
+			],
+			[
+				3,
+				"inference root cause id"
+			],
+			[
+				3,
+				"inference root cause status"
+			],
+		],
+		"column_names_original": [
+			[
+				-1,
+				"*"
+			],
+			[
+				0,
+				"Id"
+			],
+			[
+				0,
+				"Tag_code"
+			],
+			[
+				0,
+				"Tag_desc"
+			],
+			[
+				0,
+				"Tag_unit"
+			],
+			[
+				0,
+				"Key_tag"
+			],
+			[
+				0,
+				"Unit_code"
+			],
+			[
+				0,
+				"LLower_limit"
+			],
+			[
+				0,
+				"Lower_limit"
+			],
+			[
+				0,
+				"Upper_limit"
+			],
+			[
+				0,
+				"UUpper_limit"
+			],
+			[
+				1,
+				"Id"
+			],
+			[
+				1,
+				"Tag_code"
+			],
+			[
+				1,
+				"Result_value"
+			],
+			[
+				1,
+				"Result_time"
+			],
+			[
+				1,
+				"Alarm_status"
+			],
+			[
+				2,
+				"Id"
+			],
+			[
+				2,
+				"Tag_code"
+			],
+			[
+				2,
+				"Inference_path"
+			],
+			[
+				2,
+				"Inference_root_cause_id"
+			],
+			[
+				3,
+				"Id"
+			],
+			[
+				3,
+				"Rt_code"
+			],
+			[
+				3,
+				"Inference_time"
+			],
+			[
+				3,
+				"Inference_path"
+			],
+			[
+				3,
+				"Inference_score"
+			],
+			[
+				3,
+				"Inference_root_cause_id"
+			],
+			[
+				3,
+				"Inference_root_cause_status"
+			],
+		],
+		"column_types": [
+			"text",
+			
+			"int",
+			"text",
+			"text",
+			"text",
+			"int",
+			"text",
+			"number",
+			"number",
+			"number",
+			"number",
+			
+			"int",
+			"text",
+			"number",
+			"time",
+			"int",
+			
+			"int",
+			"text",
+			"text",
+			"text",
+			
+			"int",
+			"int",
+			"time",
+			"text",
+			"number",
+			"text",
+			"int"
+		],
+		"foreign_keys": [
+			[
+				21,
+				11
+			]
+		],
+		"primary_keys": [
+			1,
+			11,
+			16,
+			20
+		],
+		"table_names": [
+			"t rt info",
+			"t rt data",
+			"t model data",
+			"t inference data"
+		],
+		"table_names_original": [
+			"t_rt_info",
+			"t_rt_data",
+			"t_model_data",
+			"t_inference_data"
+		]
+	}
+]
