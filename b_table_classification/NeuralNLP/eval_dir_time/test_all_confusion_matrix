@@ -1,0 +1,9 @@
+	False	True	adddate	addtime	curdate	date	now	timediff	
+False	222	0	0	0	0	0	0	0	
+True	0	264	52	172	154	154	108	0	
+adddate	0	52	52	4	52	52	0	0	
+addtime	0	172	4	170	62	62	108	0	
+curdate	0	156	52	64	154	154	0	0	
+date	0	156	52	64	154	154	0	0	
+now	0	108	0	108	0	0	108	0	
+timediff	0	0	0	0	0	0	0	0	

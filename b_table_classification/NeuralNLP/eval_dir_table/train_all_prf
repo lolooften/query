@@ -1,0 +1,7 @@
+macro_average, precision: 1.000000, recall: 1.000000, fscore: 1.000000, 
+micro_average, precision: 1.000000, recall: 1.000000, fscore: 1.000000, right_count: 2330, predict_count: 2330, standard_count: 2330
+
+t_rt_data, precision: 1.000000, recall: 1.000000, fscore: 1.000000, right_count: 872, predict_count: 872, standard_count: 872
+t_rt_info, precision: 1.000000, recall: 1.000000, fscore: 1.000000, right_count: 716, predict_count: 716, standard_count: 716
+t_inference_data, precision: 1.000000, recall: 1.000000, fscore: 1.000000, right_count: 422, predict_count: 422, standard_count: 422
+t_model_data, precision: 1.000000, recall: 1.000000, fscore: 1.000000, right_count: 320, predict_count: 320, standard_count: 320

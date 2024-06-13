@@ -1,0 +1,7 @@
+macro_average, precision: 0.970223, recall: 0.953590, fscore: 0.961835, 
+micro_average, precision: 0.978355, recall: 0.963068, fscore: 0.970651, right_count: 678, predict_count: 693, standard_count: 704
+
+t_rt_data, precision: 0.976667, recall: 0.957516, fscore: 0.966997, right_count: 293, predict_count: 300, standard_count: 306
+t_rt_info, precision: 0.995708, recall: 1.000000, fscore: 0.997849, right_count: 232, predict_count: 233, standard_count: 232
+t_inference_data, precision: 0.931507, recall: 0.971429, fscore: 0.951049, right_count: 68, predict_count: 73, standard_count: 70
+t_model_data, precision: 0.977011, recall: 0.885417, fscore: 0.928962, right_count: 85, predict_count: 87, standard_count: 96

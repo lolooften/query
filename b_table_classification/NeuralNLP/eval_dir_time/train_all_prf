@@ -1,0 +1,11 @@
+macro_average, precision: 1.000000, recall: 1.000000, fscore: 1.000000, 
+micro_average, precision: 1.000000, recall: 1.000000, fscore: 1.000000, right_count: 3644, predict_count: 3644, standard_count: 3644
+
+True, precision: 1.000000, recall: 1.000000, fscore: 1.000000, right_count: 842, predict_count: 842, standard_count: 842
+False, precision: 1.000000, recall: 1.000000, fscore: 1.000000, right_count: 808, predict_count: 808, standard_count: 808
+addtime, precision: 1.000000, recall: 1.000000, fscore: 1.000000, right_count: 556, predict_count: 556, standard_count: 556
+now, precision: 1.000000, recall: 1.000000, fscore: 1.000000, right_count: 450, predict_count: 450, standard_count: 450
+date, precision: 1.000000, recall: 1.000000, fscore: 1.000000, right_count: 382, predict_count: 382, standard_count: 382
+curdate, precision: 1.000000, recall: 1.000000, fscore: 1.000000, right_count: 382, predict_count: 382, standard_count: 382
+adddate, precision: 1.000000, recall: 1.000000, fscore: 1.000000, right_count: 214, predict_count: 214, standard_count: 214
+timediff, precision: 1.000000, recall: 1.000000, fscore: 1.000000, right_count: 10, predict_count: 10, standard_count: 10

@@ -1,0 +1,5 @@
+	t_inference_data	t_model_data	t_rt_data	t_rt_info	
+t_inference_data	422	18	130	82	
+t_model_data	18	320	68	98	
+t_rt_data	130	68	872	284	
+t_rt_info	82	98	284	716	
